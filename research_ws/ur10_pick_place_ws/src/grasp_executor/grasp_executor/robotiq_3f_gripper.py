@@ -86,7 +86,7 @@ class RobotiqGripper3F:
     POS_CLOSE  = 220    # ~85 % closed — firm enough without crushing
     SPEED_MAX  = 255
     FORCE_SOFT = 50     # for open (gentle)
-    FORCE_FIRM = 100    # for close
+    FORCE_FIRM = 150    # for close — 100 insufficient, 180 caused protective stops at wrong height
 
     def __init__(self, ip: str = "192.168.1.105", port: int = 502):
         self._ip   = ip
@@ -209,17 +209,22 @@ class RobotiqGripper3F:
 
     def _wake(self) -> bool:
         """
-        Re-send rACT=1 WITHOUT a reset and poll for gIMC==3.
+        Re-assert rACT=1 without touching position/speed/force registers.
 
-        Non-disruptive: if the gripper hardware is already activated, gIMC==3
-        comes back immediately and fingers do not move.  Needed after a TCP
-        reconnect because the Robotiq firmware may ignore motion commands
-        until it sees rACT=1 from the new connection.
+        Writes ONLY register 0 (count=1, FC 0x10) so the position register
+        is not overwritten.  rGTO=0 means no motion is commanded — fingers
+        hold their current position.  Polls until gIMC==3 (gripper ready).
+
+        Safe to call at any time: if already active, gIMC==3 returns in <100 ms.
+        Needed after a TCP reconnect — Robotiq firmware may ignore motion
+        commands until it sees rACT=1 on the new connection.
         """
         try:
             self._connect()
-            # rACT=1, rGTO=0 (no move), position/speed/force all 0
-            self._write_registers(_REG_OUTPUT, [0x0100, 0x0000, 0x0000])
+            # Write ONLY reg0: rACT=1 (b0), rGTO=0, all other bits 0.
+            # count=1 → FC 0x10 writes a single 16-bit register, leaving
+            # reg1 (position/speed) and reg2 (force) completely unchanged.
+            self._write_registers(_REG_OUTPUT, [0x0100])
             deadline = time.monotonic() + 5.0
             while time.monotonic() < deadline:
                 vals = self._read_input_registers(_REG_INPUT, 3)
