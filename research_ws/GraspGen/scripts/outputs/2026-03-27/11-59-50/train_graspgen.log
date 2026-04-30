@@ -1,0 +1,182 @@
+[2026-03-27 11:59:51,081][__main__][INFO] - Detected 1 GPU(s) available, setting cfg.train.num_gpus = 1
+[2026-03-27 11:59:51,082][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] No data files found in /tmp/graspgen_cache_v3/robotiq_3f, deleting cache dir. It may have been improperly created before.
+[2026-03-27 11:59:51,087][__main__][INFO] - Cache is imcomplete. Running in prefiltering mode first!
+[2026-03-27 11:59:51,088][__main__][INFO] - Prefiltering mode. Running with 1 GPU
+[2026-03-27 11:59:51,091][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
+[2026-03-27 11:59:51,091][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:51,091][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/train.txt
+[2026-03-27 11:59:51,091][grasp_gen.dataset.dataset][INFO] - No filtering; All datapoints are used
+[2026-03-27 11:59:51,130][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
+[2026-03-27 11:59:51,130][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_meshandpc_gen.h5
+[2026-03-27 11:59:52,503][grasp_gen.dataset.dataset][INFO] - Saving key: 06111598a57045008e5f3367eaf58873 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:53,893][grasp_gen.dataset.dataset][INFO] - Saving key: 1d09c7b931844487b000ac698fb0b5a7 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:54,434][grasp_gen.dataset.dataset][ERROR] - 9: Unable to preload object even after sampling pc 1 times
+[2026-03-27 11:59:54,434][grasp_gen.dataset.dataset][INFO] - Saving key: 0d1971dfade24524aa4c3307b4104def to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:54,537][grasp_gen.dataset.dataset][INFO] - Saving key: 4116b0b4583049d5bdf55daffb0693f3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:54,684][grasp_gen.dataset.dataset][INFO] - Saving key: baf345bb68fd4f1a9eac39faf456682c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:57,087][grasp_gen.dataset.dataset][INFO] - Saving key: 0a3da81bfa904cafa446ab97e7a62cad to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:57,307][grasp_gen.dataset.dataset][INFO] - Saving key: 4f3799a5a2bf4d58a6e623b88607642c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:57,510][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 11:59:57,510][grasp_gen.dataset.dataset][ERROR] - 16: Unable to preload object even after sampling pc 1 times
+[2026-03-27 11:59:57,511][grasp_gen.dataset.dataset][INFO] - Saving key: c42d069236174467a2fb536f7d42d7f0 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:57,760][grasp_gen.dataset.dataset][INFO] - Saving key: 3693fa4414f64a41b04be4aa70e35448 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:57,888][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 11:59:57,889][grasp_gen.dataset.dataset][ERROR] - 19: Unable to preload object even after sampling pc 1 times
+[2026-03-27 11:59:57,889][grasp_gen.dataset.dataset][INFO] - Saving key: 353df240658049afaf6619266dfae4cd to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:58,045][grasp_gen.dataset.dataset][INFO] - Saving key: d1f4aa651d9d4953a5a2742914b84635 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:58,156][grasp_gen.dataset.dataset][INFO] - Saving key: 539abad9c0384000a225a5145f9d5b52 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 11:59:59,598][grasp_gen.dataset.renderer][ERROR] - Partial point cloud is too small? Bounds [x, y, z]: [0.05800618 0.0746127  0.04210591]
+[2026-03-27 11:59:59,599][grasp_gen.dataset.dataset][ERROR] - 23: Unable to preload object even after sampling pc 1 times
+[2026-03-27 11:59:59,599][grasp_gen.dataset.dataset][INFO] - Saving key: a36de7afb1c64b059f2386825411909f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:01,300][grasp_gen.dataset.dataset][INFO] - Saving key: dc8ea337322f4170855c6162b5c2ffdf to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:01,447][grasp_gen.dataset.dataset][INFO] - Saving key: b45a8a265434477a92087d0446c6db0e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:02,852][grasp_gen.dataset.dataset][INFO] - Saving key: 494397e3d7c9444e8f86440b4c00fa0d to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:03,650][grasp_gen.dataset.dataset][INFO] - Saving key: 52c6db9c2f924352a9d35c2cdc881cde to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:06,001][grasp_gen.dataset.dataset][INFO] - Saving key: 865a12da7eac48f5bc483e090441ccca to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:06,111][grasp_gen.dataset.dataset][INFO] - Saving key: 586e9b8f4ea4483e87c70a3c45224c51 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:06,188][grasp_gen.dataset.dataset][INFO] - Saving key: 2dffea891a8a4121af4ccd29ae9aed18 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:07,293][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:07,294][grasp_gen.dataset.dataset][ERROR] - 46: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:07,294][grasp_gen.dataset.dataset][INFO] - Saving key: 298090ba739e4f5f82ba70d0262283d4 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:07,429][grasp_gen.dataset.dataset][INFO] - Saving key: a7785ac7ce7f4ba79df661db33637ba9 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:07,614][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:07,614][grasp_gen.dataset.dataset][ERROR] - 48: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:07,615][grasp_gen.dataset.dataset][INFO] - Saving key: 2d203d8bb274442fa6698af002fdb36f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:07,980][grasp_gen.dataset.dataset][INFO] - Saving key: football to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:08,100][grasp_gen.dataset.dataset][INFO] - Saving key: 7e6a9d9d648a448da4caef0e29c814f3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:08,581][grasp_gen.dataset.dataset][INFO] - Saving key: c6a403de625f4a49b6a162f8cc22e0b3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:08,746][grasp_gen.dataset.dataset][INFO] - Saving key: e951bbee28f148268bb4a534169a86aa to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:13,820][grasp_gen.dataset.dataset][INFO] - Saving key: 1878341a4ac34cb49896188da4169c95 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:15,452][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:15,452][grasp_gen.dataset.dataset][ERROR] - 58: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:15,453][grasp_gen.dataset.dataset][INFO] - Saving key: 0c6981ec2067481cae6d87c2021f6442 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:16,099][grasp_gen.dataset.dataset][ERROR] - 59: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:16,100][grasp_gen.dataset.dataset][INFO] - Saving key: 2c88306f3d724a839054f3c2913fb1d5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:17,296][grasp_gen.dataset.dataset][INFO] - Saving key: 04c5a12c37454230b58f2e3d8386bf9c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:17,414][grasp_gen.dataset.dataset][INFO] - Saving key: 7a46c16e3fd1464ab598f6d6a5d17230 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:17,649][grasp_gen.dataset.dataset][INFO] - Saving key: 41a3ce0e1b0d4645a81c5cc5bcc2a636 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:17,724][grasp_gen.dataset.dataset][INFO] - Saving key: 2d1bf7963cc544cc9c12fdbdc6f03e24 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:17,896][grasp_gen.dataset.dataset][INFO] - Saving key: fc27fc019e8144d197a6b4246b251fca to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:18,020][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:18,021][grasp_gen.dataset.dataset][ERROR] - 68: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:18,021][grasp_gen.dataset.dataset][INFO] - Saving key: 0334d2d16bdb4310b84a973b9a696b13 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:20,384][grasp_gen.dataset.dataset][INFO] - Saving key: 7b3bfdab414148a08cbf46fc105e280a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:20,964][grasp_gen.dataset.dataset][INFO] - Saving key: 73c2a42017a8411fbfc58783b694da9c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:21,574][grasp_gen.dataset.dataset][INFO] - Saving key: 7867aa1e7d7041a3af665f329829a0c1 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:21,625][grasp_gen.dataset.dataset][INFO] - Saving key: 0fa49966a0ea48f7a96a57feb167aea6 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:22,785][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:22,786][grasp_gen.dataset.dataset][ERROR] - 80: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:22,786][grasp_gen.dataset.dataset][INFO] - Saving key: 0e16c237a7da44c7a4cd5d63b534540c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:23,054][grasp_gen.dataset.dataset][INFO] - Saving key: bbcd5ba505c541f59b3e286e9abf3f4e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:24,114][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:24,115][grasp_gen.dataset.dataset][ERROR] - 83: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:24,115][grasp_gen.dataset.dataset][INFO] - Saving key: 4bd0d6250de94dbc920468bfedc53fcc to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:24,272][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:24,272][grasp_gen.dataset.dataset][ERROR] - 84: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:24,272][grasp_gen.dataset.dataset][INFO] - Saving key: 9d02c1277e7542efb46409d02cffedf0 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:25,976][grasp_gen.dataset.dataset][INFO] - Saving key: 32427dedc61b4fd0aacd976246117fe4 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:26,868][grasp_gen.dataset.dataset][INFO] - Saving key: 7c5e617e522441f8b3c60386d2d8c257 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:26,949][grasp_gen.dataset.dataset][INFO] - Saving key: 32c47e171fc54617aef4c5696f27a7a5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:27,131][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:27,132][grasp_gen.dataset.dataset][ERROR] - 93: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:27,132][grasp_gen.dataset.dataset][INFO] - Saving key: bottle_small to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:27,185][grasp_gen.dataset.dataset][INFO] - Saving key: 0d408468ddb94f06917ef88f7690ea61 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:27,968][grasp_gen.dataset.dataset][INFO] - Saving key: b21647005ac64c9f8e9a79a5e75a7a0e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:28,705][grasp_gen.dataset.renderer][ERROR] - Partial point cloud is too small? Bounds [x, y, z]: [0.03561511 0.04032073 0.06543412]
+[2026-03-27 12:00:28,706][grasp_gen.dataset.dataset][ERROR] - 98: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:28,706][grasp_gen.dataset.dataset][INFO] - Saving key: 0084f2a137bd46b6829f136800b6270b to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:29,022][grasp_gen.dataset.dataset][INFO] - Saving key: 326616aa3a3e47ca8be774684ea792b5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:29,083][grasp_gen.dataset.dataset][INFO] - Saving key: 1dc9dfe1c1f34563b0b747e741a441ac to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:29,180][grasp_gen.dataset.dataset][INFO] - Saving key: 3fb280d6294a4a32a16249f4a1a62f7d to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:29,312][grasp_gen.dataset.dataset][INFO] - Saving key: 8ae6080d8a0943e8b6316148a7fe61d1 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:31,903][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:31,904][grasp_gen.dataset.dataset][ERROR] - 105: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:31,904][grasp_gen.dataset.dataset][INFO] - Saving key: a60e10dc03ce41b88c504781108e2279 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:34,622][grasp_gen.dataset.dataset][INFO] - Saving key: f19d6a3e6c6a4aa29c1d8ab2766a292d to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:36,014][grasp_gen.dataset.renderer][ERROR] - Partial point cloud is too small? Bounds [x, y, z]: [0.07422098 0.06944503 0.06733179]
+[2026-03-27 12:00:36,015][grasp_gen.dataset.dataset][ERROR] - 111: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:36,015][grasp_gen.dataset.dataset][INFO] - Saving key: 15dd4489ca3d4c0183b2920c67f96d30 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:36,217][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:36,217][grasp_gen.dataset.dataset][ERROR] - 112: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:36,217][grasp_gen.dataset.dataset][INFO] - Saving key: f8e991a5a44a465cb9997af2308f7a8c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:37,967][grasp_gen.dataset.dataset][INFO] - Saving key: 0beaa1b3ce4e4e10b5a9923dbb6cc4e5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:39,771][grasp_gen.dataset.dataset][INFO] - Saving key: 04c91ce29a4d475882fb74b611fea099 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:40,338][grasp_gen.dataset.dataset][INFO] - Saving key: 033a61d66f7646ceaac357b502a5f5dc to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:40,386][grasp_gen.dataset.dataset][INFO] - Saving key: 0da7a740994e47418e6bec9010fbca0a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:40,598][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:40,598][grasp_gen.dataset.dataset][ERROR] - 123: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:40,598][grasp_gen.dataset.dataset][INFO] - Saving key: 7d2666198df94a12bd297d4e22f8d22e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:41,124][grasp_gen.dataset.dataset][INFO] - Saving key: hammer to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:41,268][grasp_gen.dataset.dataset][INFO] - Saving key: 9d9557c5f3af4639bcacf468e4e5182a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:43,852][grasp_gen.dataset.dataset][INFO] - Saving key: 2aa3256dfecf440a8bb26fdd17fa73c3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:43,966][grasp_gen.dataset.dataset][INFO] - Saving key: 67e0432c7bea402f9fe6a8bd4073146f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:44,137][grasp_gen.dataset.dataset][INFO] - Saving key: e4961832b20c4959ad059fced0fbb529 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:45,049][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:45,050][grasp_gen.dataset.dataset][ERROR] - 136: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:45,050][grasp_gen.dataset.dataset][INFO] - Saving key: ce4efa18d90a42599c61f52a3e995c88 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:45,124][grasp_gen.dataset.dataset][INFO] - Saving key: 2b3717f437ab4bb89796d6fdd44db9ea to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:46,924][grasp_gen.dataset.dataset][INFO] - Saving key: 5e0f504bb5d144809390dac8c66a6dd5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:47,306][grasp_gen.dataset.dataset][INFO] - Saving key: cfbfff197509468b94534dbee3e4a287 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:47,447][grasp_gen.dataset.dataset][INFO] - Saving key: a800eb049d5f4ccaa85649d23ccd117f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:50,685][grasp_gen.dataset.dataset][INFO] - Saving key: mailbox to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:51,422][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:51,423][grasp_gen.dataset.dataset][ERROR] - 148: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:51,423][grasp_gen.dataset.dataset][INFO] - Saving key: 1e2e309b7899475282f633fd800cf462 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:51,515][grasp_gen.dataset.dataset][INFO] - Saving key: 3b12b5a5f067430b9c7a2d4b7d1dc467 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:00:56,332][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:00:56,333][grasp_gen.dataset.dataset][ERROR] - 151: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:00:56,333][grasp_gen.dataset.dataset][INFO] - Saving key: 1bc2987dfc054796b5ab09f1bff1e569 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:03,393][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:01:03,394][grasp_gen.dataset.dataset][ERROR] - 155: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:01:03,394][grasp_gen.dataset.dataset][INFO] - Saving key: 4141ca05b3bd4faca7e249e10641117b to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:04,383][grasp_gen.dataset.dataset][INFO] - Saving key: e51a29d61d6b4ed09537de40eb695617 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:05,283][grasp_gen.dataset.dataset][INFO] - Saving key: 34fa7bb706af4ee19c0bdee1cad4c710 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:05,336][grasp_gen.dataset.dataset][INFO] - Saving key: 1557fd3289104918ab475b8e1e6c7063 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:06,476][grasp_gen.dataset.dataset][INFO] - Saving key: 43b9952b39d14295bfcc357786092c51 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:06,567][grasp_gen.dataset.dataset][INFO] - Saving key: 3878dbe176654c1f984805deee25aca5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:11,724][grasp_gen.dataset.dataset][INFO] - Saving key: 294ab037e7004247ad775d657d3d4144 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:13,406][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:01:13,407][grasp_gen.dataset.dataset][ERROR] - 177: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:01:13,407][grasp_gen.dataset.dataset][INFO] - Saving key: aa67b378bd9c4322a0bb1f98adab8174 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:13,485][grasp_gen.dataset.dataset][INFO] - Saving key: 2f8cf49400954961866ff97e4d74080c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:13,645][grasp_gen.dataset.dataset][INFO] - Saving key: dfda6e71d079425ea07a55ea47b94da2 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:13,768][grasp_gen.dataset.dataset][INFO] - Saving key: 765572af5003423aa4e18230c4620dc1 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:13,776][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache_v3/robotiq_3f/cache_train_meshandpc_gen.h5
+[2026-03-27 12:01:14,424][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache_v3/robotiq_3f/cache_train_meshandpc_gen.h5 took 0.6474471092224121(s)
+[2026-03-27 12:01:14,424][grasp_gen.utils.train_utils][INFO] - Dataset for train has 181 datapoints
+[2026-03-27 12:01:14,426][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
+[2026-03-27 12:01:14,426][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:14,427][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/valid.txt
+[2026-03-27 12:01:14,427][grasp_gen.dataset.dataset][INFO] - 0 out of 46 scenes in denylist. Final number of datapoints 46
+[2026-03-27 12:01:14,462][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
+[2026-03-27 12:01:14,462][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_meshandpc_gen.h5
+[2026-03-27 12:01:14,606][grasp_gen.dataset.dataset][INFO] - Saving key: c6b4b6a6b83545f0bbe9fb5ec0b4144f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:15,396][grasp_gen.dataset.dataset][INFO] - Saving key: 2aec8d7d14a648d998e8e49a4f73960f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:15,462][grasp_gen.dataset.dataset][INFO] - Saving key: 24f0c5db0f4548f09bbdc57cc61a4353 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:17,291][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:01:17,291][grasp_gen.dataset.dataset][ERROR] - 7: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:01:17,291][grasp_gen.dataset.dataset][INFO] - Saving key: remote_control to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:18,044][grasp_gen.dataset.renderer][ERROR] - Encoutered exception when rendering point cloud of object: No module named 'scene_synthesizer'
+[2026-03-27 12:01:18,045][grasp_gen.dataset.dataset][ERROR] - 9: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:01:18,045][grasp_gen.dataset.dataset][INFO] - Saving key: adc2c82a953c47c4b197a8a42da12460 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:21,051][grasp_gen.dataset.dataset][INFO] - Saving key: a2fdd459222d4f7daf89c5621d2c9635 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:23,471][grasp_gen.dataset.dataset][ERROR] - 17: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:01:23,472][grasp_gen.dataset.dataset][INFO] - Saving key: c6f83195a0fe4e6caaed345f4eac6b5b to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:26,490][grasp_gen.dataset.dataset][INFO] - Saving key: a25540fc03ba400faf012d4f68b7ba41 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:26,659][grasp_gen.dataset.dataset][INFO] - Saving key: f51306c13cd14d38bdcd7a31d8804bfb to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:27,744][grasp_gen.dataset.dataset][INFO] - Saving key: 6b3afe782b204dfba87a03ddaf222958 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:28,356][grasp_gen.dataset.dataset][ERROR] - 27: Unable to preload object even after sampling pc 1 times
+[2026-03-27 12:01:28,357][grasp_gen.dataset.dataset][INFO] - Saving key: 97f741e3820a44a694fe27775dd1a7f5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:32,914][grasp_gen.dataset.dataset][INFO] - Saving key: 58b83bbd84e14b6aaba941a00ac76413 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:33,912][grasp_gen.dataset.dataset][INFO] - Saving key: ca30c85074dd4dd38bcdb447f1643a8a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-27 12:01:38,378][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_meshandpc_gen.h5
+[2026-03-27 12:01:38,612][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_meshandpc_gen.h5 took 0.23349308967590332(s)
+[2026-03-27 12:01:38,612][grasp_gen.utils.train_utils][INFO] - Dataset for valid has 46 datapoints
+[2026-03-27 12:01:38,983][grasp_gen.utils.train_utils][INFO] - Using ADAM, LR 5e-05
+[2026-03-27 12:01:39,547][__main__][INFO] - Number of parameters in diffusion model: 6204361
+[2026-03-27 12:01:39,548][__main__][INFO] - Attempting to load checkpoint from None
+[2026-03-27 12:01:39,574][__main__][INFO] - Saved training configuration to /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_gen_v3/config.yaml
+[2026-03-27 12:01:39,574][__main__][INFO] - Training starting at epoch 1 and batch index 0
+[2026-03-27 12:02:50,645][__main__][INFO] - Prefiltering mode. Exiting Train script since we iterated one pass over the dataset
+[2026-03-27 12:02:50,646][__main__][INFO] - Total training time: 0:01:11.071541
+[2026-03-27 12:02:50,650][__main__][INFO] - Prefiltering mode done. Running with original number of 1 GPUs

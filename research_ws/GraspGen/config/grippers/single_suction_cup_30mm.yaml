@@ -1,0 +1,18 @@
+poses:
+  - [[1., 0., 0., 0.], [0., 1., 0., 0.], [0., 0., 1., 0.], [0., 0., 0., 1.]]
+num_sides: 15
+radius: 0.015
+height: 0.03
+friction_mu: 0.5
+material_kappa: 0.005
+suction_force: 250.0
+interpolated_perimeter_vertices: 0
+spring_max_length_change: 0.1
+standoff_distance: 0.001
+num_suction_points_for_hole_check: 50
+collision_mesh_fname: "assets/suction/suction_cup.obj"
+depth: 0.069
+control_points:
+  - [0, 0, 0]
+  - [0, 0, 0.050]
+  - [0, 0, 0.075]

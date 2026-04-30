@@ -1,0 +1,52 @@
+[2026-03-18 14:17:30,554][__main__][INFO] - Detected 1 GPU(s) available, setting cfg.train.num_gpus = 1
+[2026-03-18 14:17:30,556][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] No denylist found in /tmp/graspgen_cache/robotiq_3f, deleting cache dir. It may have been improperly created before.
+[2026-03-18 14:17:30,561][__main__][INFO] - Cache is imcomplete. Running in prefiltering mode first!
+[2026-03-18 14:17:30,562][__main__][INFO] - Prefiltering mode. Running with 1 GPU
+[2026-03-18 14:17:30,565][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache/robotiq_3f
+[2026-03-18 14:17:30,565][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:30,565][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
+[2026-03-18 14:17:30,565][grasp_gen.dataset.dataset][INFO] - No filtering; All datapoints are used
+[2026-03-18 14:17:30,604][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
+[2026-03-18 14:17:30,604][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_gen.h5
+[2026-03-18 14:17:33,394][grasp_gen.dataset.dataset][ERROR] - 0: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:33,395][grasp_gen.dataset.dataset][INFO] - Saving key: microphone to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:36,201][grasp_gen.dataset.dataset][ERROR] - 1: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:36,201][grasp_gen.dataset.dataset][INFO] - Saving key: boba_tea_cup to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:38,816][grasp_gen.dataset.dataset][INFO] - Saving key: hammer to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:41,163][grasp_gen.dataset.dataset][ERROR] - 4: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:41,163][grasp_gen.dataset.dataset][INFO] - Saving key: mailbox_us to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:43,525][grasp_gen.dataset.dataset][ERROR] - 5: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:43,526][grasp_gen.dataset.dataset][INFO] - Saving key: bottle_large to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:46,025][grasp_gen.dataset.dataset][ERROR] - 6: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:46,026][grasp_gen.dataset.dataset][INFO] - Saving key: warrior_hammer to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:46,091][grasp_gen.dataset.dataset][INFO] - Saving key: mailbox to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:49,407][grasp_gen.dataset.dataset][ERROR] - 8: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:49,407][grasp_gen.dataset.dataset][INFO] - Saving key: remote_control to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:51,475][grasp_gen.dataset.dataset][ERROR] - 9: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:51,476][grasp_gen.dataset.dataset][INFO] - Saving key: hammer_final to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:51,482][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_gen.h5
+[2026-03-18 14:17:51,516][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_gen.h5 took 0.03312182426452637(s)
+[2026-03-18 14:17:51,516][grasp_gen.utils.train_utils][INFO] - Dataset for train has 10 datapoints
+[2026-03-18 14:17:51,518][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache/robotiq_3f
+[2026-03-18 14:17:51,518][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:51,518][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/valid.txt
+[2026-03-18 14:17:51,519][grasp_gen.dataset.dataset][INFO] - 0 out of 3 scenes in denylist. Final number of datapoints 3
+[2026-03-18 14:17:51,581][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
+[2026-03-18 14:17:51,581][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_gen.h5
+[2026-03-18 14:17:54,264][grasp_gen.dataset.dataset][ERROR] - 0: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:54,264][grasp_gen.dataset.dataset][INFO] - Saving key: bottle_small to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:17:57,222][grasp_gen.dataset.dataset][ERROR] - 1: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:17:57,222][grasp_gen.dataset.dataset][INFO] - Saving key: grey_mug to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:18:00,314][grasp_gen.dataset.dataset][ERROR] - 2: Unable to preload object even after sampling pc 10 times
+[2026-03-18 14:18:00,315][grasp_gen.dataset.dataset][INFO] - Saving key: teapot_with_cups to denylist at /tmp/graspgen_cache/robotiq_3f/denylist_mesh_gen.json
+[2026-03-18 14:18:00,323][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_gen.h5
+[2026-03-18 14:18:00,325][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_gen.h5 took 0.0019690990447998047(s)
+[2026-03-18 14:18:00,325][grasp_gen.utils.train_utils][INFO] - Dataset for valid has 3 datapoints
+[2026-03-18 14:18:00,803][grasp_gen.utils.train_utils][INFO] - Using ADAM, LR 1e-05
+[2026-03-18 14:18:01,153][__main__][INFO] - Number of parameters in diffusion model: 39276358
+[2026-03-18 14:18:01,154][__main__][INFO] - Attempting to load checkpoint from None
+[2026-03-18 14:18:01,179][__main__][INFO] - Saved training configuration to /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_gen/config.yaml
+[2026-03-18 14:18:01,179][__main__][INFO] - Training starting at epoch 1 and batch index 0
+[2026-03-18 14:18:02,648][__main__][INFO] - Prefiltering mode. Exiting Train script since we iterated one pass over the dataset
+[2026-03-18 14:18:02,649][__main__][INFO] - Total training time: 0:00:01.469161
+[2026-03-18 14:18:02,653][__main__][INFO] - Prefiltering mode done. Running with original number of 1 GPUs

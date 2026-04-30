@@ -1,0 +1,1 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_typesupport_introspection_c/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000448] (-) JobUnselected: {'identifier': 'robotiq_3f_description'}
+[0.000514] (-) JobUnselected: {'identifier': 'robotiq_3f_interfaces'}
+[0.002300] (-) JobUnselected: {'identifier': 'ur10_camera_gripper_moveit_config'}
+[0.002516] (-) JobUnselected: {'identifier': 'ur10_pick_place'}
+[0.002572] (-) JobUnselected: {'identifier': 'ur_simulation_gazebo'}
+[0.002626] (grasp_executor) JobQueued: {'identifier': 'grasp_executor', 'dependencies': OrderedDict()}
+[0.002676] (grasp_executor) JobStarted: {'identifier': 'grasp_executor'}
+[0.095839] (-) TimerEvent: {}
+[0.196289] (-) TimerEvent: {}
+[0.297321] (-) TimerEvent: {}
+[0.397762] (-) TimerEvent: {}
+[0.498218] (-) TimerEvent: {}
+[0.598678] (-) TimerEvent: {}
+[0.699162] (-) TimerEvent: {}
+[0.800039] (-) TimerEvent: {}
+[0.900485] (-) TimerEvent: {}
+[1.000984] (-) TimerEvent: {}
+[1.101422] (-) TimerEvent: {}
+[1.201917] (-) TimerEvent: {}
+[1.302447] (-) TimerEvent: {}
+[1.402910] (-) TimerEvent: {}
+[1.503387] (-) TimerEvent: {}
+[1.603882] (-) TimerEvent: {}
+[1.704369] (-) TimerEvent: {}
+[1.804889] (-) TimerEvent: {}
+[1.905325] (-) TimerEvent: {}
+[2.005787] (-) TimerEvent: {}
+[2.106213] (-) TimerEvent: {}
+[2.206708] (-) TimerEvent: {}
+[2.307146] (-) TimerEvent: {}
+[2.409256] (-) TimerEvent: {}
+[2.509894] (-) TimerEvent: {}
+[2.610352] (-) TimerEvent: {}
+[2.710746] (-) TimerEvent: {}
+[2.811154] (-) TimerEvent: {}
+[2.911867] (-) TimerEvent: {}
+[3.012296] (-) TimerEvent: {}
+[3.112778] (-) TimerEvent: {}
+[3.213204] (-) TimerEvent: {}
+[3.319991] (-) TimerEvent: {}
+[3.420405] (-) TimerEvent: {}
+[3.530268] (-) TimerEvent: {}
+[3.631178] (-) TimerEvent: {}
+[3.732656] (-) TimerEvent: {}
+[3.833118] (-) TimerEvent: {}
+[3.933607] (-) TimerEvent: {}
+[4.034192] (-) TimerEvent: {}
+[4.136911] (-) TimerEvent: {}
+[4.238754] (-) TimerEvent: {}
+[4.339956] (-) TimerEvent: {}
+[4.440422] (-) TimerEvent: {}
+[4.540911] (-) TimerEvent: {}
+[4.641902] (-) TimerEvent: {}
+[4.742397] (-) TimerEvent: {}
+[4.842966] (-) TimerEvent: {}
+[4.943463] (-) TimerEvent: {}
+[5.043910] (-) TimerEvent: {}
+[5.144332] (-) TimerEvent: {}
+[5.244818] (-) TimerEvent: {}
+[5.345296] (-) TimerEvent: {}
+[5.445745] (-) TimerEvent: {}
+[5.546222] (-) TimerEvent: {}
+[5.646660] (-) TimerEvent: {}
+[5.747104] (-) TimerEvent: {}
+[5.847583] (-) TimerEvent: {}
+[5.948075] (-) TimerEvent: {}
+[6.048523] (-) TimerEvent: {}
+[6.148968] (-) TimerEvent: {}
+[6.249453] (-) TimerEvent: {}
+[6.349986] (-) TimerEvent: {}
+[6.450504] (-) TimerEvent: {}
+[6.550993] (-) TimerEvent: {}
+[6.593809] (grasp_executor) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/grasp_executor', 'build', '--build-base', '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build', 'install', '--record', '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'ubuntu', 'CLAUDE_CODE_ENTRYPOINT': 'cli', 'GIT_EDITOR': 'true', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/.local/lib/python3.10/site-packages/nvidia/cusparselt/lib:/usr/local/cuda/lib64:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs/lib:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver/lib:/home/ubuntu/ur_camera_ws/install/depthai_filters/lib:/home/ubuntu/ur_camera_ws/install/depthai_bridge/lib:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'VIPSHOME': '/target', 'HOME': '/home/ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2272', 'FASTDDS_SHM_TRANSPORT': '0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ubuntu/ur_camera_ws/install:/home/ubuntu/ur10_sim_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ubuntu', 'IGN_GAZEBO_MODEL_PATH': '/home/ubuntu/ur_camera_ws/install/depthai_descriptions/share:/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ubuntu', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'GAZEBO_MODEL_PATH': '/home/ubuntu/ur_camera_ws/install/depthai_descriptions/share:/opt/ros/humble/share', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu-desktop:@/tmp/.ICE-unix/2248,unix/ubuntu-desktop:/tmp/.ICE-unix/2248', 'COREPACK_ENABLE_AUTO_PIN': '0', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1b2fa148_6537_415d_b730_1b113f94ff46', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions:/opt/ros/humble', 'SHELL': '/bin/bash', 'RMW_FASTRTPS_USE_QOS_FROM_XML': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/ubuntu/ur_camera_ws/install/depthai_descriptions/share:/opt/ros/humble/share', 'CLAUDECODE': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/home/ubuntu/ur_camera_ws/install/depthai_descriptions/share:/opt/ros/humble/share', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages:/home/ubuntu/ur_camera_ws/install/pick_place/lib/python3.10/site-packages:/home/ubuntu/ur_camera_ws/build/easy_handeye2:/home/ubuntu/ur_camera_ws/install/easy_handeye2/lib/python3.10/site-packages:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions'}, 'shell': False}
+[6.651198] (-) TimerEvent: {}
+[6.751631] (-) TimerEvent: {}
+[6.852114] (-) TimerEvent: {}
+[6.952619] (-) TimerEvent: {}
+[7.053045] (-) TimerEvent: {}
+[7.154035] (-) TimerEvent: {}
+[7.257085] (-) TimerEvent: {}
+[7.357535] (-) TimerEvent: {}
+[7.459555] (-) TimerEvent: {}
+[7.560172] (-) TimerEvent: {}
+[7.660662] (-) TimerEvent: {}
+[7.761123] (-) TimerEvent: {}
+[7.861574] (-) TimerEvent: {}
+[7.962050] (-) TimerEvent: {}
+[8.066203] (-) TimerEvent: {}
+[8.166640] (-) TimerEvent: {}
+[8.267076] (-) TimerEvent: {}
+[8.340576] (grasp_executor) StdoutLine: {'line': b'running egg_info\n'}
+[8.346026] (grasp_executor) StdoutLine: {'line': b'writing ../../build/grasp_executor/grasp_executor.egg-info/PKG-INFO\n'}
+[8.348480] (grasp_executor) StdoutLine: {'line': b'writing dependency_links to ../../build/grasp_executor/grasp_executor.egg-info/dependency_links.txt\n'}
+[8.349271] (grasp_executor) StdoutLine: {'line': b'writing entry points to ../../build/grasp_executor/grasp_executor.egg-info/entry_points.txt\n'}
+[8.350096] (grasp_executor) StdoutLine: {'line': b'writing requirements to ../../build/grasp_executor/grasp_executor.egg-info/requires.txt\n'}
+[8.350905] (grasp_executor) StdoutLine: {'line': b'writing top-level names to ../../build/grasp_executor/grasp_executor.egg-info/top_level.txt\n'}
+[8.362916] (grasp_executor) StdoutLine: {'line': b"reading manifest file '../../build/grasp_executor/grasp_executor.egg-info/SOURCES.txt'\n"}
+[8.366763] (grasp_executor) StdoutLine: {'line': b"writing manifest file '../../build/grasp_executor/grasp_executor.egg-info/SOURCES.txt'\n"}
+[8.367175] (-) TimerEvent: {}
+[8.367654] (grasp_executor) StdoutLine: {'line': b'running build\n'}
+[8.367976] (grasp_executor) StdoutLine: {'line': b'running build_py\n'}
+[8.368340] (grasp_executor) StdoutLine: {'line': b'copying grasp_executor/grasp_executor_node.py -> /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build/lib/grasp_executor\n'}
+[8.369866] (grasp_executor) StdoutLine: {'line': b'running install\n'}
+[8.371664] (grasp_executor) StdoutLine: {'line': b'running install_lib\n'}
+[8.378430] (grasp_executor) StdoutLine: {'line': b'copying /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build/lib/grasp_executor/grasp_executor_node.py -> /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor\n'}
+[8.379676] (grasp_executor) StdoutLine: {'line': b'byte-compiling /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor/grasp_executor_node.py to grasp_executor_node.cpython-310.pyc\n'}
+[8.390809] (grasp_executor) StdoutLine: {'line': b'running install_data\n'}
+[8.391613] (grasp_executor) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.403260] (grasp_executor) StdoutLine: {'line': b"removing '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[8.404601] (grasp_executor) StdoutLine: {'line': b'Copying ../../build/grasp_executor/grasp_executor.egg-info to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor-0.1.0-py3.10.egg-info\n'}
+[8.407782] (grasp_executor) StdoutLine: {'line': b'running install_scripts\n'}
+[8.467385] (-) TimerEvent: {}
+[8.490817] (grasp_executor) StdoutLine: {'line': b'Installing grasp_executor_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor\n'}
+[8.493024] (grasp_executor) StdoutLine: {'line': b'Installing graspgen_bridge_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor\n'}
+[8.495365] (grasp_executor) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log'\n"}
+[8.567628] (-) TimerEvent: {}
+[8.668429] (-) TimerEvent: {}
+[8.704155] (grasp_executor) CommandEnded: {'returncode': 0}
+[8.757320] (grasp_executor) JobEnded: {'identifier': 'grasp_executor', 'rc': 0}
+[8.763673] (-) EventReactorShutdown: {}

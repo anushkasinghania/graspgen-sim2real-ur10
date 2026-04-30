@@ -1,0 +1,25 @@
+[1.846s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor': PYTHONPATH=/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/grasp_executor build --build-base /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build install --record /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log --single-version-externally-managed install_data
+[2.484s] running egg_info
+[2.485s] writing ../../build/grasp_executor/grasp_executor.egg-info/PKG-INFO
+[2.485s] writing dependency_links to ../../build/grasp_executor/grasp_executor.egg-info/dependency_links.txt
+[2.486s] writing entry points to ../../build/grasp_executor/grasp_executor.egg-info/entry_points.txt
+[2.486s] writing requirements to ../../build/grasp_executor/grasp_executor.egg-info/requires.txt
+[2.487s] writing top-level names to ../../build/grasp_executor/grasp_executor.egg-info/top_level.txt
+[2.491s] reading manifest file '../../build/grasp_executor/grasp_executor.egg-info/SOURCES.txt'
+[2.493s] writing manifest file '../../build/grasp_executor/grasp_executor.egg-info/SOURCES.txt'
+[2.494s] running build
+[2.494s] running build_py
+[2.494s] copying grasp_executor/grasp_executor_node.py -> /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build/lib/grasp_executor
+[2.495s] running install
+[2.495s] running install_lib
+[2.497s] copying /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build/lib/grasp_executor/grasp_executor_node.py -> /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor
+[2.499s] byte-compiling /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor/grasp_executor_node.py to grasp_executor_node.cpython-310.pyc
+[2.505s] running install_data
+[2.505s] running install_egg_info
+[2.510s] removing '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor-0.1.0-py3.10.egg-info' (and everything under it)
+[2.510s] Copying ../../build/grasp_executor/grasp_executor.egg-info to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor-0.1.0-py3.10.egg-info
+[2.512s] running install_scripts
+[2.559s] Installing grasp_executor_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+[2.559s] Installing graspgen_bridge_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+[2.560s] writing list of installed files to '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log'
+[2.636s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor' returned '0': PYTHONPATH=/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/grasp_executor build --build-base /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build install --record /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log --single-version-externally-managed install_data

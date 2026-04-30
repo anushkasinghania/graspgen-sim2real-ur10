@@ -1,0 +1,11 @@
+# Initial joint positions for the UR10 + Robotiq 3F simulation
+initial_positions:
+  shoulder_pan_joint: 0.0
+  shoulder_lift_joint: -1.5708
+  elbow_joint: 0.0
+  wrist_1_joint: -1.5708
+  wrist_2_joint: 0.0
+  wrist_3_joint: 0.0
+  robotiq_finger_a_joint_1: 0.0495
+  robotiq_finger_b_joint_1: 0.0495
+  robotiq_finger_c_joint_1: 0.0495

@@ -1,0 +1,51 @@
+[0.111s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description -- -j12 -l12
+[0.989s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description -- -j12 -l12
+[1.013s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description
+[1.039s] -- Install configuration: "Release"
+[1.040s] -- Execute custom install script
+[1.041s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/launch/robotiq_3f_gripper.launch.xml
+[1.041s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/launch/visualize_description.launch.xml
+[1.048s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_0.STL
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_1.STL
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_2.STL
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_3.STL
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/palm.STL
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/base.png
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_0.dae
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.blend
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.blend1
+[1.049s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.dae
+[1.050s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1_base.png
+[1.050s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.blend
+[1.050s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.blend1
+[1.050s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.dae
+[1.050s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2_base.png
+[1.050s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.blend
+[1.050s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.blend1
+[1.051s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.dae
+[1.052s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3_base_color.png
+[1.052s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3_material_map.png
+[1.052s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.blend
+[1.052s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.blend1
+[1.052s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.dae
+[1.053s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm_base.png
+[1.053s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/helper_macros.xacro
+[1.053s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper.xacro
+[1.061s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper_finger_macro.xacro
+[1.061s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper_macro.xacro
+[1.061s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_description
+[1.061s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_description
+[1.061s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/ament_prefix_path.sh
+[1.061s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/ament_prefix_path.dsv
+[1.062s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/path.sh
+[1.062s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/path.dsv
+[1.062s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.bash
+[1.062s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.sh
+[1.062s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.zsh
+[1.063s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.dsv
+[1.063s] -- Symlinking: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/package.dsv
+[1.087s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/ament_index/resource_index/packages/robotiq_3f_description
+[1.087s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/cmake/robotiq_3f_descriptionConfig.cmake
+[1.088s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/cmake/robotiq_3f_descriptionConfig-version.cmake
+[1.088s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/package.xml
+[1.096s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description

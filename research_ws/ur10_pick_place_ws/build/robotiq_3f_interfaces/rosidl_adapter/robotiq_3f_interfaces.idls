@@ -1,0 +1,6 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_adapter/robotiq_3f_interfaces:msg/ObjectDetectionStatus.idl
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_adapter/robotiq_3f_interfaces:msg/Status.idl
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_adapter/robotiq_3f_interfaces:msg/GraspingMode.idl
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_adapter/robotiq_3f_interfaces:msg/SimpleControlCommand.idl
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_adapter/robotiq_3f_interfaces:msg/IndependentControlCommand.idl
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_adapter/robotiq_3f_interfaces:srv/ChangeGraspingMode.idl

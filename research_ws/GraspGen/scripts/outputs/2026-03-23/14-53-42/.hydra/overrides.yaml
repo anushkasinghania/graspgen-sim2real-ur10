@@ -1,0 +1,10 @@
+- train.model_name=diffusion
+- data.root_dir=/home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f
+- data.object_root_dir=/home/ubuntu/GraspDataGen/objects/
+- data.grasp_root_dir=/home/ubuntu/GraspDataGen/graspgen_dataset/grasp_data/robotiq_3f/
+- data.gripper_name=robotiq_3f
+- data.dataset_version=v2
+- data.cache_dir=/tmp/graspgen_cache/
+- diffusion.gripper_name=robotiq_3f
+- train.log_dir=/home/ubuntu/GraspDataGen/training_logs/robotiq_3f_gen/
+- train.num_epochs=500

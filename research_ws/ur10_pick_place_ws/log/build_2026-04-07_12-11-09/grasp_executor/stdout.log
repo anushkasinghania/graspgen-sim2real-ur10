@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/grasp_executor/grasp_executor.egg-info/PKG-INFO
+writing dependency_links to ../../build/grasp_executor/grasp_executor.egg-info/dependency_links.txt
+writing entry points to ../../build/grasp_executor/grasp_executor.egg-info/entry_points.txt
+writing requirements to ../../build/grasp_executor/grasp_executor.egg-info/requires.txt
+writing top-level names to ../../build/grasp_executor/grasp_executor.egg-info/top_level.txt
+reading manifest file '../../build/grasp_executor/grasp_executor.egg-info/SOURCES.txt'
+writing manifest file '../../build/grasp_executor/grasp_executor.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/grasp_executor/grasp_executor.egg-info to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp_executor-0.1.0-py3.10.egg-info
+running install_scripts
+Installing grasp_executor_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+Installing graspgen_bridge_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+writing list of installed files to '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log'

@@ -1,0 +1,133 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:10:45,680 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:10:46.275716865 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+[2026-03-23 17:10:48,467][__main__][INFO] - Detected 1 GPU(s) available, setting cfg.train.num_gpus = 1
+2026-03-23 17:10:48,469 - grasp_gen.dataset.dataset - INFO - [CACHE VALIDATION] Found cache file for split train: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5. Loading cache...
+[2026-03-23 17:10:48,469][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Found cache file for split train: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5. Loading cache...
+Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5:   0%|          | 0/10 [00:00<?, ?it/s]Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5: 100%|██████████| 10/10 [00:00<00:00, 150.93it/s]
+[2026-03-23 17:10:48,549][grasp_gen.dataset.dataset_utils][INFO] - Loading cache from /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5 took 0.08008766174316406(s)
+2026-03-23 17:10:48,551 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
+[2026-03-23 17:10:48,551][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 150333.48it/s]
+2026-03-23 17:10:48,552 - grasp_gen.dataset.dataset - INFO - [CACHE VALIDATION] Cache for split train is complete. It has been properly generated.
+[2026-03-23 17:10:48,552][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Cache for split train is complete. It has been properly generated.
+2026-03-23 17:10:48,552 - grasp_gen.dataset.dataset - INFO - [CACHE VALIDATION] Found cache file for split valid: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5. Loading cache...
+[2026-03-23 17:10:48,552][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Found cache file for split valid: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5. Loading cache...
+Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5:   0%|          | 0/3 [00:00<?, ?it/s]Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5: 100%|██████████| 3/3 [00:00<00:00, 155.48it/s]
+[2026-03-23 17:10:48,573][grasp_gen.dataset.dataset_utils][INFO] - Loading cache from /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5 took 0.020504236221313477(s)
+2026-03-23 17:10:48,574 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/valid.txt
+[2026-03-23 17:10:48,574][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/valid.txt
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 54471.48it/s]
+2026-03-23 17:10:48,574 - grasp_gen.dataset.dataset - INFO - [CACHE VALIDATION] Cache for split valid is complete. It has been properly generated.
+[2026-03-23 17:10:48,574][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Cache for split valid is complete. It has been properly generated.
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:10:55,307 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:10:55.902034546 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+2026-03-23 17:10:57,517 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache/robotiq_3f
+2026-03-23 17:10:57,517 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache/robotiq_3f
+2026-03-23 17:10:57,518 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_dis.json
+2026-03-23 17:10:57,518 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_dis.json
+2026-03-23 17:10:57,518 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
+2026-03-23 17:10:57,518 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
+2026-03-23 17:10:57,518 - grasp_gen.dataset.dataset - INFO - No filtering; All datapoints are used
+2026-03-23 17:10:57,518 - grasp_gen.dataset.dataset - INFO - No filtering; All datapoints are used
+2026-03-23 17:10:57,556 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
+2026-03-23 17:10:57,556 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
+Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5:   0%|          | 0/10 [00:00<?, ?it/s]Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5: 100%|██████████| 10/10 [00:00<00:00, 151.85it/s]
+2026-03-23 17:10:57,627 - grasp_gen.dataset.dataset_utils - INFO - Loading cache from /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5 took 0.07023406028747559(s)
+2026-03-23 17:10:57,628 - grasp_gen.dataset.dataset - INFO - Cache already has 10 objects
+2026-03-23 17:10:57,628 - grasp_gen.dataset.dataset - INFO - Cache already has 10 objects
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 135300.13it/s]
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 191520.73it/s]
+2026-03-23 17:10:57,629 - grasp_gen.utils.train_utils - INFO - Dataset for train has 10 datapoints
+2026-03-23 17:10:57,631 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache/robotiq_3f
+2026-03-23 17:10:57,631 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache/robotiq_3f
+2026-03-23 17:10:57,631 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_dis.json
+2026-03-23 17:10:57,631 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_dis.json
+2026-03-23 17:10:57,632 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/valid.txt
+2026-03-23 17:10:57,632 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/valid.txt
+2026-03-23 17:10:57,632 - grasp_gen.dataset.dataset - INFO - No filtering; All datapoints are used
+2026-03-23 17:10:57,632 - grasp_gen.dataset.dataset - INFO - No filtering; All datapoints are used
+2026-03-23 17:10:57,668 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
+2026-03-23 17:10:57,668 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
+Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5:   0%|          | 0/3 [00:00<?, ?it/s]Loading cache from H5 file: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5: 100%|██████████| 3/3 [00:00<00:00, 151.36it/s]
+2026-03-23 17:10:57,690 - grasp_gen.dataset.dataset_utils - INFO - Loading cache from /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5 took 0.021491050720214844(s)
+2026-03-23 17:10:57,690 - grasp_gen.dataset.dataset - INFO - Cache already has 3 objects
+2026-03-23 17:10:57,690 - grasp_gen.dataset.dataset - INFO - Cache already has 3 objects
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 52211.25it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 64527.75it/s]
+2026-03-23 17:10:57,692 - grasp_gen.utils.train_utils - INFO - Dataset for valid has 3 datapoints
+2026-03-23 17:10:57,756 - grasp_gen.models.discriminator - INFO - Pose representation is mlp
+2026-03-23 17:10:57,896 - grasp_gen.utils.train_utils - INFO - Using ADAM, LR 5e-05
+2026-03-23 17:10:58,252 - __mp_main__ - INFO - Number of parameters in discriminator model: 3281857
+2026-03-23 17:10:58,253 - __mp_main__ - INFO - Attempting to load checkpoint from None
+2026-03-23 17:10:58,278 - __mp_main__ - INFO - Saved training configuration to /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_disc/config.yaml
+2026-03-23 17:10:58,278 - __mp_main__ - INFO - Training starting at epoch 1 and batch index 0
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:11:05,035 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:11:05.628560794 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:11:13,951 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:11:14.545576901 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:11:22,775 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:11:23.363148151 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:11:31,645 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:11:32.243251020 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:11:40,467 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:11:41.148122595 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:11:49,775 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:11:50.437123072 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:11:58,977 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:11:59.599379661 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:12:08,301 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:12:08.924167346 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:12:26,418 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:12:27.005979039 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:12:35,317 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:12:35.921295994 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:12:44,345 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:12:44.972831420 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:12:53,316 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:12:53.910662957 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:13:02,120 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:13:02.711161937 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:13:11,128 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:13:11.732184474 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:13:20,010 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:13:20.615179002 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-23 17:13:28,947 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-23 17:13:29.561965340 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+2026-03-23 17:25:27,442 - __mp_main__ - INFO - Saving new checkpoints for rank:0 epoch: 426 batch index: 0, global_step: 850
+2026-03-23 17:25:27,653 - __mp_main__ - INFO - Terminating training due to a interrupt, sayonara!

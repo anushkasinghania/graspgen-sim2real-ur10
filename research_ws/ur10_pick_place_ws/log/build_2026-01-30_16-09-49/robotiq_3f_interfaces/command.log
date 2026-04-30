@@ -1,0 +1,4 @@
+Invoking command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces -- -j32 -l32
+Invoked command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces -- -j32 -l32
+Invoking command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces
+Invoked command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces

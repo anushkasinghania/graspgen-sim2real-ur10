@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robotiq_3f_interfaces/msg/Status.msg
+// generated code does not contain a copyright notice
+
+#include "robotiq_3f_interfaces/msg/GraspingMode.idl"
+#include "robotiq_3f_interfaces/msg/ObjectDetectionStatus.idl"
+
+module robotiq_3f_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Reports whether an object has been gripped or not.")
+    struct Status {
+      robotiq_3f_interfaces::msg::ObjectDetectionStatus finger_a_object_detection;
+
+      robotiq_3f_interfaces::msg::ObjectDetectionStatus finger_b_object_detection;
+
+      robotiq_3f_interfaces::msg::ObjectDetectionStatus finger_c_object_detection;
+
+      robotiq_3f_interfaces::msg::ObjectDetectionStatus scissor_object_detection;
+
+      @verbatim (language="comment", text=
+        "Actuator states")
+      uint8 finger_a_position;
+
+      uint8 finger_b_position;
+
+      uint8 finger_c_position;
+
+      uint8 scissor_position;
+
+      uint8 finger_a_current;
+
+      uint8 finger_b_current;
+
+      uint8 finger_c_current;
+
+      uint8 scissor_current;
+
+      uint8 finger_a_cmd_echo;
+
+      uint8 finger_b_cmd_echo;
+
+      uint8 finger_c_cmd_echo;
+
+      uint8 scissor_cmd_echo;
+
+      robotiq_3f_interfaces::msg::GraspingMode mode;
+    };
+  };
+};

@@ -1,0 +1,11 @@
+{
+  "package_name": "robotiq_3f_interfaces",
+  "non_idl_tuples": [
+    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces:msg/ObjectDetectionStatus.msg",
+    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces:msg/Status.msg",
+    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces:msg/GraspingMode.msg",
+    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces:msg/SimpleControlCommand.msg",
+    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces:msg/IndependentControlCommand.msg",
+    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces:srv/ChangeGraspingMode.srv"
+  ]
+}

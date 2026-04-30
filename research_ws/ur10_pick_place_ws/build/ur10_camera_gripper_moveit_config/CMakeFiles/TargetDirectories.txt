@@ -1,0 +1,9 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/uninstall.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/ur10_camera_gripper_moveit_config_uninstall.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/test.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/edit_cache.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/list_install_components.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/install.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/install/local.dir
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config/CMakeFiles/install/strip.dir

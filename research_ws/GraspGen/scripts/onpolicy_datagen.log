@@ -1,0 +1,157 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+2026-03-30 11:51:53,885 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+[0;93m2026-03-30 11:51:54.729619281 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
+Generator loaded from /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth
+Gripper collision mesh: 1809 verts
+
+Objects in cache (136): ['0084f2a137bd46b6829f136800b6270b', '028ceba3e34a4ebeacb4bd5f81cc251a', '032ccef2632146c59f1db8f55d3ba88b', '0331d321e5e5498b9275402736b406e4', '0334d2d16bdb4310b84a973b9a696b13', '03680417fa26467dbc9c9b8d130e923d', '03b0ac7d99c44197a09640179f360f3c', '04bef8e589524b8c9d7a3bb206b206a8', '04eebb0543df40bda1034ddefe0047f8', '052d76ff8adc4887b818bd06899458b8', '06111598a57045008e5f3367eaf58873', '06c94ce2e7b84a29ac3bc848b4f862bf', '0762d52942f94db485d1a6eacefeac96', '09e408f7c1534fe3881c010cb9330ea6', '0c50e6e250af4f9fa3a2bcfb902a440f', '0c6981ec2067481cae6d87c2021f6442', '0d1971dfade24524aa4c3307b4104def', '0d408468ddb94f06917ef88f7690ea61', '0e16c237a7da44c7a4cd5d63b534540c', '0e5451ae286d40088fcaefa2b6fb5e97', '0f5cff9fb78b4657b26ddefff4e10fcf', '132c790ac74c42a0bb1a5fc7e3d43d7e', '14d7e44e4c964362af4707f9ec7665f9', '157ab13a82c6409b8ed79ee1073e2227', '15dd4489ca3d4c0183b2920c67f96d30', '19df061c4b2042c6959bc411a3ca100d', '19e5c19d811b4dfa95dcec728d3ed8c2', '1ad51f6676bd436eab77a198dbe991c6', '1b763ca9aed0435083784b11317f6871', '1bc2987dfc054796b5ab09f1bff1e569', '1c345764350a4fe6a5839842a6b9e0e8', '1dc9dfe1c1f34563b0b747e741a441ac', '1e2e309b7899475282f633fd800cf462', '209c56eb6c36418abafafca259a8b818', '2210c49edd554bb1b95be93af73a1da5', '2304f145b2f645f5bdf6ee4563ac9173', '2527cdd4e465404a9e049171f506fc14', '255373dfda964d14b988ca00e5d995d4', '298090ba739e4f5f82ba70d0262283d4', '29ac53b1dc264b5bb82132f521a9f17f', '2b3717f437ab4bb89796d6fdd44db9ea', '2b787d1a02174d0bbca9eac34eb3a486', '2c88306f3d724a839054f3c2913fb1d5', '2d203d8bb274442fa6698af002fdb36f', '2eede2354905407b9a72ab6d36964916', '307666f827cb41278cefbdd3c8da03c1', '3146c02a2b5e41b9ac8481c66c8e1ba1', '32427dedc61b4fd0aacd976246117fe4', '326616aa3a3e47ca8be774684ea792b5', '3360b4a9f11e47f39c17b680a718619d', '34fe6d9dd0d340ec99489705eb145fcf', '350fc9b99a284553a643826133c524a5', '351a82ec49e1444fab944e18ab251ebc', '353df240658049afaf6619266dfae4cd', '362706d5511c4250bc419c6f5ef4f2ae', '3693fa4414f64a41b04be4aa70e35448', '3784966feebe435b9a1bcd99d17800d9', '3861f77828a9460ca3875f9eef00cef4', '3a9a95549e8041fea11d9eff5a09c568', '3b12b5a5f067430b9c7a2d4b7d1dc467', '3b1ae1ad437c45388efcdcbb05c51c4f', '3c3f5bfb98284924a70cf410ab532bc9', '3eab64fff65c407aa0cf00ced4e493b0', '3ef74b2ed60c4a6a808a595618908aa0', '3fb280d6294a4a32a16249f4a1a62f7d', '40ac7442dcac41649415d5f57ef0f6a2', '4116b0b4583049d5bdf55daffb0693f3', '4141ca05b3bd4faca7e249e10641117b', '418bc9b5d4a04ffabdfc65df242b67c9', '44d7675cc83d45149c6a48f95c891bcb', '49d0b382def54ff1b544cc6293ea1b22', '4bd0d6250de94dbc920468bfedc53fcc', '51ba21f2a392472cacf68f02a5b762c1', '586e9b8f4ea4483e87c70a3c45224c51', '5b1a44cff3d34249b8feea2052ddd972', '5e76452dfe1146c4878a0368e9548bf2', '6318cebd7ba544399e2c7a1fde02799a', '668cc358af5f4ee0997ed28c2996ab2e', '66a35234648c418f8b67ce1b015f525c', '6d4d4e9294a64d65870c401005cbc0f9', '747fe7a49dae4ef6b067ec8916c808e2', '7867aa1e7d7041a3af665f329829a0c1', '7ad83b29ff75452f99415fee5b99d993', '7d2666198df94a12bd297d4e22f8d22e', '7e6a9d9d648a448da4caef0e29c814f3', '8a9edd2804eb463db1cf8a634d058ee1', '8ae6080d8a0943e8b6316148a7fe61d1', '8c09c173bca842daae32fbe813156f8c', '8c375ece6c444908bf8bfe784c332d30', '8e36985fe267413183f7b35f3e421bdd', '925ad46b0f54495aacd6540ae3e4bb21', '956cef1ca1af49f5953fc202b20dcfb9', '9a11723f3e0446c2870187cb7e5a9328', '9affcdc2582d4a73991473ae34c4393c', '9d02c1277e7542efb46409d02cffedf0', 'a22a5ec25ed747b1a1614ef0ee59725b', 'a261df98b73740aeb8b93caed543f730', 'a2cdf40f331a4cb1a3722f995df5f293', 'a36de7afb1c64b059f2386825411909f', 'a5f57d3736584c44b221a181d558dc39', 'a60e10dc03ce41b88c504781108e2279', 'a7785ac7ce7f4ba79df661db33637ba9', 'aa67b378bd9c4322a0bb1f98adab8174', 'ac30b773e4ee444a9ed4a52fc3abdce3', 'ad2546804e8845b09e5db7c6db16b704', 'b22f932e42e9467dbb6784c979b6dfe1', 'b32efc7a37ad410ea98b77cf18e0ce0b', 'b8a7cc0278304cf0882ddf25040af3d9', 'baf345bb68fd4f1a9eac39faf456682c', 'bbcd5ba505c541f59b3e286e9abf3f4e', 'boba_tea_cup', 'bottle_small', 'c3b02c96515d4e259b467a3453950e83', 'c42d069236174467a2fb536f7d42d7f0', 'c5cc01a4d8f64817ad5f558ac3cd7636', 'c666d90ad57e44f1baf90e5ec062a152', 'ce4efa18d90a42599c61f52a3e995c88', 'd883793e53d440e095444979cb88ecbe', 'de99e817cbd7449f9238087dd6cdd53c', 'ded99b5d8f30441bafdc8b9860bbb4b9', 'e148c45d071541a0a58d1c379ed4e27d', 'e17f4ab5adcd43a8a2e88601fc21f4ee', 'e198f7e92cfc4802a3bdd1a10a9a44de', 'e51a29d61d6b4ed09537de40eb695617', 'e7925af708214cacbc776142e31e274d', 'f2ac26d3788949bbbaa49e8fa7059748', 'f336a10e46084212ab33de0ff811bd78', 'f8e991a5a44a465cb9997af2308f7a8c', 'fc27fc019e8144d197a6b4246b251fca', 'grey_mug', 'hammer', 'mailbox', 'mailbox_us', 'microphone', 'teapot_with_cups', 'tin_can']
+
+Generating on-policy data:   0%|          | 0/136 [00:00<?, ?it/s]Generating on-policy data:   1%|          | 1/136 [00:03<08:12,  3.65s/it]Generating on-policy data:   1%|▏         | 2/136 [00:05<05:59,  2.68s/it]Generating on-policy data:   2%|▏         | 3/136 [00:17<14:48,  6.68s/it]Generating on-policy data:   3%|▎         | 4/136 [00:19<10:53,  4.95s/it]Generating on-policy data:   4%|▎         | 5/136 [00:21<08:54,  4.08s/it]Generating on-policy data:   4%|▍         | 6/136 [00:28<10:55,  5.04s/it]Generating on-policy data:   5%|▌         | 7/136 [00:32<09:47,  4.55s/it]Generating on-policy data:   6%|▌         | 8/136 [00:34<07:57,  3.73s/it]Generating on-policy data:   7%|▋         | 9/136 [00:36<06:49,  3.22s/it]Generating on-policy data:   7%|▋         | 10/136 [00:38<06:16,  2.99s/it]Generating on-policy data:   8%|▊         | 11/136 [00:41<06:11,  2.98s/it]Generating on-policy data:   9%|▉         | 12/136 [00:44<05:55,  2.87s/it]Generating on-policy data:  10%|▉         | 13/136 [00:48<06:43,  3.28s/it]Generating on-policy data:  10%|█         | 14/136 [00:49<05:23,  2.65s/it]Generating on-policy data:  11%|█         | 15/136 [00:54<06:34,  3.26s/it]Generating on-policy data:  12%|█▏        | 16/136 [01:11<15:01,  7.51s/it]Generating on-policy data:  12%|█▎        | 17/136 [01:13<11:13,  5.66s/it]Generating on-policy data:  13%|█▎        | 18/136 [01:15<08:49,  4.49s/it]Generating on-policy data:  14%|█▍        | 19/136 [01:24<11:52,  6.09s/it]Generating on-policy data:  15%|█▍        | 20/136 [01:26<08:59,  4.65s/it]Generating on-policy data:  15%|█▌        | 21/136 [01:28<07:22,  3.84s/it]Generating on-policy data:  16%|█▌        | 22/136 [01:29<05:53,  3.10s/it]Generating on-policy data:  17%|█▋        | 23/136 [01:42<11:30,  6.11s/it]Generating on-policy data:  18%|█▊        | 24/136 [01:44<08:51,  4.75s/it]Generating on-policy data:  18%|█▊        | 25/136 [01:48<08:25,  4.55s/it]Generating on-policy data:  19%|█▉        | 26/136 [01:49<06:35,  3.60s/it]Generating on-policy data:  20%|█▉        | 27/136 [01:51<05:24,  2.98s/it]Generating on-policy data:  21%|██        | 28/136 [01:52<04:31,  2.51s/it]Generating on-policy data:  21%|██▏       | 29/136 [01:53<03:47,  2.12s/it]Generating on-policy data:  22%|██▏       | 30/136 [01:54<03:12,  1.82s/it]Generating on-policy data:  23%|██▎       | 31/136 [01:56<02:47,  1.60s/it]Generating on-policy data:  24%|██▎       | 32/136 [01:57<02:39,  1.54s/it]Generating on-policy data:  24%|██▍       | 33/136 [02:05<05:56,  3.46s/it]Generating on-policy data:  25%|██▌       | 34/136 [02:08<05:34,  3.28s/it]Generating on-policy data:  26%|██▌       | 35/136 [02:09<04:43,  2.80s/it]Generating on-policy data:  26%|██▋       | 36/136 [02:13<05:14,  3.15s/it]Generating on-policy data:  27%|██▋       | 37/136 [02:15<04:18,  2.61s/it]Generating on-policy data:  28%|██▊       | 38/136 [02:45<17:59, 11.01s/it]Generating on-policy data:  29%|██▊       | 39/136 [02:47<13:10,  8.14s/it]Generating on-policy data:  29%|██▉       | 40/136 [03:07<18:50, 11.77s/it]Generating on-policy data:  30%|███       | 41/136 [04:10<42:52, 27.08s/it]Generating on-policy data:  31%|███       | 42/136 [04:11<30:21, 19.38s/it]Generating on-policy data:  32%|███▏      | 43/136 [04:12<21:35, 13.93s/it]Generating on-policy data:  32%|███▏      | 44/136 [04:15<15:58, 10.42s/it]Generating on-policy data:  33%|███▎      | 45/136 [04:16<11:46,  7.77s/it]Generating on-policy data:  34%|███▍      | 46/136 [04:19<09:12,  6.14s/it]Generating on-policy data:  35%|███▍      | 47/136 [04:20<06:54,  4.66s/it]Generating on-policy data:  35%|███▌      | 48/136 [04:21<05:13,  3.56s/it]Generating on-policy data:  36%|███▌      | 49/136 [04:30<07:23,  5.10s/it]Generating on-policy data:  37%|███▋      | 50/136 [04:32<05:58,  4.17s/it]Generating on-policy data:  38%|███▊      | 51/136 [04:40<07:41,  5.43s/it]Generating on-policy data:  38%|███▊      | 52/136 [04:46<07:49,  5.59s/it]Generating on-policy data:  39%|███▉      | 53/136 [04:59<10:45,  7.77s/it]Generating on-policy data:  40%|███▉      | 54/136 [05:00<08:07,  5.95s/it]Generating on-policy data:  40%|████      | 55/136 [05:03<06:39,  4.94s/it]Generating on-policy data:  41%|████      | 56/136 [05:06<05:48,  4.35s/it]Generating on-policy data:  42%|████▏     | 57/136 [05:07<04:30,  3.43s/it]Generating on-policy data:  43%|████▎     | 58/136 [05:12<04:47,  3.68s/it]Generating on-policy data:  43%|████▎     | 59/136 [05:14<04:18,  3.36s/it]Generating on-policy data:  44%|████▍     | 60/136 [05:15<03:28,  2.75s/it]Generating on-policy data:  45%|████▍     | 61/136 [05:17<02:52,  2.31s/it]Generating on-policy data:  46%|████▌     | 62/136 [05:18<02:27,  2.00s/it]Generating on-policy data:  46%|████▋     | 63/136 [05:22<03:12,  2.64s/it]Generating on-policy data:  47%|████▋     | 64/136 [05:24<03:03,  2.54s/it]Generating on-policy data:  48%|████▊     | 65/136 [05:26<02:34,  2.18s/it]Generating on-policy data:  49%|████▊     | 66/136 [05:27<02:11,  1.88s/it]Generating on-policy data:  49%|████▉     | 67/136 [05:28<01:53,  1.64s/it]Generating on-policy data:  50%|█████     | 68/136 [05:29<01:38,  1.45s/it]Generating on-policy data:  51%|█████     | 69/136 [05:37<03:52,  3.47s/it]Generating on-policy data:  51%|█████▏    | 70/136 [05:40<03:28,  3.16s/it]Generating on-policy data:  52%|█████▏    | 71/136 [05:41<02:48,  2.60s/it]Generating on-policy data:  53%|█████▎    | 72/136 [05:51<05:08,  4.83s/it]Generating on-policy data:  54%|█████▎    | 73/136 [05:52<03:55,  3.75s/it]Generating on-policy data:  54%|█████▍    | 74/136 [05:53<03:05,  2.99s/it]Generating on-policy data:  55%|█████▌    | 75/136 [05:55<02:32,  2.49s/it]Generating on-policy data:  56%|█████▌    | 76/136 [05:56<02:05,  2.09s/it]Generating on-policy data:  57%|█████▋    | 77/136 [05:57<01:46,  1.81s/it]Generating on-policy data:  57%|█████▋    | 78/136 [05:58<01:33,  1.61s/it]Generating on-policy data:  58%|█████▊    | 79/136 [06:00<01:27,  1.54s/it]Generating on-policy data:  59%|█████▉    | 80/136 [06:01<01:20,  1.44s/it]Generating on-policy data:  60%|█████▉    | 81/136 [06:04<01:48,  1.98s/it]Generating on-policy data:  60%|██████    | 82/136 [06:06<01:43,  1.92s/it]Generating on-policy data:  61%|██████    | 83/136 [06:07<01:28,  1.68s/it]Generating on-policy data:  62%|██████▏   | 84/136 [06:09<01:28,  1.69s/it]Generating on-policy data:  62%|██████▎   | 85/136 [06:10<01:17,  1.51s/it]Generating on-policy data:  63%|██████▎   | 86/136 [06:11<01:09,  1.40s/it]Generating on-policy data:  64%|██████▍   | 87/136 [06:12<01:11,  1.46s/it]Generating on-policy data:  65%|██████▍   | 88/136 [06:18<02:03,  2.57s/it]Generating on-policy data:  65%|██████▌   | 89/136 [06:20<01:54,  2.43s/it]Generating on-policy data:  66%|██████▌   | 90/136 [06:37<05:17,  6.90s/it]Generating on-policy data:  67%|██████▋   | 91/136 [06:39<03:57,  5.27s/it]Generating on-policy data:  68%|██████▊   | 92/136 [06:40<02:56,  4.02s/it]Generating on-policy data:  68%|██████▊   | 93/136 [06:41<02:20,  3.28s/it]Generating on-policy data:  69%|██████▉   | 94/136 [06:43<01:53,  2.69s/it]Generating on-policy data:  70%|██████▉   | 95/136 [06:44<01:37,  2.39s/it]Generating on-policy data:  71%|███████   | 96/136 [06:59<04:08,  6.22s/it]Generating on-policy data:  71%|███████▏  | 97/136 [07:00<03:02,  4.68s/it]Generating on-policy data:  72%|███████▏  | 98/136 [07:02<02:16,  3.59s/it]Generating on-policy data:  73%|███████▎  | 99/136 [07:03<01:45,  2.86s/it]  0084f2a137bd46b6829f136800b6270b: 300 grasps generated  →  35 pos  /  265 neg
+  028ceba3e34a4ebeacb4bd5f81cc251a: 300 grasps generated  →  174 pos  /  126 neg
+  032ccef2632146c59f1db8f55d3ba88b: 300 grasps generated  →  193 pos  /  107 neg
+  0331d321e5e5498b9275402736b406e4: 300 grasps generated  →  65 pos  /  235 neg
+  0334d2d16bdb4310b84a973b9a696b13: 300 grasps generated  →  103 pos  /  197 neg
+  03680417fa26467dbc9c9b8d130e923d: 300 grasps generated  →  137 pos  /  163 neg
+  03b0ac7d99c44197a09640179f360f3c: 300 grasps generated  →  213 pos  /  87 neg
+  04bef8e589524b8c9d7a3bb206b206a8: 300 grasps generated  →  30 pos  /  270 neg
+  04eebb0543df40bda1034ddefe0047f8: 300 grasps generated  →  208 pos  /  92 neg
+  052d76ff8adc4887b818bd06899458b8: 300 grasps generated  →  142 pos  /  158 neg
+  06111598a57045008e5f3367eaf58873: 300 grasps generated  →  210 pos  /  90 neg
+  06c94ce2e7b84a29ac3bc848b4f862bf: 300 grasps generated  →  211 pos  /  89 neg
+  0762d52942f94db485d1a6eacefeac96: 300 grasps generated  →  156 pos  /  144 neg
+  09e408f7c1534fe3881c010cb9330ea6: 300 grasps generated  →  122 pos  /  178 neg
+  0c50e6e250af4f9fa3a2bcfb902a440f: 300 grasps generated  →  87 pos  /  213 neg
+  0c6981ec2067481cae6d87c2021f6442: 300 grasps generated  →  83 pos  /  217 neg
+  0d1971dfade24524aa4c3307b4104def: 300 grasps generated  →  53 pos  /  247 neg
+  0d408468ddb94f06917ef88f7690ea61: 300 grasps generated  →  164 pos  /  136 neg
+  0e16c237a7da44c7a4cd5d63b534540c: 300 grasps generated  →  177 pos  /  123 neg
+  0e5451ae286d40088fcaefa2b6fb5e97: 300 grasps generated  →  147 pos  /  153 neg
+  0f5cff9fb78b4657b26ddefff4e10fcf: 300 grasps generated  →  72 pos  /  228 neg
+  132c790ac74c42a0bb1a5fc7e3d43d7e: 300 grasps generated  →  158 pos  /  142 neg
+  14d7e44e4c964362af4707f9ec7665f9: 300 grasps generated  →  150 pos  /  150 neg
+  157ab13a82c6409b8ed79ee1073e2227: 300 grasps generated  →  171 pos  /  129 neg
+  15dd4489ca3d4c0183b2920c67f96d30: 300 grasps generated  →  22 pos  /  278 neg
+  19df061c4b2042c6959bc411a3ca100d: 300 grasps generated  →  200 pos  /  100 neg
+  19e5c19d811b4dfa95dcec728d3ed8c2: 300 grasps generated  →  80 pos  /  220 neg
+  1ad51f6676bd436eab77a198dbe991c6: 300 grasps generated  →  152 pos  /  148 neg
+  1b763ca9aed0435083784b11317f6871: 300 grasps generated  →  199 pos  /  101 neg
+  1bc2987dfc054796b5ab09f1bff1e569: 300 grasps generated  →  132 pos  /  168 neg
+  1c345764350a4fe6a5839842a6b9e0e8: 300 grasps generated  →  31 pos  /  269 neg
+  1dc9dfe1c1f34563b0b747e741a441ac: 300 grasps generated  →  21 pos  /  279 neg
+  1e2e309b7899475282f633fd800cf462: 300 grasps generated  →  148 pos  /  152 neg
+  209c56eb6c36418abafafca259a8b818: 300 grasps generated  →  124 pos  /  176 neg
+  2210c49edd554bb1b95be93af73a1da5: 300 grasps generated  →  186 pos  /  114 neg
+  2304f145b2f645f5bdf6ee4563ac9173: 300 grasps generated  →  213 pos  /  87 neg
+  2527cdd4e465404a9e049171f506fc14: 300 grasps generated  →  158 pos  /  142 neg
+  255373dfda964d14b988ca00e5d995d4: 300 grasps generated  →  99 pos  /  201 neg
+  298090ba739e4f5f82ba70d0262283d4: 300 grasps generated  →  80 pos  /  220 neg
+  29ac53b1dc264b5bb82132f521a9f17f: 300 grasps generated  →  117 pos  /  183 neg
+  2b3717f437ab4bb89796d6fdd44db9ea: 300 grasps generated  →  32 pos  /  268 neg
+  2b787d1a02174d0bbca9eac34eb3a486: 300 grasps generated  →  197 pos  /  103 neg
+  2c88306f3d724a839054f3c2913fb1d5: 300 grasps generated  →  206 pos  /  94 neg
+  2d203d8bb274442fa6698af002fdb36f: 300 grasps generated  →  103 pos  /  197 neg
+  2eede2354905407b9a72ab6d36964916: 300 grasps generated  →  164 pos  /  136 neg
+  307666f827cb41278cefbdd3c8da03c1: 300 grasps generated  →  104 pos  /  196 neg
+  3146c02a2b5e41b9ac8481c66c8e1ba1: 300 grasps generated  →  208 pos  /  92 neg
+  32427dedc61b4fd0aacd976246117fe4: 300 grasps generated  →  186 pos  /  114 neg
+  326616aa3a3e47ca8be774684ea792b5: 300 grasps generated  →  184 pos  /  116 neg
+  3360b4a9f11e47f39c17b680a718619d: 300 grasps generated  →  206 pos  /  94 neg
+  34fe6d9dd0d340ec99489705eb145fcf: 300 grasps generated  →  135 pos  /  165 neg
+  350fc9b99a284553a643826133c524a5: 300 grasps generated  →  150 pos  /  150 neg
+  351a82ec49e1444fab944e18ab251ebc: 300 grasps generated  →  131 pos  /  169 neg
+  353df240658049afaf6619266dfae4cd: 300 grasps generated  →  72 pos  /  228 neg
+  362706d5511c4250bc419c6f5ef4f2ae: 300 grasps generated  →  207 pos  /  93 neg
+  3693fa4414f64a41b04be4aa70e35448: 300 grasps generated  →  105 pos  /  195 neg
+  3784966feebe435b9a1bcd99d17800d9: 300 grasps generated  →  47 pos  /  253 neg
+  3861f77828a9460ca3875f9eef00cef4: 300 grasps generated  →  30 pos  /  270 neg
+  3a9a95549e8041fea11d9eff5a09c568: 300 grasps generated  →  94 pos  /  206 neg
+  3b12b5a5f067430b9c7a2d4b7d1dc467: 300 grasps generated  →  198 pos  /  102 neg
+  3b1ae1ad437c45388efcdcbb05c51c4f: 300 grasps generated  →  145 pos  /  155 neg
+  3c3f5bfb98284924a70cf410ab532bc9: 300 grasps generated  →  183 pos  /  117 neg
+  3eab64fff65c407aa0cf00ced4e493b0: 300 grasps generated  →  131 pos  /  169 neg
+  3ef74b2ed60c4a6a808a595618908aa0: 300 grasps generated  →  66 pos  /  234 neg
+  3fb280d6294a4a32a16249f4a1a62f7d: 300 grasps generated  →  37 pos  /  263 neg
+  40ac7442dcac41649415d5f57ef0f6a2: 300 grasps generated  →  149 pos  /  151 neg
+  4116b0b4583049d5bdf55daffb0693f3: 300 grasps generated  →  147 pos  /  153 neg
+  4141ca05b3bd4faca7e249e10641117b: 300 grasps generated  →  101 pos  /  199 neg
+  418bc9b5d4a04ffabdfc65df242b67c9: 300 grasps generated  →  145 pos  /  155 neg
+  44d7675cc83d45149c6a48f95c891bcb: 300 grasps generated  →  204 pos  /  96 neg
+  49d0b382def54ff1b544cc6293ea1b22: 300 grasps generated  →  206 pos  /  94 neg
+  4bd0d6250de94dbc920468bfedc53fcc: 300 grasps generated  →  113 pos  /  187 neg
+  51ba21f2a392472cacf68f02a5b762c1: 300 grasps generated  →  149 pos  /  151 neg
+  586e9b8f4ea4483e87c70a3c45224c51: 300 grasps generated  →  239 pos  /  61 neg
+  5b1a44cff3d34249b8feea2052ddd972: 300 grasps generated  →  132 pos  /  168 neg
+  5e76452dfe1146c4878a0368e9548bf2: 300 grasps generated  →  60 pos  /  240 neg
+  6318cebd7ba544399e2c7a1fde02799a: 300 grasps generated  →  77 pos  /  223 neg
+  668cc358af5f4ee0997ed28c2996ab2e: 300 grasps generated  →  190 pos  /  110 neg
+  66a35234648c418f8b67ce1b015f525c: 300 grasps generated  →  165 pos  /  135 neg
+  6d4d4e9294a64d65870c401005cbc0f9: 300 grasps generated  →  171 pos  /  129 neg
+  747fe7a49dae4ef6b067ec8916c808e2: 300 grasps generated  →  194 pos  /  106 neg
+  7867aa1e7d7041a3af665f329829a0c1: 300 grasps generated  →  211 pos  /  89 neg
+  7ad83b29ff75452f99415fee5b99d993: 300 grasps generated  →  212 pos  /  88 neg
+  7d2666198df94a12bd297d4e22f8d22e: 300 grasps generated  →  133 pos  /  167 neg
+  7e6a9d9d648a448da4caef0e29c814f3: 300 grasps generated  →  167 pos  /  133 neg
+  8a9edd2804eb463db1cf8a634d058ee1: 300 grasps generated  →  237 pos  /  63 neg
+  8ae6080d8a0943e8b6316148a7fe61d1: 300 grasps generated  →  185 pos  /  115 neg
+  8c09c173bca842daae32fbe813156f8c: 300 grasps generated  →  44 pos  /  256 neg
+  8c375ece6c444908bf8bfe784c332d30: 300 grasps generated  →  165 pos  /  135 neg
+  8e36985fe267413183f7b35f3e421bdd: 300 grasps generated  →  49 pos  /  251 neg
+  925ad46b0f54495aacd6540ae3e4bb21: 300 grasps generated  →  97 pos  /  203 neg
+  956cef1ca1af49f5953fc202b20dcfb9: 300 grasps generated  →  45 pos  /  255 neg
+  9a11723f3e0446c2870187cb7e5a9328: 300 grasps generated  →  45 pos  /  255 neg
+  9affcdc2582d4a73991473ae34c4393c: 300 grasps generated  →  132 pos  /  168 neg
+  9d02c1277e7542efb46409d02cffedf0: 300 grasps generated  →  162 pos  /  138 neg
+  a22a5ec25ed747b1a1614ef0ee59725b: 300 grasps generated  →  170 pos  /  130 neg
+  a261df98b73740aeb8b93caed543f730: 300 grasps generated  →  125 pos  /  175 neg
+  a2cdf40f331a4cb1a3722f995df5f293: 300 grasps generated  →  156 pos  /  144 neg
+  a36de7afb1c64b059f2386825411909f: 300 grasps generated  →  38 pos  /  262 neg
+Generating on-policy data:  74%|███████▎  | 100/136 [07:04<01:24,  2.35s/it]Generating on-policy data:  74%|███████▍  | 101/136 [07:21<03:55,  6.72s/it]Generating on-policy data:  75%|███████▌  | 102/136 [07:22<02:52,  5.08s/it]Generating on-policy data:  76%|███████▌  | 103/136 [07:23<02:10,  3.95s/it]Generating on-policy data:  76%|███████▋  | 104/136 [07:25<01:42,  3.19s/it]Generating on-policy data:  77%|███████▋  | 105/136 [07:26<01:25,  2.74s/it]Generating on-policy data:  78%|███████▊  | 106/136 [07:34<02:08,  4.27s/it]Generating on-policy data:  79%|███████▊  | 107/136 [07:58<04:52, 10.08s/it]Generating on-policy data:  79%|███████▉  | 108/136 [07:59<03:28,  7.46s/it]Generating on-policy data:  80%|████████  | 109/136 [08:00<02:30,  5.57s/it]Generating on-policy data:  81%|████████  | 110/136 [08:02<01:50,  4.27s/it]Generating on-policy data:  82%|████████▏ | 111/136 [08:05<01:38,  3.92s/it]Generating on-policy data:  82%|████████▏ | 112/136 [08:06<01:17,  3.23s/it]Generating on-policy data:  83%|████████▎ | 113/136 [08:08<01:02,  2.73s/it]Generating on-policy data:  84%|████████▍ | 114/136 [08:10<00:52,  2.38s/it]Generating on-policy data:  85%|████████▍ | 115/136 [08:11<00:41,  1.98s/it]Generating on-policy data:  85%|████████▌ | 116/136 [08:13<00:43,  2.18s/it]Generating on-policy data:  86%|████████▌ | 117/136 [08:14<00:35,  1.85s/it]Generating on-policy data:  87%|████████▋ | 118/136 [08:16<00:33,  1.88s/it]Generating on-policy data:  88%|████████▊ | 119/136 [08:18<00:31,  1.86s/it]Generating on-policy data:  88%|████████▊ | 120/136 [08:23<00:43,  2.74s/it]Generating on-policy data:  89%|████████▉ | 121/136 [08:25<00:38,  2.55s/it]Generating on-policy data:  90%|████████▉ | 122/136 [08:27<00:35,  2.53s/it]Generating on-policy data:  90%|█████████ | 123/136 [08:51<01:53,  8.75s/it]Generating on-policy data:  91%|█████████ | 124/136 [08:52<01:18,  6.52s/it]Generating on-policy data:  92%|█████████▏| 125/136 [08:55<01:00,  5.49s/it]Generating on-policy data:  93%|█████████▎| 126/136 [08:57<00:43,  4.39s/it]Generating on-policy data:  93%|█████████▎| 127/136 [09:09<01:01,  6.81s/it]Generating on-policy data:  94%|█████████▍| 128/136 [09:11<00:41,  5.18s/it]Generating on-policy data:  95%|█████████▍| 129/136 [09:12<00:27,  3.95s/it]Generating on-policy data:  96%|█████████▌| 130/136 [09:14<00:21,  3.54s/it]Generating on-policy data:  96%|█████████▋| 131/136 [09:16<00:14,  2.90s/it]Generating on-policy data:  97%|█████████▋| 132/136 [09:17<00:09,  2.39s/it]Generating on-policy data:  98%|█████████▊| 133/136 [09:19<00:06,  2.19s/it]Generating on-policy data:  99%|█████████▊| 134/136 [09:20<00:03,  1.95s/it]Generating on-policy data:  99%|█████████▉| 135/136 [09:22<00:02,  2.01s/it]Generating on-policy data: 100%|██████████| 136/136 [09:24<00:00,  1.84s/it]Generating on-policy data: 100%|██████████| 136/136 [09:24<00:00,  4.15s/it]
+  a5f57d3736584c44b221a181d558dc39: 300 grasps generated  →  214 pos  /  86 neg
+  a60e10dc03ce41b88c504781108e2279: 300 grasps generated  →  170 pos  /  130 neg
+  a7785ac7ce7f4ba79df661db33637ba9: 300 grasps generated  →  174 pos  /  126 neg
+  aa67b378bd9c4322a0bb1f98adab8174: 300 grasps generated  →  145 pos  /  155 neg
+  ac30b773e4ee444a9ed4a52fc3abdce3: 300 grasps generated  →  217 pos  /  83 neg
+  ad2546804e8845b09e5db7c6db16b704: 300 grasps generated  →  100 pos  /  200 neg
+  b22f932e42e9467dbb6784c979b6dfe1: 300 grasps generated  →  92 pos  /  208 neg
+  b32efc7a37ad410ea98b77cf18e0ce0b: 300 grasps generated  →  207 pos  /  93 neg
+  b8a7cc0278304cf0882ddf25040af3d9: 300 grasps generated  →  89 pos  /  211 neg
+  baf345bb68fd4f1a9eac39faf456682c: 300 grasps generated  →  71 pos  /  229 neg
+  bbcd5ba505c541f59b3e286e9abf3f4e: 300 grasps generated  →  151 pos  /  149 neg
+  boba_tea_cup: 300 grasps generated  →  99 pos  /  201 neg
+  bottle_small: 300 grasps generated  →  95 pos  /  205 neg
+  c3b02c96515d4e259b467a3453950e83: 300 grasps generated  →  177 pos  /  123 neg
+  c42d069236174467a2fb536f7d42d7f0: 300 grasps generated  →  49 pos  /  251 neg
+  c5cc01a4d8f64817ad5f558ac3cd7636: 300 grasps generated  →  147 pos  /  153 neg
+  c666d90ad57e44f1baf90e5ec062a152: 300 grasps generated  →  90 pos  /  210 neg
+  ce4efa18d90a42599c61f52a3e995c88: 300 grasps generated  →  161 pos  /  139 neg
+  d883793e53d440e095444979cb88ecbe: 300 grasps generated  →  187 pos  /  113 neg
+  de99e817cbd7449f9238087dd6cdd53c: 300 grasps generated  →  158 pos  /  142 neg
+  ded99b5d8f30441bafdc8b9860bbb4b9: 300 grasps generated  →  66 pos  /  234 neg
+  e148c45d071541a0a58d1c379ed4e27d: 300 grasps generated  →  191 pos  /  109 neg
+  e17f4ab5adcd43a8a2e88601fc21f4ee: 300 grasps generated  →  46 pos  /  254 neg
+  e198f7e92cfc4802a3bdd1a10a9a44de: 300 grasps generated  →  126 pos  /  174 neg
+  e51a29d61d6b4ed09537de40eb695617: 300 grasps generated  →  176 pos  /  124 neg
+  e7925af708214cacbc776142e31e274d: 300 grasps generated  →  109 pos  /  191 neg
+  f2ac26d3788949bbbaa49e8fa7059748: 300 grasps generated  →  147 pos  /  153 neg
+  f336a10e46084212ab33de0ff811bd78: 300 grasps generated  →  212 pos  /  88 neg
+  f8e991a5a44a465cb9997af2308f7a8c: 300 grasps generated  →  151 pos  /  149 neg
+  fc27fc019e8144d197a6b4246b251fca: 300 grasps generated  →  252 pos  /  48 neg
+  grey_mug: 300 grasps generated  →  87 pos  /  213 neg
+  hammer: 300 grasps generated  →  182 pos  /  118 neg
+  mailbox: 300 grasps generated  →  245 pos  /  55 neg
+  mailbox_us: 300 grasps generated  →  139 pos  /  161 neg
+  microphone: 300 grasps generated  →  184 pos  /  116 neg
+  teapot_with_cups: 300 grasps generated  →  116 pos  /  184 neg
+  tin_can: 300 grasps generated  →  153 pos  /  147 neg
+
+Done. Total: 18734 positive, 22066 negative on-policy grasps.
+Cache updated: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5
+
+Next step — retrain discriminator with on-policy data:
+  cd ~/research_ws/GraspGen/scripts && nohup python3 train_graspgen.py \
+    train.model_name=discriminator \
+    data.load_discriminator_dataset=True \
+    data.onpolicy_dataset_h5_path=/tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5 \
+    train.checkpoint=<path/to/disc_last.pth> \
+    ... > ~/disc_onpolicy.log 2>&1 &

@@ -1,0 +1,1 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/ament_cmake_environment_hooks/local_setup.sh

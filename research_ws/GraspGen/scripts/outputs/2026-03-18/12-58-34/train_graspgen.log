@@ -1,0 +1,10 @@
+[2026-03-18 12:58:35,007][__main__][INFO] - Detected 1 GPU(s) available, setting cfg.train.num_gpus = 1
+[2026-03-18 12:58:35,008][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] No denylist found in /tmp/graspgen_cache/robotiq_3f, deleting cache dir. It may have been improperly created before.
+[2026-03-18 12:58:35,013][__main__][INFO] - Cache is imcomplete. Running in prefiltering mode first!
+[2026-03-18 12:58:35,014][__main__][INFO] - Prefiltering mode. Running with 1 GPU
+[2026-03-18 12:58:35,017][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache/robotiq_3f
+[2026-03-18 12:58:35,017][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_meshandpc_gen.json
+[2026-03-18 12:58:35,018][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
+[2026-03-18 12:58:35,018][grasp_gen.dataset.dataset][INFO] - No filtering; All datapoints are used
+[2026-03-18 12:58:35,060][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
+[2026-03-18 12:58:35,061][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache/robotiq_3f/cache_train_meshandpc_gen.h5

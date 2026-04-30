@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<!-- UR10 + Robotiq 3F gripper + OAK-D Wide wrist camera URDF.
+     All hardware uses mock_components/GenericSystem so a standalone
+     ros2_control_node manages the controller_manager independent of Ignition.
+
+     NOTE: Ignition Gazebo robot spawn fails due to an upstream sdformat bug
+     (wrist_3_link inertial NaN during URDF→SDF conversion in Ignition Fortress).
+     Gazebo is used for the world/scene only.  RViz + MoveIt use this URDF directly
+     via robot_state_publisher and work correctly. -->
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur">
+
+  <!-- ============================== -->
+  <!-- Arguments                      -->
+  <!-- ============================== -->
+  <xacro:arg name="name" default="ur"/>
+  <xacro:arg name="tf_prefix" default=""/>
+  <xacro:arg name="ur_type" default="ur10"/>
+
+  <!-- ============================== -->
+  <!-- Root link                      -->
+  <!-- ============================== -->
+  <link name="world"/>
+
+  <!-- ============================== -->
+  <!-- UR config files                -->
+  <!-- ============================== -->
+  <xacro:property name="joint_limits_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/joint_limits.yaml"/>
+  <xacro:property name="kinematics_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/default_kinematics.yaml"/>
+  <xacro:property name="physical_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/physical_parameters.yaml"/>
+  <xacro:property name="visual_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/visual_parameters.yaml"/>
+
+  <!-- ============================== -->
+  <!-- UR robot (use_fake_hardware)   -->
+  <!-- ============================== -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+  <!-- generate_ros2_control_tag="false": the UR macro's generated tag includes
+       force_mode/* and other UR-specific hw interfaces that break
+       joint_state_broadcaster.  We provide our own minimal block below. -->
+  <xacro:ur_robot
+    name="$(arg name)"
+    tf_prefix="$(arg tf_prefix)"
+    parent="world"
+    joint_limits_parameters_file="${joint_limits_parameters_file}"
+    kinematics_parameters_file="${kinematics_parameters_file}"
+    physical_parameters_file="${physical_parameters_file}"
+    visual_parameters_file="${visual_parameters_file}"
+    generate_ros2_control_tag="false"
+    use_fake_hardware="false">
+    <!-- Robot floor-mounted at z=0.  Work table is a separate collision
+         object (0.85 m tall) in front of the robot.  Objects sit on the
+         table top at z≈0.85 m, which is 0.85 m above the robot base —
+         a natural top-down reach for KDL IK (matches ur_camera_ws setup). -->
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- ============================== -->
+  <!-- ros2_control for UR10 arm      -->
+  <!-- Minimal mock — 6 arm joints    -->
+  <!-- only, no UR-specific extras.   -->
+  <!-- ============================== -->
+  <ros2_control name="ur_arm" type="system">
+    <hardware>
+      <plugin>mock_components/GenericSystem</plugin>
+    </hardware>
+    <joint name="shoulder_pan_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="shoulder_lift_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">-1.5708</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="elbow_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="wrist_1_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">-1.5708</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="wrist_2_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="wrist_3_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- ============================== -->
+  <!-- Robotiq 3F Gripper             -->
+  <!-- ============================== -->
+  <xacro:include
+    filename="$(find robotiq_3f_description)/urdf/robotiq_3f_gripper_macro.xacro"/>
+  <xacro:robotiq_3f_gripper prefix="robotiq_"/>
+
+  <!-- Attach gripper to UR tool0 — 2 cm along Z for mount adapter plate -->
+  <joint name="ur_to_robotiq_mount" type="fixed">
+    <parent link="tool0"/>
+    <child link="robotiq_palm"/>
+    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ============================== -->
+  <!-- ros2_control for 3F gripper    -->
+  <!-- Uses mock_components so it     -->
+  <!-- works alongside IgnitionSystem -->
+  <!-- for the UR arm.                -->
+  <!-- ============================== -->
+  <ros2_control name="robotiq_3f_gripper" type="system">
+    <hardware>
+      <plugin>mock_components/GenericSystem</plugin>
+    </hardware>
+
+    <!-- Primary actuated joints (one per finger) -->
+    <joint name="robotiq_finger_a_joint_1">
+      <command_interface name="position">
+        <param name="min">0.0495</param>
+        <param name="max">1.2218</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0495</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="robotiq_finger_b_joint_1">
+      <command_interface name="position">
+        <param name="min">0.0495</param>
+        <param name="max">1.2218</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0495</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="robotiq_finger_c_joint_1">
+      <command_interface name="position">
+        <param name="min">0.0495</param>
+        <param name="max">1.2218</param>
+      </command_interface>
+      <state_interface name="position">
+        <param name="initial_value">0.0495</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Dependent joints — state interfaces only so
+         joint_state_broadcaster can publish them. -->
+    <joint name="robotiq_finger_a_joint_2">
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="robotiq_finger_a_joint_3">
+      <state_interface name="position">
+        <param name="initial_value">-0.0523</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="robotiq_finger_b_joint_2">
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="robotiq_finger_b_joint_3">
+      <state_interface name="position">
+        <param name="initial_value">-0.0523</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <joint name="robotiq_finger_c_joint_2">
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="robotiq_finger_c_joint_3">
+      <state_interface name="position">
+        <param name="initial_value">-0.0523</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+
+    <!-- Palm spread / scissor joints — state-only so robot_state_publisher
+         can publish their TF transforms (fixes disconnected gripper in RViz). -->
+    <joint name="robotiq_palm_finger_b_joint">
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+    <joint name="robotiq_palm_finger_c_joint">
+      <state_interface name="position">
+        <param name="initial_value">0.0</param>
+      </state_interface>
+      <state_interface name="velocity"/>
+    </joint>
+  </ros2_control>
+
+  <!-- ============================== -->
+  <!-- OAK-D Wide Wrist Camera        -->
+  <!-- Mounted on 3D-printed slab     -->
+  <!-- attached to the wrist — offset -->
+  <!-- to the side so it is visible   -->
+  <!-- in RViz and does not clip into -->
+  <!-- the gripper geometry.          -->
+  <!-- ============================== -->
+  <link name="oakd_wide_link">
+    <visual>
+      <geometry>
+        <!-- OAK-D Wide: ~9 cm wide, 3 cm tall, 2 cm deep -->
+        <box size="0.020 0.091 0.030"/>
+      </geometry>
+      <material>
+        <color rgba="0.0 0.5 1.0 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.020 0.091 0.030"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.072"/>
+      <inertia ixx="1e-5" ixy="0" ixz="0" iyy="1e-5" iyz="0" izz="1e-5"/>
+    </inertial>
+  </link>
+
+  <!-- 10 cm to the side of tool0 (Y offset), 4 cm back from tip.
+       Camera faces the same direction as the gripper approach axis. -->
+  <joint name="oakd_wide_joint" type="fixed">
+    <parent link="tool0"/>
+    <child link="oakd_wide_link"/>
+    <origin xyz="0.0 0.10 -0.04" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ============================== -->
+  <!-- OAK-D Pro Workspace Camera     -->
+  <!-- Tripod-mounted, outside the    -->
+  <!-- robot workspace, views the     -->
+  <!-- full table from the side.      -->
+  <!-- No collision geometry —        -->
+  <!-- outside the arm's reach.       -->
+  <!-- CALIBRATE: measure real tripod -->
+  <!-- pose in world frame and update -->
+  <!-- xyz/rpy below before using     -->
+  <!-- camera TF for real inference.  -->
+  <!-- ============================== -->
+  <link name="oakd_pro_link">
+    <visual>
+      <geometry>
+        <!-- OAK-D Pro body: ~10 cm wide, 3.5 cm tall, 3 cm deep -->
+        <box size="0.030 0.100 0.035"/>
+      </geometry>
+      <material>
+        <color rgba="1.0 0.5 0.0 1.0"/>
+      </material>
+    </visual>
+    <inertial>
+      <mass value="0.100"/>
+      <inertia ixx="1e-5" ixy="0" ixz="0" iyy="1e-5" iyz="0" izz="1e-5"/>
+    </inertial>
+  </link>
+
+  <!-- Tripod position estimate from HW_setup.odt photos (2026-04-07).
+       Camera is to the right of the workspace (~1.5 m in -Y), roughly
+       1.2 m high, angled ~25° down and ~85° toward the table (+Y direction).
+       rpy="0 0.4 1.57":  pitch 0.4 rad (23° nose-down), yaw 1.57 rad (90° left).
+       MUST be re-measured with a tape measure before using for real inference. -->
+  <joint name="oakd_pro_joint" type="fixed">
+    <parent link="world"/>
+    <child link="oakd_pro_link"/>
+    <origin xyz="0.70 -1.50 1.20" rpy="0 0.4 1.57"/>
+  </joint>
+
+</robot>

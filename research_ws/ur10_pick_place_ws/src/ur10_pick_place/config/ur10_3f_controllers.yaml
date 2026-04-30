@@ -1,0 +1,52 @@
+# ros2_control controller configuration for UR10 arm + Robotiq 3F gripper
+# Loaded by the ign_ros2_control Ignition Gazebo system plugin.
+
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+    # NOTE: controller types are NOT listed here.
+    # Listing them causes the CM to pre-load controllers at startup in an
+    # unconfigured state; the spawner then sees "already loaded", skips
+    # load_controller, but configure fails with "no controller with this
+    # name exists" (Humble timing race).  Pass types via spawner -t flag.
+
+
+joint_trajectory_controller:
+  ros__parameters:
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: false
+    constraints:
+      stopped_velocity_tolerance: 0.2
+      goal_time: 0.0
+
+
+gripper_trajectory_controller:
+  ros__parameters:
+    joints:
+      - robotiq_finger_a_joint_1
+      - robotiq_finger_b_joint_1
+      - robotiq_finger_c_joint_1
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 100.0
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: true
+    constraints:
+      stopped_velocity_tolerance: 0.2
+      goal_time: 5.0

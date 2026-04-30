@@ -1,0 +1,1 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/ament_cmake_python/robotiq_3f_interfaces/robotiq_3f_interfaces.egg-info/top_level.txt

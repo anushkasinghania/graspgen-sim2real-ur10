@@ -1,0 +1,146 @@
+[0.014s] Invoking command in '/home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim': CMAKE_PREFIX_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/user/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/user/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/opt/ros/humble LD_LIBRARY_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/research_ws/ur10_pick_place_ws/src/ur_yt_sim -DCMAKE_INSTALL_PREFIX=/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.115s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.185s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.188s] -- Detecting CXX compiler ABI info
+[0.254s] -- Detecting CXX compiler ABI info - done
+[0.260s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.260s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.263s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.395s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.476s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[0.477s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[0.512s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.516s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.574s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.589s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.594s] -- Looking for pthread.h
+[0.661s] -- Looking for pthread.h - found
+[0.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.729s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.730s] -- Found Threads: TRUE  
+[0.771s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.797s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.826s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.934s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.979s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.991s] -- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.010s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.095s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.126s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.126s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.252s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.277s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.363s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.386s] -- Found linkattacher_msgs: 0.0.0 (/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+[1.394s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.465s] -- Configured cppcheck include dirs: 
+[1.465s] -- Configured cppcheck exclude dirs and/or files: 
+[1.466s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.466s] -- Added test 'lint_cmake' to check CMake code style
+[1.467s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.468s] -- Added test 'uncrustify' to check C / C++ code style
+[1.468s] -- Configured uncrustify additional arguments: 
+[1.468s] -- Added test 'xmllint' to check XML markup files
+[1.469s] -- Configuring done
+[1.499s] -- Generating done
+[1.509s] -- Build files have been written to: /home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim
+[1.521s] Invoked command in '/home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/user/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/user/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/opt/ros/humble LD_LIBRARY_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/user/research_ws/ur10_pick_place_ws/src/ur_yt_sim -DCMAKE_INSTALL_PREFIX=/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim
+[1.523s] Invoking command in '/home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim': CMAKE_PREFIX_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/user/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/user/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/opt/ros/humble LD_LIBRARY_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim -- -j32 -l32
+[1.571s] [ 16%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[1.572s] [ 33%] [32mBuilding CXX object CMakeFiles/test_ik_collision_obj.dir/src/test_ik_collision_obj.cpp.o[0m
+[1.574s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[6.918s] [ 66%] [32m[1mLinking CXX executable test_ik[0m
+[6.982s] [ 83%] [32m[1mLinking CXX executable test_ik_collision_obj[0m
+[7.190s] [ 83%] Built target test_ik_collision_obj
+[7.197s] [ 83%] Built target test_ik
+[7.596s] [100%] [32m[1mLinking CXX executable pick_place[0m
+[7.875s] [100%] Built target pick_place
+[7.886s] Invoked command in '/home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/user/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/user/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/opt/ros/humble LD_LIBRARY_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim -- -j32 -l32
+[7.888s] Invoking command in '/home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim': CMAKE_PREFIX_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/user/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/user/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/opt/ros/humble LD_LIBRARY_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim
+[7.893s] -- Install configuration: ""
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera.launch.py
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera_gripper.launch.py
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper_moveit.launch.py
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera.launch.py
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper.launch.py
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_moveit.launch.py
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf
+[7.893s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_macro.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper.ros2_control.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_with_3f_gripper.urdf.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10.ros2_control.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera.urdf.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper_macro.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/camera.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera_gripper.urdf.xacro
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config
+[7.894s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers_gripper.yaml
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers.yaml
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config/initial_positions.yaml
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.png
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/xtion_pro_live.png
+[7.895s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.stl
+[7.896s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.dae
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/worlds
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/worlds/world2.world
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/worlds/world1.world
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/rviz
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/rviz/view_ur10_camera.rviz
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement1
+[7.897s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/green_cube
+[7.898s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.sdf
+[7.898s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.config
+[7.898s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box
+[7.898s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.sdf
+[7.898s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes
+[7.898s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.dae
+[7.898s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.stl
+[7.899s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.config
+[7.900s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement
+[7.900s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.sdf
+[7.900s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.config
+[7.900s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2
+[7.900s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.sdf
+[7.900s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/meshes
+[7.900s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/meshes/mini_stacking_box2.dae
+[7.901s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.config
+[7.901s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik
+[7.901s] -- Set runtime path of "/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik" to ""
+[7.901s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik_collision_obj
+[7.901s] -- Set runtime path of "/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik_collision_obj" to ""
+[7.901s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik
+[7.901s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik_collision_obj
+[7.902s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/pick_place
+[7.902s] -- Set runtime path of "/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/pick_place" to ""
+[7.902s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ament_index/resource_index/package_run_dependencies/ur_yt_sim
+[7.902s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ament_index/resource_index/parent_prefix_path/ur_yt_sim
+[7.902s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.sh
+[7.902s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.dsv
+[7.902s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/path.sh
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/path.dsv
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.bash
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.sh
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.zsh
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.dsv
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/package.dsv
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ament_index/resource_index/packages/ur_yt_sim
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig.cmake
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig-version.cmake
+[7.903s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/package.xml
+[7.905s] Invoked command in '/home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim' returned '0': CMAKE_PREFIX_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/user/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/user/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/opt/ros/humble LD_LIBRARY_PATH=/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib:/home/user/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_controllers/lib:/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim

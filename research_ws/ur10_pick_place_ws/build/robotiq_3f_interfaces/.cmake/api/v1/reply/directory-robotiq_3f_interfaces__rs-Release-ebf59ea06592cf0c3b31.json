@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robotiq_3f_interfaces__rs",
+		"source" : "/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/robotiq_3f_interfaces__rs"
+	}
+}

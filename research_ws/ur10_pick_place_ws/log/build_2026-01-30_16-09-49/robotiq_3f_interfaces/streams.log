@@ -1,0 +1,273 @@
+[0.018s] Invoking command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces -- -j32 -l32
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_generator_c[0m
+[0.074s] [  1%] Built target robotiq_3f_interfaces__cpp
+[0.079s] [ 12%] Built target robotiq_3f_interfaces__rosidl_generator_c
+[0.088s] [ 12%] Built target ament_cmake_python_copy_robotiq_3f_interfaces
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_cpp[0m
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_introspection_c[0m
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_c[0m
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.096s] [ 23%] Built target robotiq_3f_interfaces__rosidl_typesupport_cpp
+[0.096s] [ 35%] Built target robotiq_3f_interfaces__rosidl_typesupport_introspection_cpp
+[0.097s] [ 46%] Built target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.097s] [ 57%] Built target robotiq_3f_interfaces__rosidl_typesupport_introspection_c
+[0.097s] [ 69%] Built target robotiq_3f_interfaces__rosidl_typesupport_c
+[0.101s] [ 80%] Built target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c
+[0.117s] [ 80%] Built target robotiq_3f_interfaces
+[0.131s] [ 81%] Built target robotiq_3f_interfaces__py
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_generator_py[0m
+[0.154s] [ 91%] Built target robotiq_3f_interfaces__rosidl_generator_py
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_c__pyext[0m
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target robotiq_3f_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.171s] [ 94%] Built target robotiq_3f_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.171s] [ 97%] Built target robotiq_3f_interfaces__rosidl_typesupport_c__pyext
+[0.171s] [100%] Built target robotiq_3f_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.246s] running egg_info
+[0.247s] writing robotiq_3f_interfaces.egg-info/PKG-INFO
+[0.247s] writing dependency_links to robotiq_3f_interfaces.egg-info/dependency_links.txt
+[0.247s] writing top-level names to robotiq_3f_interfaces.egg-info/top_level.txt
+[0.249s] reading manifest file 'robotiq_3f_interfaces.egg-info/SOURCES.txt'
+[0.249s] writing manifest file 'robotiq_3f_interfaces.egg-info/SOURCES.txt'
+[0.272s] [100%] Built target ament_cmake_python_build_robotiq_3f_interfaces_egg
+[0.280s] Invoked command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces -- -j32 -l32
+[0.281s] Invoking command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces
+[0.286s] -- Install configuration: ""
+[0.286s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/ament_index/resource_index/rosidl_interfaces/robotiq_3f_interfaces
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/change_grasping_mode.h
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__functions.h
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.h
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__struct.h
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__functions.c
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[0.287s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/object_detection_status.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/grasping_mode.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__struct.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__functions.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__functions.c
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__functions.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__struct.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__struct.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__struct.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__functions.c
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__struct.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__functions.c
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__functions.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__functions.h
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__functions.c
+[0.288s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__functions.h
+[0.289s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__functions.c
+[0.289s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.289s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/status.h
+[0.289s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/simple_control_command.h
+[0.289s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/independent_control_command.h
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/library_path.sh
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/library_path.dsv
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_generator_c.so
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_fastrtps_c.h
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_fastrtps_c.h
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_fastrtps_c.h
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_fastrtps_c.h
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_fastrtps_c.h
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[0.290s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.c
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_introspection_c.h
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.c
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.c
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.c
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_introspection_c.h
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_introspection_c.h
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.c
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.c
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_introspection_c.h
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_introspection_c.h
+[0.291s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_introspection_c.so
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_c.so
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__traits.hpp
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.hpp
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__builder.hpp
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__struct.hpp
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/change_grasping_mode.hpp
+[0.292s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/object_detection_status.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__struct.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__traits.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__builder.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__builder.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__traits.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__traits.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__traits.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__traits.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__builder.hpp
+[0.293s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__struct.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__builder.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__struct.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__struct.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__builder.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__struct.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/simple_control_command.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/independent_control_command.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/grasping_mode.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/status.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/dds_fastrtps
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/dds_fastrtps
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_fastrtps_cpp.hpp
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv
+[0.294s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__rosidl_typesupport_introspection_cpp.hpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/srv/detail/change_grasping_mode__type_support.cpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__rosidl_typesupport_introspection_cpp.hpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__rosidl_typesupport_introspection_cpp.hpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__rosidl_typesupport_introspection_cpp.hpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__type_support.cpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/independent_control_command__type_support.cpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__type_support.cpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/grasping_mode__rosidl_typesupport_introspection_cpp.hpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/object_detection_status__type_support.cpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/include/robotiq_3f_interfaces/robotiq_3f_interfaces/msg/detail/simple_control_command__type_support.cpp
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_typesupport_cpp.so
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/pythonpath.sh
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/pythonpath.dsv
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces-0.0.1-py3.10.egg-info
+[0.295s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces-0.0.1-py3.10.egg-info/PKG-INFO
+[0.295s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces-0.0.1-py3.10.egg-info/top_level.txt
+[0.295s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces-0.0.1-py3.10.egg-info/dependency_links.txt
+[0.295s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces-0.0.1-py3.10.egg-info/SOURCES.txt
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/srv
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/srv/_change_grasping_mode.py
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/srv/__init__.py
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/srv/_change_grasping_mode_s.c
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_c.c
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/__init__.py
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/librobotiq_3f_interfaces__rosidl_generator_py.so
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_object_detection_status_s.c
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/__init__.py
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_independent_control_command.py
+[0.295s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_independent_control_command_s.c
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_simple_control_command.py
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_simple_control_command_s.c
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_grasping_mode.py
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_status_s.c
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_status.py
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_object_detection_status.py
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg/_grasping_mode_s.c
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.296s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.317s] Listing '/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces'...
+[0.317s] Listing '/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/msg'...
+[0.317s] Listing '/home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/srv'...
+[0.320s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.320s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/local/lib/python3.10/dist-packages/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.321s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/lib/librobotiq_3f_interfaces__rosidl_generator_py.so
+[0.321s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/ObjectDetectionStatus.idl
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/Status.idl
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/GraspingMode.idl
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/SimpleControlCommand.idl
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/IndependentControlCommand.idl
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/srv/ChangeGraspingMode.idl
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/ObjectDetectionStatus.msg
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/Status.msg
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/GraspingMode.msg
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/SimpleControlCommand.msg
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/msg/IndependentControlCommand.msg
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/srv/ChangeGraspingMode.srv
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/srv/ChangeGraspingMode_Request.msg
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/srv/ChangeGraspingMode_Response.msg
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_interfaces
+[0.322s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_interfaces
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/ament_prefix_path.sh
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/ament_prefix_path.dsv
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/path.sh
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/environment/path.dsv
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.bash
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.sh
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.zsh
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/local_setup.dsv
+[0.323s] -- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/package.dsv
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/ament_index/resource_index/packages/robotiq_3f_interfaces
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_cExport.cmake
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.323s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cExport.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_cppExport.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cppExport.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_pyExport.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/export_robotiq_3f_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.324s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfacesConfig.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/cmake/robotiq_3f_interfacesConfig-version.cmake
+[0.325s] -- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces/share/robotiq_3f_interfaces/package.xml
+[0.338s] Invoked command in '/home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces

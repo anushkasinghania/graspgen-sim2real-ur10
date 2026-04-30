@@ -1,0 +1,31 @@
+[2026-03-24 11:08:58,490][__main__][INFO] - Detected 1 GPU(s) available, setting cfg.train.num_gpus = 1
+[2026-03-24 11:08:58,492][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] No denylist found in /tmp/graspgen_cache/robotiq_3f, deleting cache dir. It may have been improperly created before.
+[2026-03-24 11:08:58,498][__main__][INFO] - Cache is imcomplete. Running in prefiltering mode first!
+[2026-03-24 11:08:58,499][__main__][INFO] - Prefiltering mode. Running with 1 GPU
+[2026-03-24 11:08:58,502][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache/robotiq_3f
+[2026-03-24 11:08:58,502][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_dis.json
+[2026-03-24 11:08:58,503][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
+[2026-03-24 11:08:58,503][grasp_gen.dataset.dataset][INFO] - No filtering; All datapoints are used
+[2026-03-24 11:08:58,542][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
+[2026-03-24 11:08:58,542][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5
+[2026-03-24 11:09:10,249][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5
+[2026-03-24 11:09:10,323][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_dis.h5 took 0.07415366172790527(s)
+[2026-03-24 11:09:10,324][grasp_gen.utils.train_utils][INFO] - Dataset for train has 10 datapoints
+[2026-03-24 11:09:10,326][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache/robotiq_3f
+[2026-03-24 11:09:10,326][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache/robotiq_3f/denylist_mesh_dis.json
+[2026-03-24 11:09:10,326][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/valid.txt
+[2026-03-24 11:09:10,326][grasp_gen.dataset.dataset][INFO] - No filtering; All datapoints are used
+[2026-03-24 11:09:10,362][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
+[2026-03-24 11:09:10,363][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5
+[2026-03-24 11:09:13,823][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5
+[2026-03-24 11:09:13,848][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_dis.h5 took 0.02460956573486328(s)
+[2026-03-24 11:09:13,848][grasp_gen.utils.train_utils][INFO] - Dataset for valid has 3 datapoints
+[2026-03-24 11:09:13,908][grasp_gen.models.discriminator][INFO] - Pose representation is mlp
+[2026-03-24 11:09:14,027][grasp_gen.utils.train_utils][INFO] - Using ADAM, LR 5e-05
+[2026-03-24 11:09:14,370][__main__][INFO] - Number of parameters in discriminator model: 3281857
+[2026-03-24 11:09:14,370][__main__][INFO] - Attempting to load checkpoint from None
+[2026-03-24 11:09:14,406][__main__][INFO] - Saved training configuration to /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy/config.yaml
+[2026-03-24 11:09:14,407][__main__][INFO] - Training starting at epoch 1 and batch index 0
+[2026-03-24 11:09:18,986][__main__][INFO] - Prefiltering mode. Exiting Train script since we iterated one pass over the dataset
+[2026-03-24 11:09:18,987][__main__][INFO] - Total training time: 0:00:04.579412
+[2026-03-24 11:09:18,989][__main__][INFO] - Prefiltering mode done. Running with original number of 1 GPUs

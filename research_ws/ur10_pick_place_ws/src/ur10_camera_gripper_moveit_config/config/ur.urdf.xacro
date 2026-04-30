@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- This file is a single include which allows moveit_configs_utils to point at "config/ur.urdf.xacro".
+       We include the combined UR+gripper description in ur_yt_sim for consistency. -->
+
+  <xacro:include filename="$(find ur_yt_sim)/urdf/ur10_with_3f_gripper.urdf.xacro"/>
+
+</robot>
+

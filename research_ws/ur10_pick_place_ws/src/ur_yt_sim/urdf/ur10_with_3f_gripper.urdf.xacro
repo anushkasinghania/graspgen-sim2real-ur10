@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur">
+
+  <!-- ===================== -->
+  <!-- Arguments -->
+  <!-- ===================== -->
+  <xacro:arg name="name" default="ur"/>
+  <xacro:arg name="tf_prefix" default=""/>
+  <xacro:arg name="ur_type" default="ur10"/>
+  <xacro:arg name="sim_gazebo" default="true"/>
+  <xacro:arg name="use_fake_hardware" default="true"/>
+
+  <!-- ===================== -->
+  <!-- World link -->
+  <!-- ===================== -->
+  <link name="world"/>
+
+  <!-- ===================== -->
+  <!-- UR config files -->
+  <!-- ===================== -->
+  <xacro:property name="joint_limits_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/joint_limits.yaml"/>
+
+  <xacro:property name="kinematics_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/default_kinematics.yaml"/>
+
+  <xacro:property name="physical_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/physical_parameters.yaml"/>
+
+  <xacro:property name="visual_parameters_file"
+    value="$(find ur_description)/config/$(arg ur_type)/visual_parameters.yaml"/>
+
+  <!-- ===================== -->
+  <!-- UR robot -->
+  <!-- ===================== -->
+  <xacro:include filename="$(find ur_description)/urdf/ur_macro.xacro"/>
+
+  <xacro:ur_robot
+    name="$(arg name)"
+    tf_prefix="$(arg tf_prefix)"
+    parent="world"
+    joint_limits_parameters_file="${joint_limits_parameters_file}"
+    kinematics_parameters_file="${kinematics_parameters_file}"
+    physical_parameters_file="${physical_parameters_file}"
+    visual_parameters_file="${visual_parameters_file}"
+    generate_ros2_control_tag="true"
+    use_fake_hardware="$(arg use_fake_hardware)"
+    sim_gazebo="$(arg sim_gazebo)">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </xacro:ur_robot>
+
+  <!-- ===================== -->
+  <!-- Robotiq 3F Gripper -->
+  <!-- ===================== -->
+  <xacro:include
+    filename="$(find robotiq_3f_description)/urdf/robotiq_3f_gripper_macro.xacro"/>
+
+  <!-- Instantiate gripper -->
+  <xacro:robotiq_3f_gripper prefix="robotiq_"/>
+
+  <!-- Attach gripper to UR tool0 -->
+  <joint name="ur_to_robotiq_mount" type="fixed">
+    <parent link="tool0"/>
+    <child link="robotiq_palm"/>
+    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+  </joint>
+
+</robot>
+

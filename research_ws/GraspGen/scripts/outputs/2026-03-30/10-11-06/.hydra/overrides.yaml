@@ -1,0 +1,16 @@
+- train.model_name=discriminator
+- data.root_dir=/home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f
+- data.object_root_dir=/home/ubuntu/GraspDataGen/objects_v3
+- data.grasp_root_dir=/home/ubuntu/GraspDataGen/graspgen_dataset_v3/grasp_data/robotiq_3f
+- data.gripper_name=robotiq_3f
+- data.dataset_version=v2
+- data.dataset_cls=ObjectPickDataset
+- data.cache_dir=/tmp/graspgen_cache_v3/
+- data.num_grasps_per_object=100
+- data.prob_point_cloud=-1
+- data.load_discriminator_dataset=True
+- diffusion.gripper_name=robotiq_3f
+- discriminator.gripper_name=robotiq_3f
+- train.log_dir=/home/ubuntu/GraspDataGen/training_logs/robotiq_3f_disc_v3/
+- train.num_epochs=500
+- data.discriminator_ratio=[0.50,0.45,0.00,0.05,0.0,0.0,0.0]

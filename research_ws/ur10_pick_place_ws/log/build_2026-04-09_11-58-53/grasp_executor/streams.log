@@ -1,0 +1,18 @@
+[1.778s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor': PYTHONPATH=/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build --no-deps symlink_data
+[2.447s] running develop
+[2.978s] running egg_info
+[2.978s] writing grasp_executor.egg-info/PKG-INFO
+[2.978s] writing dependency_links to grasp_executor.egg-info/dependency_links.txt
+[2.979s] writing entry points to grasp_executor.egg-info/entry_points.txt
+[2.979s] writing requirements to grasp_executor.egg-info/requires.txt
+[2.979s] writing top-level names to grasp_executor.egg-info/top_level.txt
+[2.984s] reading manifest file 'grasp_executor.egg-info/SOURCES.txt'
+[2.985s] writing manifest file 'grasp_executor.egg-info/SOURCES.txt'
+[3.059s] running build_ext
+[3.059s] Creating /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp-executor.egg-link (link to .)
+[3.061s] Installing grasp_executor_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+[3.061s] Installing graspgen_bridge_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+[3.062s] 
+[3.062s] Installed /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor
+[3.062s] running symlink_data
+[3.161s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor' returned '0': PYTHONPATH=/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build --no-deps symlink_data

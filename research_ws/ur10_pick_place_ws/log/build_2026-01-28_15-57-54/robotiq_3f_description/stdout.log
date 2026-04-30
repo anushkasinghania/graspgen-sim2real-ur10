@@ -1,0 +1,71 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/research_ws/ur10_pick_place_ws/build/robotiq_3f_description
+-- Install configuration: ""
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/launch
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/launch/visualize_description.launch.xml
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/launch/robotiq_3f_gripper.launch.xml
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.blend1
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1_base.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.blend1
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2.blend
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_2_base.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3_base_color.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.blend
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm_base.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3_material_map.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.blend1
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/base.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_1.blend
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_3.blend1
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/link_0.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/visual/palm.blend
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/palm.STL
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_2.STL
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_3.STL
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_1.STL
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/meshes/collision/link_0.STL
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper_macro.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/robotiq_3f_gripper_finger_macro.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/urdf/helper_macros.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/ament_index/resource_index/package_run_dependencies/robotiq_3f_description
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/ament_index/resource_index/parent_prefix_path/robotiq_3f_description
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/ament_prefix_path.sh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/ament_prefix_path.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/path.sh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/environment/path.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.bash
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.sh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.zsh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/local_setup.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/package.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/ament_index/resource_index/packages/robotiq_3f_description
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/cmake/robotiq_3f_descriptionConfig.cmake
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/cmake/robotiq_3f_descriptionConfig-version.cmake
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/robotiq_3f_description/share/robotiq_3f_description/package.xml

@@ -1,0 +1,1 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur_simulation_gazebo/ament_cmake_core/ur_simulation_gazeboConfig-version.cmake

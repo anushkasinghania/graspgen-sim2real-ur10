@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing grasp_executor.egg-info/PKG-INFO
+writing dependency_links to grasp_executor.egg-info/dependency_links.txt
+writing entry points to grasp_executor.egg-info/entry_points.txt
+writing requirements to grasp_executor.egg-info/requires.txt
+writing top-level names to grasp_executor.egg-info/top_level.txt
+reading manifest file 'grasp_executor.egg-info/SOURCES.txt'
+writing manifest file 'grasp_executor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages/grasp-executor.egg-link (link to .)
+Installing grasp_executor_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+Installing graspgen_bridge_node script to /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/grasp_executor
+
+Installed /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor
+running symlink_data
+symbolically linking /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/resource/grasp_executor -> /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/ament_index/resource_index/packages
+symbolically linking /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/package.xml -> /home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor

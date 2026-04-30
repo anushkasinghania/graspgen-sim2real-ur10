@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- UR10 + Robotiq 3F gripper SRDF (semantic) -->
+<robot name="ur">
+
+  <!-- Arm group -->
+  <group name="ur10_manipulator">
+    <chain base_link="base_link" tip_link="tool0"/>
+  </group>
+
+  <!-- Gripper group -->
+  <group name="robotiq_gripper">
+    <link name="robotiq_palm"/>
+    <link name="robotiq_tool0"/>
+
+    <link name="robotiq_finger_a_link_0"/>
+    <link name="robotiq_finger_a_link_1"/>
+    <link name="robotiq_finger_a_link_2"/>
+
+    <link name="robotiq_finger_b_link_0"/>
+    <link name="robotiq_finger_b_link_1"/>
+    <link name="robotiq_finger_b_link_2"/>
+
+    <link name="robotiq_finger_c_link_0"/>
+    <link name="robotiq_finger_c_link_1"/>
+    <link name="robotiq_finger_c_link_2"/>
+
+    <joint name="robotiq_palm_finger_a_joint"/>
+    <joint name="robotiq_palm_finger_b_joint"/>
+    <joint name="robotiq_palm_finger_c_joint"/>
+
+    <joint name="robotiq_finger_a_joint_1"/>
+    <joint name="robotiq_finger_a_joint_2"/>
+    <joint name="robotiq_finger_a_joint_3"/>
+
+    <joint name="robotiq_finger_b_joint_1"/>
+    <joint name="robotiq_finger_b_joint_2"/>
+    <joint name="robotiq_finger_b_joint_3"/>
+
+    <joint name="robotiq_finger_c_joint_1"/>
+    <joint name="robotiq_finger_c_joint_2"/>
+    <joint name="robotiq_finger_c_joint_3"/>
+  </group>
+
+  <!-- Arm named states -->
+  <group_state name="zero" group="ur10_manipulator">
+    <joint name="shoulder_pan_joint" value="0"/>
+    <joint name="shoulder_lift_joint" value="0"/>
+    <joint name="elbow_joint" value="0"/>
+    <joint name="wrist_1_joint" value="0"/>
+    <joint name="wrist_2_joint" value="0"/>
+    <joint name="wrist_3_joint" value="0"/>
+  </group_state>
+
+  <!-- Upright ready pose — arm pointing up, clear of table -->
+  <group_state name="ready" group="ur10_manipulator">
+    <joint name="shoulder_pan_joint" value="0"/>
+    <joint name="shoulder_lift_joint" value="-1.5708"/>
+    <joint name="elbow_joint" value="0"/>
+    <joint name="wrist_1_joint" value="-1.5708"/>
+    <joint name="wrist_2_joint" value="0"/>
+    <joint name="wrist_3_joint" value="0"/>
+  </group_state>
+
+  <!-- Gripper states — only the 3 actuated joints -->
+  <group_state name="open" group="robotiq_gripper">
+    <joint name="robotiq_finger_a_joint_1" value="0.0495"/>
+    <joint name="robotiq_finger_b_joint_1" value="0.0495"/>
+    <joint name="robotiq_finger_c_joint_1" value="0.0495"/>
+  </group_state>
+
+  <group_state name="close" group="robotiq_gripper">
+    <joint name="robotiq_finger_a_joint_1" value="0.79"/>
+    <joint name="robotiq_finger_b_joint_1" value="0.79"/>
+    <joint name="robotiq_finger_c_joint_1" value="0.79"/>
+  </group_state>
+
+  <end_effector name="eff" parent_link="tool0" group="robotiq_gripper" parent_group="ur10_manipulator"/>
+
+  <!-- Passive joints (not actuated — mimic/dependent) -->
+  <passive_joint name="robotiq_palm_finger_a_joint"/>
+  <passive_joint name="robotiq_palm_finger_b_joint"/>
+  <passive_joint name="robotiq_palm_finger_c_joint"/>
+  <passive_joint name="robotiq_finger_a_joint_2"/>
+  <passive_joint name="robotiq_finger_a_joint_3"/>
+  <passive_joint name="robotiq_finger_b_joint_2"/>
+  <passive_joint name="robotiq_finger_b_joint_3"/>
+  <passive_joint name="robotiq_finger_c_joint_2"/>
+  <passive_joint name="robotiq_finger_c_joint_3"/>
+
+  <!-- UR arm self-collisions (non-adjacent links that never collide) -->
+  <disable_collisions link1="base_link_inertia" link2="shoulder_link" reason="Adjacent"/>
+  <disable_collisions link1="shoulder_link" link2="upper_arm_link" reason="Adjacent"/>
+  <disable_collisions link1="upper_arm_link" link2="forearm_link" reason="Adjacent"/>
+  <disable_collisions link1="forearm_link" link2="wrist_1_link" reason="Adjacent"/>
+  <disable_collisions link1="wrist_1_link" link2="wrist_2_link" reason="Adjacent"/>
+  <disable_collisions link1="wrist_2_link" link2="wrist_3_link" reason="Adjacent"/>
+  <disable_collisions link1="base_link_inertia" link2="upper_arm_link" reason="Never"/>
+  <disable_collisions link1="base_link_inertia" link2="forearm_link" reason="Never"/>
+  <disable_collisions link1="shoulder_link" link2="forearm_link" reason="Never"/>
+  <disable_collisions link1="shoulder_link" link2="wrist_1_link" reason="Never"/>
+  <disable_collisions link1="upper_arm_link" link2="wrist_1_link" reason="Never"/>
+  <disable_collisions link1="upper_arm_link" link2="wrist_2_link" reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="wrist_2_link" reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="wrist_3_link" reason="Never"/>
+
+  <!-- Gripper mount — adjacent to arm tip -->
+  <disable_collisions link1="wrist_3_link" link2="robotiq_palm" reason="Adjacent"/>
+  <disable_collisions link1="tool0" link2="robotiq_palm" reason="Adjacent"/>
+
+  <!-- Finger A: full chain palm→0→1→2→3, disable adjacent + within-2-links -->
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_a_link_0" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_a_link_0" link2="robotiq_finger_a_link_1" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_a_link_1" link2="robotiq_finger_a_link_2" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_a_link_2" link2="robotiq_finger_a_link_3" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_a_link_1" reason="Never"/>
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_a_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_0" link2="robotiq_finger_a_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_0" link2="robotiq_finger_a_link_3" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_1" link2="robotiq_finger_a_link_3" reason="Never"/>
+
+  <!-- Finger B: full chain palm→0→1→2→3 -->
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_b_link_0" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_b_link_0" link2="robotiq_finger_b_link_1" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_b_link_1" link2="robotiq_finger_b_link_2" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_b_link_2" link2="robotiq_finger_b_link_3" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_b_link_1" reason="Never"/>
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_b_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_b_link_0" link2="robotiq_finger_b_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_b_link_0" link2="robotiq_finger_b_link_3" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_b_link_1" link2="robotiq_finger_b_link_3" reason="Never"/>
+
+  <!-- Finger C: full chain palm→0→1→2→3 -->
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_c_link_0" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_c_link_0" link2="robotiq_finger_c_link_1" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_c_link_1" link2="robotiq_finger_c_link_2" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_finger_c_link_2" link2="robotiq_finger_c_link_3" reason="Adjacent"/>
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_c_link_1" reason="Never"/>
+  <disable_collisions link1="robotiq_palm"           link2="robotiq_finger_c_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_c_link_0" link2="robotiq_finger_c_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_c_link_0" link2="robotiq_finger_c_link_3" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_c_link_1" link2="robotiq_finger_c_link_3" reason="Never"/>
+
+  <!-- Cross-finger: fingers approach each other to grasp — disable all cross pairs -->
+  <disable_collisions link1="robotiq_finger_a_link_0" link2="robotiq_finger_b_link_0" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_0" link2="robotiq_finger_c_link_0" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_b_link_0" link2="robotiq_finger_c_link_0" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_1" link2="robotiq_finger_b_link_1" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_1" link2="robotiq_finger_c_link_1" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_b_link_1" link2="robotiq_finger_c_link_1" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_2" link2="robotiq_finger_b_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_2" link2="robotiq_finger_c_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_b_link_2" link2="robotiq_finger_c_link_2" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_3" link2="robotiq_finger_b_link_3" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_a_link_3" link2="robotiq_finger_c_link_3" reason="Never"/>
+  <disable_collisions link1="robotiq_finger_b_link_3" link2="robotiq_finger_c_link_3" reason="Never"/>
+
+  <!-- Arm wrist ↔ gripper: wrist_3 and wrist_2 are very close to palm and finger bases -->
+  <disable_collisions link1="wrist_3_link" link2="robotiq_palm"           reason="Adjacent"/>
+  <disable_collisions link1="wrist_3_link" link2="robotiq_finger_a_link_0" reason="Never"/>
+  <disable_collisions link1="wrist_3_link" link2="robotiq_finger_b_link_0" reason="Never"/>
+  <disable_collisions link1="wrist_3_link" link2="robotiq_finger_c_link_0" reason="Never"/>
+  <disable_collisions link1="wrist_3_link" link2="robotiq_finger_a_link_1" reason="Never"/>
+  <disable_collisions link1="wrist_3_link" link2="robotiq_finger_b_link_1" reason="Never"/>
+  <disable_collisions link1="wrist_3_link" link2="robotiq_finger_c_link_1" reason="Never"/>
+  <disable_collisions link1="wrist_2_link" link2="robotiq_palm"           reason="Never"/>
+  <disable_collisions link1="wrist_2_link" link2="robotiq_finger_a_link_0" reason="Never"/>
+  <disable_collisions link1="wrist_2_link" link2="robotiq_finger_b_link_0" reason="Never"/>
+  <disable_collisions link1="wrist_2_link" link2="robotiq_finger_c_link_0" reason="Never"/>
+  <disable_collisions link1="tool0"        link2="robotiq_finger_a_link_0" reason="Never"/>
+  <disable_collisions link1="tool0"        link2="robotiq_finger_b_link_0" reason="Never"/>
+  <disable_collisions link1="tool0"        link2="robotiq_finger_c_link_0" reason="Never"/>
+
+  <!-- OAK-D Pro tripod camera — fixed to world, outside the robot workspace.
+       Disable all collisions: it is never reachable by the arm and has no
+       collision geometry, but FCL would still check it without these entries. -->
+  <disable_collisions link1="oakd_pro_link" link2="base_link_inertia"        reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="shoulder_link"            reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="upper_arm_link"           reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="forearm_link"             reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="wrist_1_link"             reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="wrist_2_link"             reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="wrist_3_link"             reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="tool0"                    reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="robotiq_palm"             reason="Never"/>
+  <disable_collisions link1="oakd_pro_link" link2="oakd_wide_link"           reason="Never"/>
+
+  <!-- Forearm ↔ gripper: in a wrist-wrapped IK solution (wrist_1 ≈ −245° instead of −90°)
+       FCL flags forearm_link vs robotiq_palm and finger tips as colliding, even though the
+       arm physically cannot reach those links without first violating closer-link constraints.
+       These pairs are geometrically "Never" in any valid arm configuration. -->
+  <disable_collisions link1="forearm_link" link2="robotiq_palm"             reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_a_link_0"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_b_link_0"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_c_link_0"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_a_link_1"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_b_link_1"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_c_link_1"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_a_link_2"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_b_link_2"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_c_link_2"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_a_link_3"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_b_link_3"  reason="Never"/>
+  <disable_collisions link1="forearm_link" link2="robotiq_finger_c_link_3"  reason="Never"/>
+
+  <!-- OAK-D Wide wrist camera (3D-printed slab between tool0 and gripper, 10cm Y offset).
+       Without these entries FCL treats oakd_wide_link as a collision body and raises
+       false positives against every adjacent wrist/gripper link, blocking all motions. -->
+  <disable_collisions link1="oakd_wide_link" link2="tool0"                   reason="Adjacent"/>
+  <disable_collisions link1="oakd_wide_link" link2="wrist_3_link"            reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="wrist_2_link"            reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="robotiq_palm"            reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="robotiq_finger_a_link_0" reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="robotiq_finger_b_link_0" reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="robotiq_finger_c_link_0" reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="robotiq_finger_a_link_1" reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="robotiq_finger_b_link_1" reason="Never"/>
+  <disable_collisions link1="oakd_wide_link" link2="robotiq_finger_c_link_1" reason="Never"/>
+</robot>
+

@@ -1,0 +1,140 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+-- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found linkattacher_msgs: 0.0.0 (/home/user/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/research_ws/ur10_pick_place_ws/build/ur_yt_sim
+[ 16%] [32mBuilding CXX object CMakeFiles/test_ik.dir/src/test_ik.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/test_ik_collision_obj.dir/src/test_ik_collision_obj.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_ik[0m
+[ 83%] [32m[1mLinking CXX executable test_ik_collision_obj[0m
+[ 83%] Built target test_ik_collision_obj
+[ 83%] Built target test_ik
+[100%] [32m[1mLinking CXX executable pick_place[0m
+[100%] Built target pick_place
+-- Install configuration: ""
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera.launch.py
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera_gripper.launch.py
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper_moveit.launch.py
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/view_ur10_camera.launch.py
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_gripper.launch.py
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/launch/spawn_ur10_camera_moveit.launch.py
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_macro.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper.ros2_control.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_with_3f_gripper.urdf.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10.ros2_control.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera.urdf.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/robotiq_gripper_macro.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/camera.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/urdf/ur10_camera_gripper.urdf.xacro
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers_gripper.yaml
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config/ur10_controllers.yaml
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/config/initial_positions.yaml
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/xtion_pro_live.png
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.stl
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/meshes/sensors/camera/kinetic.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/worlds
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/worlds/world2.world
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/worlds/world1.world
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/rviz
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/rviz/view_ur10_camera.rviz
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement1
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/green_cube
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.sdf
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/green_cube/model.config
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.sdf
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/meshes/mini_stacking_box.stl
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box/model.config
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.sdf
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/robo_basement/model.config
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.sdf
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/meshes
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/meshes/mini_stacking_box2.dae
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/models/mini_stacking_box2/model.config
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik
+-- Set runtime path of "/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik" to ""
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik_collision_obj
+-- Set runtime path of "/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik_collision_obj" to ""
+-- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik
+-- Up-to-date: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/test_ik_collision_obj
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/pick_place
+-- Set runtime path of "/home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/lib/ur_yt_sim/pick_place" to ""
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ament_index/resource_index/package_run_dependencies/ur_yt_sim
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ament_index/resource_index/parent_prefix_path/ur_yt_sim
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.sh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/ament_prefix_path.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/path.sh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/environment/path.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.bash
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.sh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.zsh
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/local_setup.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/package.dsv
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ament_index/resource_index/packages/ur_yt_sim
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig.cmake
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/cmake/ur_yt_simConfig-version.cmake
+-- Installing: /home/user/research_ws/ur10_pick_place_ws/install/ur_yt_sim/share/ur_yt_sim/package.xml

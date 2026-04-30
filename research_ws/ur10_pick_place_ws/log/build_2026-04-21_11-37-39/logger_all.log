@@ -1,0 +1,291 @@
+[0.592s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'grasp_executor', 'ur10_pick_place']
+[0.593s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['grasp_executor', 'ur10_pick_place'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff9b1eda20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9b1ed480>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9b1ed480>>, mixin_verb=('build',))
+[1.963s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[1.963s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[1.964s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[1.964s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[1.964s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[1.964s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[1.965s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/ubuntu/research_ws/ur10_pick_place_ws'
+[1.965s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.965s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[1.966s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[1.966s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[1.966s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[1.966s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[1.967s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[1.967s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[1.967s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[2.010s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[2.010s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[2.010s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[2.011s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[2.011s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[2.011s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.011s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[2.012s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[2.012s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.012s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[2.012s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[2.013s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.013s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[2.013s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[2.014s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.014s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[2.014s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[2.014s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[2.014s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[2.014s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[2.014s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[2.015s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[2.015s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[2.015s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[2.015s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[2.015s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[2.015s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[2.015s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ignore', 'ignore_ament_install']
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore'
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ignore_ament_install'
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_pkg']
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_pkg'
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['colcon_meta']
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'colcon_meta'
+[2.016s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['ros']
+[2.017s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'ros'
+[2.017s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['cmake', 'python']
+[2.017s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'cmake'
+[2.017s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python'
+[2.017s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extensions ['python_setup_py']
+[2.017s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation) by extension 'python_setup_py'
+[2.017s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore'
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ignore_ament_install'
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_pkg']
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_pkg'
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['colcon_meta']
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'colcon_meta'
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extensions ['ros']
+[2.018s] colcon.colcon_core.package_identification Level 1 _identify(src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo) by extension 'ros'
+[2.028s] colcon.colcon_core.package_identification DEBUG Package 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo' with type 'ros.ament_cmake' and name 'ur_simulation_gazebo'
+[2.029s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extensions ['ignore', 'ignore_ament_install']
+[2.029s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extension 'ignore'
+[2.029s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extension 'ignore_ament_install'
+[2.029s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extensions ['colcon_pkg']
+[2.029s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extension 'colcon_pkg'
+[2.029s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extensions ['colcon_meta']
+[2.029s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extension 'colcon_meta'
+[2.030s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extensions ['ros']
+[2.030s] colcon.colcon_core.package_identification Level 1 _identify(src/grasp_executor) by extension 'ros'
+[2.032s] colcon.colcon_core.package_identification DEBUG Package 'src/grasp_executor' with type 'ros.ament_python' and name 'grasp_executor'
+[2.033s] colcon.colcon_core.package_identification Level 1 _identify(src/linkattacher_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.033s] colcon.colcon_core.package_identification Level 1 _identify(src/linkattacher_msgs) by extension 'ignore'
+[2.033s] colcon.colcon_core.package_identification Level 1 _identify(src/linkattacher_msgs) ignored
+[2.033s] colcon.colcon_core.package_identification Level 1 _identify(src/linkattacher_plugin) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] colcon.colcon_core.package_identification Level 1 _identify(src/linkattacher_plugin) by extension 'ignore'
+[2.034s] colcon.colcon_core.package_identification Level 1 _identify(src/linkattacher_plugin) ignored
+[2.034s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extensions ['ignore', 'ignore_ament_install']
+[2.034s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'ignore'
+[2.034s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'ignore_ament_install'
+[2.034s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extensions ['colcon_pkg']
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'colcon_pkg'
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extensions ['colcon_meta']
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'colcon_meta'
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extensions ['ros']
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'ros'
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extensions ['cmake', 'python']
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'cmake'
+[2.035s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'python'
+[2.036s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extensions ['python_setup_py']
+[2.036s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper) by extension 'python_setup_py'
+[2.036s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extensions ['ignore', 'ignore_ament_install']
+[2.036s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extension 'ignore'
+[2.036s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extension 'ignore_ament_install'
+[2.036s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extensions ['colcon_pkg']
+[2.036s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extension 'colcon_pkg'
+[2.037s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extensions ['colcon_meta']
+[2.037s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extension 'colcon_meta'
+[2.037s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extensions ['ros']
+[2.037s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_description) by extension 'ros'
+[2.039s] colcon.colcon_core.package_identification DEBUG Package 'src/ros2_robotiq_3f_gripper/robotiq_3f_description' with type 'ros.ament_cmake' and name 'robotiq_3f_description'
+[2.040s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.040s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_driver) by extension 'ignore'
+[2.040s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_driver) ignored
+[2.040s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests) by extensions ['ignore', 'ignore_ament_install']
+[2.040s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests) by extension 'ignore'
+[2.041s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_hardware_tests) ignored
+[2.041s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.041s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extension 'ignore'
+[2.041s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extension 'ignore_ament_install'
+[2.041s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extensions ['colcon_pkg']
+[2.041s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extension 'colcon_pkg'
+[2.042s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extensions ['colcon_meta']
+[2.042s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extension 'colcon_meta'
+[2.042s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extensions ['ros']
+[2.042s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces) by extension 'ros'
+[2.044s] colcon.colcon_core.package_identification DEBUG Package 'src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces' with type 'ros.ament_cmake' and name 'robotiq_3f_interfaces'
+[2.044s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_transmission_plugins) by extensions ['ignore', 'ignore_ament_install']
+[2.044s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_transmission_plugins) by extension 'ignore'
+[2.045s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_3f_gripper/robotiq_3f_transmission_plugins) ignored
+[2.045s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_gripper) by extensions ['ignore', 'ignore_ament_install']
+[2.045s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_gripper) by extension 'ignore'
+[2.045s] colcon.colcon_core.package_identification Level 1 _identify(src/ros2_robotiq_gripper) ignored
+[2.046s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[2.046s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extension 'ignore'
+[2.046s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extension 'ignore_ament_install'
+[2.046s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extensions ['colcon_pkg']
+[2.046s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extension 'colcon_pkg'
+[2.046s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extensions ['colcon_meta']
+[2.046s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extension 'colcon_meta'
+[2.047s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extensions ['ros']
+[2.047s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_gripper_moveit_config) by extension 'ros'
+[2.049s] colcon.colcon_core.package_identification DEBUG Package 'src/ur10_camera_gripper_moveit_config' with type 'ros.ament_cmake' and name 'ur10_camera_gripper_moveit_config'
+[2.050s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[2.050s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_moveit_config) by extension 'ignore'
+[2.050s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_camera_moveit_config) ignored
+[2.050s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extensions ['ignore', 'ignore_ament_install']
+[2.050s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extension 'ignore'
+[2.051s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extension 'ignore_ament_install'
+[2.051s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extensions ['colcon_pkg']
+[2.051s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extension 'colcon_pkg'
+[2.051s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extensions ['colcon_meta']
+[2.051s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extension 'colcon_meta'
+[2.051s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extensions ['ros']
+[2.051s] colcon.colcon_core.package_identification Level 1 _identify(src/ur10_pick_place) by extension 'ros'
+[2.054s] colcon.colcon_core.package_identification DEBUG Package 'src/ur10_pick_place' with type 'ros.ament_cmake' and name 'ur10_pick_place'
+[2.054s] colcon.colcon_core.package_identification Level 1 _identify(src/ur_yt_sim) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] colcon.colcon_core.package_identification Level 1 _identify(src/ur_yt_sim) by extension 'ignore'
+[2.054s] colcon.colcon_core.package_identification Level 1 _identify(src/ur_yt_sim) ignored
+[2.054s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[2.055s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[2.055s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[2.055s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[2.055s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[2.118s] colcon.colcon_core.package_selection INFO Skipping not selected package 'robotiq_3f_description' in 'src/ros2_robotiq_3f_gripper/robotiq_3f_description'
+[2.118s] colcon.colcon_core.package_selection INFO Skipping not selected package 'robotiq_3f_interfaces' in 'src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces'
+[2.118s] colcon.colcon_core.package_selection INFO Skipping not selected package 'ur10_camera_gripper_moveit_config' in 'src/ur10_camera_gripper_moveit_config'
+[2.118s] colcon.colcon_core.package_selection INFO Skipping not selected package 'ur_simulation_gazebo' in 'src/Universal_Robots_ROS2_Gazebo_Simulation/ur_simulation_gazebo'
+[2.120s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) check parameters
+[2.120s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) discover
+[2.134s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 11 installed packages in /home/ubuntu/research_ws/ur10_pick_place_ws/install
+[2.136s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 11 installed packages in /home/ubuntu/ur_camera_ws/install
+[2.137s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 0 installed packages in /home/ubuntu/ur10_sim_ws/install
+[2.141s] colcon.colcon_installed_package_information.package_discovery DEBUG Found 452 installed packages in /opt/ros/humble
+[2.149s] colcon.colcon_core.package_discovery Level 1 discover_packages(prefix_path) using defaults
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'cmake_args' from command line to 'None'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'cmake_target' from command line to 'None'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'cmake_clean_cache' from command line to 'False'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'cmake_clean_first' from command line to 'False'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'cmake_force_configure' from command line to 'False'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'ament_cmake_args' from command line to 'None'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'catkin_cmake_args' from command line to 'None'
+[2.321s] colcon.colcon_core.verb Level 5 set package 'grasp_executor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.321s] colcon.colcon_core.verb DEBUG Building package 'grasp_executor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor', 'merge_install': False, 'path': '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor', 'symlink_install': False, 'test_result_base': None}
+[2.322s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'cmake_args' from command line to 'None'
+[2.322s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'cmake_target' from command line to 'None'
+[2.322s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.322s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'cmake_clean_cache' from command line to 'False'
+[2.322s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'cmake_clean_first' from command line to 'False'
+[2.323s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'cmake_force_configure' from command line to 'False'
+[2.323s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'ament_cmake_args' from command line to 'None'
+[2.323s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'catkin_cmake_args' from command line to 'None'
+[2.323s] colcon.colcon_core.verb Level 5 set package 'ur10_pick_place' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.323s] colcon.colcon_core.verb DEBUG Building package 'ur10_pick_place' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place', 'merge_install': False, 'path': '/home/ubuntu/research_ws/ur10_pick_place_ws/src/ur10_pick_place', 'symlink_install': False, 'test_result_base': None}
+[2.323s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[2.326s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[2.326s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor' with build type 'ament_python'
+[2.327s] colcon.colcon_core.shell Level 1 create_environment_hook('grasp_executor', 'ament_prefix_path')
+[2.349s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.350s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/hook/ament_prefix_path.ps1'
+[2.353s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/hook/ament_prefix_path.dsv'
+[2.355s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/hook/ament_prefix_path.sh'
+[2.359s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.359s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[2.374s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/ur10_pick_place' with build type 'ament_cmake'
+[2.374s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/ur10_pick_place'
+[2.375s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.375s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[3.098s] colcon.colcon_core.task.python.build INFO Building Python package in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor'
+[3.100s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.100s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[3.138s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place': CMAKE_PREFIX_PATH=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake /home/ubuntu/research_ws/ur10_pick_place_ws/src/ur10_pick_place -DCMAKE_INSTALL_PREFIX=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place
+[4.372s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake /home/ubuntu/research_ws/ur10_pick_place_ws/src/ur10_pick_place -DCMAKE_INSTALL_PREFIX=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place
+[4.378s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place': CMAKE_PREFIX_PATH=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place -- -j12 -l12
+[4.510s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place -- -j12 -l12
+[4.542s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place': CMAKE_PREFIX_PATH=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place
+[4.620s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(ur10_pick_place)
+[4.621s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_yt_sim:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur_simulation_gazebo:/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_description:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_controllers:/home/ubuntu/research_ws/ur10_pick_place_ws/install/robotiq_3f_interfaces:/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs:/home/ubuntu/ur_camera_ws/install/ur_moveit_config:/home/ubuntu/ur_camera_ws/install/easy_handeye2_msgs:/home/ubuntu/ur_camera_ws/install/depthai-ros:/home/ubuntu/ur_camera_ws/install/depthai_ros_driver:/home/ubuntu/ur_camera_ws/install/depthai_filters:/home/ubuntu/ur_camera_ws/install/depthai_examples:/home/ubuntu/ur_camera_ws/install/depthai_bridge:/home/ubuntu/ur_camera_ws/install/depthai_ros_msgs:/home/ubuntu/ur_camera_ws/install/depthai_descriptions:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place
+[4.644s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place' for CMake module files
+[4.646s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place' for CMake config files
+[4.649s] colcon.colcon_core.shell Level 1 create_environment_hook('ur10_pick_place', 'cmake_prefix_path')
+[4.650s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/hook/cmake_prefix_path.ps1'
+[4.653s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/hook/cmake_prefix_path.dsv'
+[4.653s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/hook/cmake_prefix_path.sh'
+[4.656s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/lib'
+[4.657s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/bin'
+[4.657s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/lib/pkgconfig/ur10_pick_place.pc'
+[4.657s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/lib/python3.10/site-packages'
+[4.658s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/bin'
+[4.659s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.ps1'
+[4.663s] colcon.colcon_core.shell INFO Creating package descriptor '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.dsv'
+[4.667s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.sh'
+[4.671s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.bash'
+[4.676s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.zsh'
+[4.686s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/colcon-core/packages/ur10_pick_place)
+[4.689s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(ur10_pick_place)
+[4.689s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place' for CMake module files
+[4.692s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place' for CMake config files
+[4.694s] colcon.colcon_core.shell Level 1 create_environment_hook('ur10_pick_place', 'cmake_prefix_path')
+[4.695s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/hook/cmake_prefix_path.ps1'
+[4.697s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/hook/cmake_prefix_path.dsv'
+[4.698s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/hook/cmake_prefix_path.sh'
+[4.700s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/lib'
+[4.701s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/bin'
+[4.701s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/lib/pkgconfig/ur10_pick_place.pc'
+[4.702s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/lib/python3.10/site-packages'
+[4.703s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/bin'
+[4.704s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.ps1'
+[4.706s] colcon.colcon_core.shell INFO Creating package descriptor '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.dsv'
+[4.708s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.sh'
+[4.709s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.bash'
+[4.710s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/ur10_pick_place/package.zsh'
+[4.712s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_pick_place/share/colcon-core/packages/ur10_pick_place)
+[4.837s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor': PYTHONPATH=/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/grasp_executor build --build-base /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build install --record /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log --single-version-externally-managed install_data
+[5.639s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor' for CMake module files
+[5.641s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/src/grasp_executor' returned '0': PYTHONPATH=/home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/grasp_executor build --build-base /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/build install --record /home/ubuntu/research_ws/ur10_pick_place_ws/build/grasp_executor/install.log --single-version-externally-managed install_data
+[5.643s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor' for CMake config files
+[5.645s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib'
+[5.645s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/bin'
+[5.646s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/pkgconfig/grasp_executor.pc'
+[5.646s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/lib/python3.10/site-packages'
+[5.646s] colcon.colcon_core.shell Level 1 create_environment_hook('grasp_executor', 'pythonpath')
+[5.647s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/hook/pythonpath.ps1'
+[5.649s] colcon.colcon_core.shell INFO Creating environment descriptor '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/hook/pythonpath.dsv'
+[5.650s] colcon.colcon_core.shell INFO Creating environment hook '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/hook/pythonpath.sh'
+[5.652s] colcon.colcon_core.environment Level 1 checking '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/bin'
+[5.652s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(grasp_executor)
+[5.653s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/package.ps1'
+[5.654s] colcon.colcon_core.shell INFO Creating package descriptor '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/package.dsv'
+[5.655s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/package.sh'
+[5.656s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/package.bash'
+[5.658s] colcon.colcon_core.shell INFO Creating package script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/grasp_executor/package.zsh'
+[5.659s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/home/ubuntu/research_ws/ur10_pick_place_ws/install/grasp_executor/share/colcon-core/packages/grasp_executor)
+[5.660s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[5.661s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[5.662s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[5.662s] colcon.colcon_core.event_reactor DEBUG joining thread
+[5.700s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.701s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.701s] colcon.colcon_notification.desktop_notification INFO Sending desktop notification using 'notify2'
+[5.771s] colcon.colcon_core.event_reactor DEBUG joined thread
+[5.772s] colcon.colcon_core.shell INFO Creating prefix script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/local_setup.ps1'
+[5.777s] colcon.colcon_core.shell INFO Creating prefix util module '/home/ubuntu/research_ws/ur10_pick_place_ws/install/_local_setup_util_ps1.py'
+[5.782s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/setup.ps1'
+[5.791s] colcon.colcon_core.shell INFO Creating prefix script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/local_setup.sh'
+[5.794s] colcon.colcon_core.shell INFO Creating prefix util module '/home/ubuntu/research_ws/ur10_pick_place_ws/install/_local_setup_util_sh.py'
+[5.797s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/setup.sh'
+[5.809s] colcon.colcon_core.shell INFO Creating prefix script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/local_setup.bash'
+[5.812s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/setup.bash'
+[5.819s] colcon.colcon_core.shell INFO Creating prefix script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/local_setup.zsh'
+[5.822s] colcon.colcon_core.shell INFO Creating prefix chain script '/home/ubuntu/research_ws/ur10_pick_place_ws/install/setup.zsh'

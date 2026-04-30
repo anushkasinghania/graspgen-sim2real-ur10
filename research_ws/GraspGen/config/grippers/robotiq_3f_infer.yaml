@@ -1,0 +1,49 @@
+# Inference config for GraspGen v3 — Robotiq 3F
+# Generator:    ~/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth
+# Discriminator: ~/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy_v3/epoch_500.pth
+
+eval:
+  model_name: diffusion-discriminator
+  checkpoint: /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth
+
+data:
+  gripper_name: robotiq_3f
+
+diffusion:
+  obs_backbone: pointnet
+  checkpoint_object_encoder_pretrained: null
+  num_embed_dim: 256
+  num_obs_dim: 512
+  diffusion_embed_dim: 512
+  image_size: 256
+  num_diffusion_iters: 100
+  num_diffusion_iters_eval: 100
+  compositional_schedular: true
+  loss_pointmatching: true
+  loss_l1_pos: false
+  loss_l1_rot: false
+  grasp_repr: r3_6d
+  kappa: -1
+  clip_sample: true
+  beta_schedule: squaredcos_cap_v2
+  npn_architecture: ffn
+  attention: cat
+  gripper_name: robotiq_3f
+  pose_repr: mlp
+  num_grasps_per_object: 100
+  ptv3:
+    grid_size: 0.01
+
+discriminator:
+  checkpoint: /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy_v3/epoch_500.pth
+  checkpoint_object_encoder_pretrained: null
+  obs_backbone: pointnet
+  num_embed_dim: 256
+  num_obs_dim: 512
+  grasp_repr: r3_6d
+  pose_repr: mlp
+  topk_ratio: 0.75
+  kappa: 1.0
+  gripper_name: robotiq_3f
+  ptv3:
+    grid_size: 0.01

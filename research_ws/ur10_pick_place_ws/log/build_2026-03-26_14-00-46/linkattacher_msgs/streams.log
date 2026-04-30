@@ -1,0 +1,186 @@
+[0.087s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs -- -j12 -l12
+[0.805s] [  7%] Built target linkattacher_msgs__cpp
+[0.805s] [ 12%] Built target linkattacher_msgs__rosidl_generator_c
+[0.806s] [ 15%] Built target linkattacher_msgs__rs
+[0.806s] [ 15%] Built target ament_cmake_python_copy_linkattacher_msgs
+[0.807s] [ 25%] Built target linkattacher_msgs__rosidl_typesupport_c
+[0.807s] [ 60%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c
+[0.807s] [ 65%] Built target linkattacher_msgs__rosidl_typesupport_introspection_cpp
+[0.807s] [ 65%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c
+[0.807s] [ 60%] Built target linkattacher_msgs__rosidl_typesupport_cpp
+[0.807s] [ 75%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_cpp
+[0.808s] [ 75%] Built target linkattacher_msgs
+[0.808s] [ 77%] Built target linkattacher_msgs__py
+[0.808s] [ 85%] Built target linkattacher_msgs__rosidl_generator_py
+[0.808s] [100%] Built target linkattacher_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.808s] [100%] Built target linkattacher_msgs__rosidl_typesupport_introspection_c__pyext
+[0.808s] [100%] Built target linkattacher_msgs__rosidl_typesupport_c__pyext
+[0.850s] running egg_info
+[0.867s] writing linkattacher_msgs.egg-info/PKG-INFO
+[0.867s] writing dependency_links to linkattacher_msgs.egg-info/dependency_links.txt
+[0.867s] writing top-level names to linkattacher_msgs.egg-info/top_level.txt
+[0.902s] reading manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[0.903s] writing manifest file 'linkattacher_msgs.egg-info/SOURCES.txt'
+[1.013s] [100%] Built target ament_cmake_python_build_linkattacher_msgs_egg
+[1.015s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs -- -j12 -l12
+[1.018s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs
+[1.063s] -- Install configuration: "Release"
+[1.063s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/ament_index/resource_index/rosidl_interfaces/linkattacher_msgs
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.h
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.064s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.c
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.c
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.h
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.h
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.h
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.h
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__functions.h
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__functions.h
+[1.065s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.h
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.sh
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/library_path.dsv
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_c.so
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.066s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_c.h
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_c.h
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_c.so
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.067s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.068s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_c.h
+[1.068s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.c
+[1.068s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_c.h
+[1.068s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.c
+[1.068s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_c.so
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_c.so
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/attach_link.hpp
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.069s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__struct.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__struct.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__traits.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__builder.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__traits.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__builder.hpp
+[1.070s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detach_link.hpp
+[1.071s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.071s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.071s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.071s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.071s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.071s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.071s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/dds_fastrtps
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_fastrtps_cpp.hpp
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail
+[1.072s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__rosidl_typesupport_introspection_cpp.hpp
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/attach_link__type_support.cpp
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/include/linkattacher_msgs/linkattacher_msgs/srv/detail/detach_link__type_support.cpp
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_introspection_cpp.so
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_typesupport_cpp.so
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.sh
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/pythonpath.dsv
+[1.073s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info
+[1.073s] -- Installing: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.074s] -- Installing: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.074s] -- Installing: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.074s] -- Installing: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.074s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs
+[1.074s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/liblinkattacher_msgs__rosidl_generator_py.so
+[1.074s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv
+[1.074s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/__init__.py
+[1.074s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link_s.c
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link_s.c
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_attach_link.py
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv/_detach_link.py
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_c.c
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/__init__.py
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.075s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/_linkattacher_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.076s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.076s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.119s] Listing '/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs'...
+[1.119s] Listing '/home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/srv'...
+[1.132s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.132s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.133s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/local/lib/python3.10/dist-packages/linkattacher_msgs/linkattacher_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.133s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/lib/liblinkattacher_msgs__rosidl_generator_py.so
+[1.134s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/ament_index/resource_index/rust_packages/linkattacher_msgs
+[1.134s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust
+[1.134s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust/src
+[1.134s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust/src/lib.rs
+[1.134s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust/src/srv
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust/src/srv/rmw.rs
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust/src/srv.rs
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust/build.rs
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/rust/Cargo.toml
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.idl
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.idl
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink.srv
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Request.msg
+[1.135s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/AttachLink_Response.msg
+[1.136s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink.srv
+[1.136s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Request.msg
+[1.136s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/srv/DetachLink_Response.msg
+[1.136s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/ament_index/resource_index/package_run_dependencies/linkattacher_msgs
+[1.136s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/ament_index/resource_index/parent_prefix_path/linkattacher_msgs
+[1.136s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.sh
+[1.137s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/ament_prefix_path.dsv
+[1.137s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.sh
+[1.137s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/environment/path.dsv
+[1.137s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.bash
+[1.137s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.sh
+[1.137s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.zsh
+[1.137s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/local_setup.dsv
+[1.137s] -- Installing: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.dsv
+[1.138s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/ament_index/resource_index/packages/linkattacher_msgs
+[1.138s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport.cmake
+[1.138s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cExport-release.cmake
+[1.138s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.138s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.138s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cExport-release.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_cppExport.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.139s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.140s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport.cmake
+[1.140s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.140s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport.cmake
+[1.140s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/export_linkattacher_msgs__rosidl_generator_pyExport-release.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake-extras.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.141s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig.cmake
+[1.142s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/cmake/linkattacher_msgsConfig-version.cmake
+[1.142s] -- Up-to-date: /home/ubuntu/research_ws/ur10_pick_place_ws/install/linkattacher_msgs/share/linkattacher_msgs/package.xml
+[1.147s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/linkattacher_msgs

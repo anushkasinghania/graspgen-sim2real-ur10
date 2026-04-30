@@ -1,0 +1,1 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_generator_cpp/robotiq_3f_interfaces/msg/detail/object_detection_status__traits.hpp

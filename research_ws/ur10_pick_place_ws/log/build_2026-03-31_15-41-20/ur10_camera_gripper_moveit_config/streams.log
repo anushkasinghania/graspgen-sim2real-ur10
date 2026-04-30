@@ -1,0 +1,50 @@
+[0.086s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config -- -j12 -l12
+[0.956s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config -- -j12 -l12
+[0.959s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config
+[0.985s] -- Install configuration: "Release"
+[0.986s] -- Execute custom install script
+[0.986s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur10_camera_gripper_moveit_config
+[0.986s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur10_camera_gripper_moveit_config
+[0.986s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/environment/ament_prefix_path.sh
+[0.995s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/environment/ament_prefix_path.dsv
+[0.995s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/environment/path.sh
+[0.996s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/environment/path.dsv
+[0.996s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/local_setup.bash
+[0.996s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/local_setup.sh
+[0.996s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/local_setup.zsh
+[0.996s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/local_setup.dsv
+[0.996s] -- Symlinking: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/package.dsv
+[1.020s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ament_index/resource_index/packages/ur10_camera_gripper_moveit_config
+[1.021s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/cmake/ur10_camera_gripper_moveit_configConfig.cmake
+[1.021s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/cmake/ur10_camera_gripper_moveit_configConfig-version.cmake
+[1.021s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/package.xml
+[1.021s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/demo.launch.py
+[1.021s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/move_group.launch.py
+[1.021s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/moveit_rviz.launch.py
+[1.022s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/rsp.launch.py
+[1.022s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/setup_assistant.launch.py
+[1.022s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/spawn_controllers.launch.py
+[1.022s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/static_virtual_joint_tfs.launch.py
+[1.022s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/ur10_gazebo_moveit.launch.py
+[1.022s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/launch/warehouse_db.launch.py
+[1.022s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/chomp_planning.yaml
+[1.023s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/initial_positions.yaml
+[1.024s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/joint_limits.yaml
+[1.026s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/kinematics.yaml
+[1.027s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/lerp_planning.yaml
+[1.028s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/moveit.rviz
+[1.097s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/moveit_controllers.yaml
+[1.097s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/ompl_planning.yaml
+[1.097s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/pilz_cartesian_limits.yaml
+[1.097s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/pilz_industrial_motion_planner_planning.yaml
+[1.097s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/ros2_controllers.yaml
+[1.098s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/sensors_3d.yaml
+[1.098s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/trajopt_planning.yaml
+[1.098s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/ur.ros2_control.xacro
+[1.098s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/ur.srdf
+[1.098s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/ur.urdf
+[1.098s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/ur.urdf.xacro
+[1.098s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/config/ur10_robotiq_3f.rviz
+[1.099s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/urdf/ur10_with_3f_gripper.urdf.xacro
+[1.099s] -- Up-to-date symlink: /home/ubuntu/research_ws/ur10_pick_place_ws/install/ur10_camera_gripper_moveit_config/share/ur10_camera_gripper_moveit_config/.setup_assistant
+[1.131s] Invoked command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_camera_gripper_moveit_config

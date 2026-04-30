@@ -1,0 +1,15 @@
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ament_index/resource_index/package_run_dependencies/ros2_linkattacher
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ament_index/resource_index/parent_prefix_path/ros2_linkattacher
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.sh
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/ament_prefix_path.dsv
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.sh
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/environment/path.dsv
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.bash
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.sh
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.zsh
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/local_setup.dsv
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.dsv
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ament_index/resource_index/packages/ros2_linkattacher
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig.cmake
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/cmake/ros2_linkattacherConfig-version.cmake
+/home/ubuntu/research_ws/ur10_pick_place_ws/install/ros2_linkattacher/share/ros2_linkattacher/package.xml

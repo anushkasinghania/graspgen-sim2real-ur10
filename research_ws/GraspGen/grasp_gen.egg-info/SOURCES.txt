@@ -1,0 +1,12 @@
+LICENSE_ASSETS.md
+README.md
+setup.py
+grasp_gen/__init__.py
+grasp_gen/grasp_server.py
+grasp_gen/metrics.py
+grasp_gen/robot.py
+grasp_gen.egg-info/PKG-INFO
+grasp_gen.egg-info/SOURCES.txt
+grasp_gen.egg-info/dependency_links.txt
+grasp_gen.egg-info/requires.txt
+grasp_gen.egg-info/top_level.txt
