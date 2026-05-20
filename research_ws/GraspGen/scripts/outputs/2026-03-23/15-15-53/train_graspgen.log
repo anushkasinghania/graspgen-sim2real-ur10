@@ -1,9 +1,0 @@
-[2026-03-23 15:15:54,071][__main__][INFO] - Detected 1 GPU(s) available, setting cfg.train.num_gpus = 1
-[2026-03-23 15:15:54,072][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Found cache file for split train: /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_gen.h5. Loading cache...
-[2026-03-23 15:15:54,137][grasp_gen.dataset.dataset_utils][INFO] - Loading cache from /tmp/graspgen_cache/robotiq_3f/cache_train_mesh_gen.h5 took 0.0649721622467041(s)
-[2026-03-23 15:15:54,139][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/train.txt
-[2026-03-23 15:15:54,140][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Cache for split train is complete. It has been properly generated.
-[2026-03-23 15:15:54,140][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Found cache file for split valid: /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_gen.h5. Loading cache...
-[2026-03-23 15:15:54,161][grasp_gen.dataset.dataset_utils][INFO] - Loading cache from /tmp/graspgen_cache/robotiq_3f/cache_valid_mesh_gen.h5 took 0.020618200302124023(s)
-[2026-03-23 15:15:54,162][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset/splits/robotiq_3f/valid.txt
-[2026-03-23 15:15:54,163][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] Cache for split valid is complete. It has been properly generated.

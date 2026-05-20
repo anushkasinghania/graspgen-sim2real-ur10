@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_generator_py/robotiq_3f_interfaces/robotiq_3f_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "robotiq_3f_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/robotiq_3f_interfaces")

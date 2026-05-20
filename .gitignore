@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights & checkpoints (too large for GitHub)
+*.pth
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+checkpoints/
+
+# ROS2 build artifacts
+/research_ws/ur10_pick_place_ws/build/
+/research_ws/ur10_pick_place_ws/install/
+/research_ws/ur10_pick_place_ws/log/
+*.colcon_build.sh.env
+colcon_command_prefix_*.sh
+
+# Cache files
+.cache/
+*.cache
+
+# GraspDataGen — large data (exclude datasets and trained weights)
+/GraspDataGen/training_logs/
+/GraspDataGen/objects_v3/
+/GraspDataGen/objects/
+/GraspDataGen/graspgen_dataset_v3/
+/GraspDataGen/graspgen_dataset/
+/GraspDataGen/output/
+
+# SAM2 — build artifacts and checkpoint
+/research_ws/segment-anything-2/build/
+/research_ws/segment-anything-2/dist/
+/research_ws/segment-anything-2/checkpoints/
+/research_ws/segment-anything-2/SAM_2.egg-info/
+/research_ws/segment-anything-2/sam2.egg-info/
+
+# GraspGen egg-info and cache
+/research_ws/GraspGen/grasp_gen.egg-info/
+/research_ws/GraspGen/.cache/
+/research_ws/GraspGen/GraspGen
+
+# Training logs inside research_ws
+/GraspDataGen/training_logs/
+
+# System / IDE
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+Thumbs.db
+
+# Misc large/temp files
+*.log
+*.gz
+*.zip
+*.tar
+*.tar.xz
+*.tar.bz2
+
+# Large binary data only in specific locations (small .usd/.npz like robotiq_clean are fine)
+/GraspDataGen/objects_v3/**/*.usd
+/GraspDataGen/objects/**/*.usd
+/GraspDataGen/output/

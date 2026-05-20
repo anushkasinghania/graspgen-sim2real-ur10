@@ -1,9 +1,0 @@
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/uninstall.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/ros2_linkattacher_uninstall.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/test.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/edit_cache.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/list_install_components.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/install.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/install/local.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ros2_linkattacher/CMakeFiles/install/strip.dir

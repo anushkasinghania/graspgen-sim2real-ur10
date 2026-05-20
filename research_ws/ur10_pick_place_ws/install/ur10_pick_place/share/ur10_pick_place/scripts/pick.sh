@@ -1,1 +1,0 @@
-/home/ubuntu/research_ws/ur10_pick_place_ws/src/ur10_pick_place/scripts/pick.sh

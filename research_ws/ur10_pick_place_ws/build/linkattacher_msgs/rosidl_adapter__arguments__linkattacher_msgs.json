@@ -1,7 +1,0 @@
-{
-  "package_name": "linkattacher_msgs",
-  "non_idl_tuples": [
-    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/linkattacher_msgs:srv/AttachLink.srv",
-    "/home/ubuntu/research_ws/ur10_pick_place_ws/src/linkattacher_msgs:srv/DetachLink.srv"
-  ]
-}

@@ -1,1 +1,0 @@
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/ament_cmake_core/robotiq_3f_interfacesConfig-version.cmake

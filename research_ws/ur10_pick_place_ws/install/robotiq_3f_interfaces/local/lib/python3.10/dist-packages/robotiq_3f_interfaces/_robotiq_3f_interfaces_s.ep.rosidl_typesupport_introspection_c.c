@@ -1,1 +1,0 @@
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces/rosidl_generator_py/robotiq_3f_interfaces/_robotiq_3f_interfaces_s.ep.rosidl_typesupport_introspection_c.c

@@ -1,9 +1,0 @@
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/uninstall.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/ur10_pick_place_uninstall.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/test.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/edit_cache.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/rebuild_cache.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/list_install_components.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/install.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/install/local.dir
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/ur10_pick_place/CMakeFiles/install/strip.dir

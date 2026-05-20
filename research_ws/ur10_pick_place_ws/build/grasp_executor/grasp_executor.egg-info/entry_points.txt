@@ -1,4 +1,0 @@
-[console_scripts]
-grasp_executor_node = grasp_executor.grasp_executor_node:main
-graspgen_bridge_node = grasp_executor.graspgen_bridge_node:main
-

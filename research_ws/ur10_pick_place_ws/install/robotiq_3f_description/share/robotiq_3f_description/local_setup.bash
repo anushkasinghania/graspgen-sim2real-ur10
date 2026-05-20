@@ -1,1 +1,0 @@
-/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_description/ament_cmake_environment_hooks/local_setup.bash

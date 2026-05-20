@@ -1,4 +1,0 @@
-[0.058s] Invoking command in '/home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ur_camera_ws/install/pick_place:/home/ubuntu/ur_camera_ws/install/easy_handeye2:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/research_ws/ur10_pick_place_ws/build/robotiq_3f_interfaces -- -j12 -l12
-[0.207s] CMake Error: The source directory "/home/user/research_ws/ur10_pick_place_ws/src/ros2_robotiq_3f_gripper/robotiq_3f_interfaces" does not exist.
-[0.208s] Specify --help for usage, or press the help button on the CMake GUI.
-[0.208s] gmake: *** [Makefile:1827: cmake_check_build_system] Error 1

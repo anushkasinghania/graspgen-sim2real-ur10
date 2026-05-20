@@ -1,1 +1,0 @@
-robotiq_3f_interfaces/GraspingMode mode

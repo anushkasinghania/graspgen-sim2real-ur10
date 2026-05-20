@@ -1,370 +1,0 @@
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:10:59,940 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:11:01.858818445 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-[2026-03-30 10:11:06,961][__main__][INFO] - Detected 1 GPU(s) available, setting cfg.train.num_gpus = 1
-2026-03-30 10:11:06,963 - grasp_gen.dataset.dataset - INFO - [CACHE VALIDATION] No data files found in /tmp/graspgen_cache_v3/robotiq_3f, deleting cache dir. It may have been improperly created before.
-[2026-03-30 10:11:06,963][grasp_gen.dataset.dataset][INFO] - [CACHE VALIDATION] No data files found in /tmp/graspgen_cache_v3/robotiq_3f, deleting cache dir. It may have been improperly created before.
-[2026-03-30 10:11:06,967][__main__][INFO] - Cache is imcomplete. Running in prefiltering mode first!
-[2026-03-30 10:11:06,969][__main__][INFO] - Prefiltering mode. Running with 1 GPU
-2026-03-30 10:11:06,974 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-[2026-03-30 10:11:06,974][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-2026-03-30 10:11:06,975 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:06,975][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-2026-03-30 10:11:06,975 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/train.txt
-[2026-03-30 10:11:06,975][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/train.txt
-2026-03-30 10:11:06,975 - grasp_gen.dataset.dataset - INFO - No filtering; All datapoints are used
-[2026-03-30 10:11:06,975][grasp_gen.dataset.dataset][INFO] - No filtering; All datapoints are used
-2026-03-30 10:11:07,079 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
-[2026-03-30 10:11:07,079][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
-2026-03-30 10:11:07,080 - grasp_gen.dataset.dataset - INFO - Unable to find cache file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5
-[2026-03-30 10:11:07,080][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5
-  0%|          | 0/181 [00:00<?, ?it/s]  1%|          | 1/181 [00:00<01:08,  2.62it/s]  1%|          | 2/181 [00:01<02:32,  1.17it/s]  2%|▏         | 3/181 [00:02<02:00,  1.48it/s]  2%|▏         | 4/181 [00:02<01:24,  2.09it/s]  3%|▎         | 5/181 [00:02<01:08,  2.57it/s]  3%|▎         | 6/181 [00:02<01:16,  2.28it/s]  4%|▍         | 7/181 [00:03<01:02,  2.78it/s]  4%|▍         | 8/181 [00:03<00:51,  3.37it/s]2026-03-30 10:11:10,920 - grasp_gen.dataset.dataset - ERROR - 8: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:10,920][grasp_gen.dataset.dataset][ERROR] - 8: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:10,921 - grasp_gen.dataset.dataset - INFO - Saving key: 1d09c7b931844487b000ac698fb0b5a7 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:10,921][grasp_gen.dataset.dataset][INFO] - Saving key: 1d09c7b931844487b000ac698fb0b5a7 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-  5%|▍         | 9/181 [00:03<01:01,  2.78it/s]  6%|▌         | 10/181 [00:03<00:49,  3.44it/s]  6%|▌         | 11/181 [00:04<00:42,  4.02it/s]  7%|▋         | 12/181 [00:04<00:46,  3.60it/s]  7%|▋         | 13/181 [00:07<02:58,  1.06s/it]2026-03-30 10:11:14,534 - grasp_gen.dataset.dataset - ERROR - 13: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:14,534][grasp_gen.dataset.dataset][ERROR] - 13: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:14,535 - grasp_gen.dataset.dataset - INFO - Saving key: 0a3da81bfa904cafa446ab97e7a62cad to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:14,535][grasp_gen.dataset.dataset][INFO] - Saving key: 0a3da81bfa904cafa446ab97e7a62cad to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-  8%|▊         | 14/181 [00:07<02:10,  1.28it/s]  8%|▊         | 15/181 [00:07<01:37,  1.70it/s]2026-03-30 10:11:14,932 - grasp_gen.dataset.dataset - ERROR - 15: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:14,932][grasp_gen.dataset.dataset][ERROR] - 15: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:14,933 - grasp_gen.dataset.dataset - INFO - Saving key: 4f3799a5a2bf4d58a6e623b88607642c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:14,933][grasp_gen.dataset.dataset][INFO] - Saving key: 4f3799a5a2bf4d58a6e623b88607642c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-  9%|▉         | 16/181 [00:07<01:19,  2.08it/s]  9%|▉         | 17/181 [00:08<01:13,  2.24it/s] 10%|▉         | 18/181 [00:08<00:58,  2.76it/s] 10%|█         | 19/181 [00:08<00:52,  3.11it/s] 11%|█         | 20/181 [00:08<00:44,  3.60it/s]2026-03-30 10:11:16,130 - grasp_gen.dataset.dataset - ERROR - 20: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:16,130][grasp_gen.dataset.dataset][ERROR] - 20: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:16,131 - grasp_gen.dataset.dataset - INFO - Saving key: d1f4aa651d9d4953a5a2742914b84635 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:16,131][grasp_gen.dataset.dataset][INFO] - Saving key: d1f4aa651d9d4953a5a2742914b84635 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 12%|█▏        | 21/181 [00:09<00:45,  3.54it/s]2026-03-30 10:11:16,322 - grasp_gen.dataset.dataset - ERROR - 21: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:16,322][grasp_gen.dataset.dataset][ERROR] - 21: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:16,323 - grasp_gen.dataset.dataset - INFO - Saving key: 539abad9c0384000a225a5145f9d5b52 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:16,323][grasp_gen.dataset.dataset][INFO] - Saving key: 539abad9c0384000a225a5145f9d5b52 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 12%|█▏        | 22/181 [00:09<00:41,  3.88it/s] 13%|█▎        | 23/181 [00:09<00:48,  3.26it/s] 13%|█▎        | 24/181 [00:09<00:43,  3.61it/s] 14%|█▍        | 25/181 [00:10<00:37,  4.13it/s] 14%|█▍        | 26/181 [00:10<00:34,  4.51it/s] 15%|█▍        | 27/181 [00:10<00:30,  5.08it/s] 15%|█▌        | 28/181 [00:10<00:35,  4.31it/s] 16%|█▌        | 29/181 [00:11<00:54,  2.77it/s]2026-03-30 10:11:18,638 - grasp_gen.dataset.dataset - ERROR - 29: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:18,638][grasp_gen.dataset.dataset][ERROR] - 29: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:18,639 - grasp_gen.dataset.dataset - INFO - Saving key: dc8ea337322f4170855c6162b5c2ffdf to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:18,639][grasp_gen.dataset.dataset][INFO] - Saving key: dc8ea337322f4170855c6162b5c2ffdf to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 17%|█▋        | 30/181 [00:11<00:48,  3.09it/s]2026-03-30 10:11:18,923 - grasp_gen.dataset.dataset - ERROR - 30: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:18,923][grasp_gen.dataset.dataset][ERROR] - 30: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:18,923 - grasp_gen.dataset.dataset - INFO - Saving key: b45a8a265434477a92087d0446c6db0e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:18,923][grasp_gen.dataset.dataset][INFO] - Saving key: b45a8a265434477a92087d0446c6db0e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 17%|█▋        | 31/181 [00:11<00:46,  3.23it/s] 18%|█▊        | 32/181 [00:12<00:46,  3.19it/s] 18%|█▊        | 33/181 [00:12<00:48,  3.06it/s] 19%|█▉        | 34/181 [00:12<00:39,  3.72it/s]2026-03-30 10:11:19,988 - grasp_gen.dataset.dataset - ERROR - 34: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:19,988][grasp_gen.dataset.dataset][ERROR] - 34: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:19,988 - grasp_gen.dataset.dataset - INFO - Saving key: 494397e3d7c9444e8f86440b4c00fa0d to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:19,988][grasp_gen.dataset.dataset][INFO] - Saving key: 494397e3d7c9444e8f86440b4c00fa0d to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 19%|█▉        | 35/181 [00:12<00:37,  3.92it/s] 20%|█▉        | 36/181 [00:13<00:35,  4.12it/s]2026-03-30 10:11:20,391 - grasp_gen.dataset.dataset - ERROR - 36: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:20,391][grasp_gen.dataset.dataset][ERROR] - 36: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:20,391 - grasp_gen.dataset.dataset - INFO - Saving key: 52c6db9c2f924352a9d35c2cdc881cde to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:20,391][grasp_gen.dataset.dataset][INFO] - Saving key: 52c6db9c2f924352a9d35c2cdc881cde to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 20%|██        | 37/181 [00:13<00:34,  4.19it/s] 21%|██        | 38/181 [00:13<00:34,  4.20it/s] 22%|██▏       | 39/181 [00:13<00:33,  4.18it/s] 22%|██▏       | 40/181 [00:14<00:31,  4.47it/s] 23%|██▎       | 41/181 [00:14<00:53,  2.62it/s]2026-03-30 10:11:22,018 - grasp_gen.dataset.dataset - ERROR - 41: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:22,018][grasp_gen.dataset.dataset][ERROR] - 41: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:22,019 - grasp_gen.dataset.dataset - INFO - Saving key: 865a12da7eac48f5bc483e090441ccca to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:22,019][grasp_gen.dataset.dataset][INFO] - Saving key: 865a12da7eac48f5bc483e090441ccca to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 23%|██▎       | 42/181 [00:14<00:45,  3.05it/s] 24%|██▍       | 43/181 [00:15<00:41,  3.34it/s]2026-03-30 10:11:22,399 - grasp_gen.dataset.dataset - ERROR - 43: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:22,399][grasp_gen.dataset.dataset][ERROR] - 43: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:22,400 - grasp_gen.dataset.dataset - INFO - Saving key: 2dffea891a8a4121af4ccd29ae9aed18 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:22,400][grasp_gen.dataset.dataset][INFO] - Saving key: 2dffea891a8a4121af4ccd29ae9aed18 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 24%|██▍       | 44/181 [00:15<00:33,  4.09it/s] 25%|██▍       | 45/181 [00:15<00:41,  3.31it/s] 25%|██▌       | 46/181 [00:15<00:35,  3.81it/s] 26%|██▌       | 47/181 [00:16<00:30,  4.43it/s] 27%|██▋       | 48/181 [00:16<00:30,  4.41it/s] 27%|██▋       | 49/181 [00:16<00:45,  2.90it/s] 28%|██▊       | 50/181 [00:17<00:39,  3.29it/s]2026-03-30 10:11:24,437 - grasp_gen.dataset.dataset - ERROR - 50: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:24,437][grasp_gen.dataset.dataset][ERROR] - 50: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:24,438 - grasp_gen.dataset.dataset - INFO - Saving key: football to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:24,438][grasp_gen.dataset.dataset][INFO] - Saving key: football to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 28%|██▊       | 51/181 [00:17<00:37,  3.43it/s] 29%|██▊       | 52/181 [00:17<00:35,  3.64it/s] 29%|██▉       | 53/181 [00:18<00:48,  2.65it/s]2026-03-30 10:11:29,082 - grasp_gen.dataset.dataset - ERROR - 53: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:29,082][grasp_gen.dataset.dataset][ERROR] - 53: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:29,083 - grasp_gen.dataset.dataset - INFO - Saving key: c6a403de625f4a49b6a162f8cc22e0b3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:29,083][grasp_gen.dataset.dataset][INFO] - Saving key: c6a403de625f4a49b6a162f8cc22e0b3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 30%|██▉       | 54/181 [00:22<02:57,  1.40s/it]2026-03-30 10:11:31,766 - grasp_gen.dataset.dataset - ERROR - 54: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:31,766][grasp_gen.dataset.dataset][ERROR] - 54: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:31,767 - grasp_gen.dataset.dataset - INFO - Saving key: e951bbee28f148268bb4a534169a86aa to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:31,767][grasp_gen.dataset.dataset][INFO] - Saving key: e951bbee28f148268bb4a534169a86aa to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 30%|███       | 55/181 [00:24<03:45,  1.79s/it] 31%|███       | 56/181 [00:26<03:30,  1.68s/it] 31%|███▏      | 57/181 [00:29<04:39,  2.26s/it]2026-03-30 10:11:36,948 - grasp_gen.dataset.dataset - ERROR - 57: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:36,948][grasp_gen.dataset.dataset][ERROR] - 57: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:36,949 - grasp_gen.dataset.dataset - INFO - Saving key: 1878341a4ac34cb49896188da4169c95 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:36,949][grasp_gen.dataset.dataset][INFO] - Saving key: 1878341a4ac34cb49896188da4169c95 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 32%|███▏      | 58/181 [00:29<03:18,  1.61s/it] 33%|███▎      | 59/181 [00:32<03:36,  1.77s/it] 33%|███▎      | 60/181 [00:32<02:35,  1.28s/it] 34%|███▎      | 61/181 [00:32<02:00,  1.00s/it] 34%|███▍      | 62/181 [00:32<01:34,  1.26it/s]2026-03-30 10:11:40,050 - grasp_gen.dataset.dataset - ERROR - 62: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:40,050][grasp_gen.dataset.dataset][ERROR] - 62: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:40,051 - grasp_gen.dataset.dataset - INFO - Saving key: 04c5a12c37454230b58f2e3d8386bf9c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:40,051][grasp_gen.dataset.dataset][INFO] - Saving key: 04c5a12c37454230b58f2e3d8386bf9c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 35%|███▍      | 63/181 [00:32<01:11,  1.66it/s]2026-03-30 10:11:40,217 - grasp_gen.dataset.dataset - ERROR - 63: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:40,217][grasp_gen.dataset.dataset][ERROR] - 63: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:40,217 - grasp_gen.dataset.dataset - INFO - Saving key: 7a46c16e3fd1464ab598f6d6a5d17230 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:40,217][grasp_gen.dataset.dataset][INFO] - Saving key: 7a46c16e3fd1464ab598f6d6a5d17230 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 35%|███▌      | 64/181 [00:33<00:55,  2.12it/s] 36%|███▌      | 65/181 [00:33<00:43,  2.69it/s]2026-03-30 10:11:40,636 - grasp_gen.dataset.dataset - ERROR - 65: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:40,636][grasp_gen.dataset.dataset][ERROR] - 65: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:40,637 - grasp_gen.dataset.dataset - INFO - Saving key: 41a3ce0e1b0d4645a81c5cc5bcc2a636 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:40,637][grasp_gen.dataset.dataset][INFO] - Saving key: 41a3ce0e1b0d4645a81c5cc5bcc2a636 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 36%|███▋      | 66/181 [00:33<00:40,  2.82it/s]2026-03-30 10:11:40,790 - grasp_gen.dataset.dataset - ERROR - 66: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:40,790][grasp_gen.dataset.dataset][ERROR] - 66: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:40,791 - grasp_gen.dataset.dataset - INFO - Saving key: 2d1bf7963cc544cc9c12fdbdc6f03e24 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:40,791][grasp_gen.dataset.dataset][INFO] - Saving key: 2d1bf7963cc544cc9c12fdbdc6f03e24 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 37%|███▋      | 67/181 [00:33<00:32,  3.51it/s] 38%|███▊      | 68/181 [00:33<00:29,  3.77it/s] 38%|███▊      | 69/181 [00:34<00:26,  4.20it/s] 39%|███▊      | 70/181 [00:36<01:33,  1.18it/s] 39%|███▉      | 71/181 [00:36<01:26,  1.28it/s]2026-03-30 10:11:44,308 - grasp_gen.dataset.dataset - ERROR - 71: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:44,308][grasp_gen.dataset.dataset][ERROR] - 71: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:44,308 - grasp_gen.dataset.dataset - INFO - Saving key: 7b3bfdab414148a08cbf46fc105e280a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:44,308][grasp_gen.dataset.dataset][INFO] - Saving key: 7b3bfdab414148a08cbf46fc105e280a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 40%|███▉      | 72/181 [00:37<01:08,  1.60it/s] 40%|████      | 73/181 [00:37<00:57,  1.88it/s] 41%|████      | 74/181 [00:37<00:50,  2.10it/s]2026-03-30 10:11:45,313 - grasp_gen.dataset.dataset - ERROR - 74: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:45,313][grasp_gen.dataset.dataset][ERROR] - 74: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:45,313 - grasp_gen.dataset.dataset - INFO - Saving key: 73c2a42017a8411fbfc58783b694da9c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:45,313][grasp_gen.dataset.dataset][INFO] - Saving key: 73c2a42017a8411fbfc58783b694da9c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 41%|████▏     | 75/181 [00:38<00:45,  2.34it/s] 42%|████▏     | 76/181 [00:38<00:47,  2.20it/s] 43%|████▎     | 77/181 [00:39<00:41,  2.51it/s]2026-03-30 10:11:46,525 - grasp_gen.dataset.dataset - ERROR - 77: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:46,525][grasp_gen.dataset.dataset][ERROR] - 77: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:46,526 - grasp_gen.dataset.dataset - INFO - Saving key: 0fa49966a0ea48f7a96a57feb167aea6 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:46,526][grasp_gen.dataset.dataset][INFO] - Saving key: 0fa49966a0ea48f7a96a57feb167aea6 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 43%|████▎     | 78/181 [00:39<00:41,  2.46it/s] 44%|████▎     | 79/181 [00:39<00:34,  2.98it/s] 44%|████▍     | 80/181 [00:39<00:29,  3.40it/s] 45%|████▍     | 81/181 [00:40<00:34,  2.89it/s] 45%|████▌     | 82/181 [00:40<00:27,  3.66it/s] 46%|████▌     | 83/181 [00:40<00:24,  4.03it/s] 46%|████▋     | 84/181 [00:41<00:55,  1.75it/s] 47%|████▋     | 85/181 [00:42<00:44,  2.14it/s] 48%|████▊     | 86/181 [00:42<00:38,  2.49it/s] 48%|████▊     | 87/181 [00:42<00:32,  2.92it/s] 49%|████▊     | 88/181 [00:42<00:28,  3.24it/s] 49%|████▉     | 89/181 [00:42<00:23,  3.99it/s] 50%|████▉     | 90/181 [00:43<00:18,  4.82it/s] 50%|█████     | 91/181 [00:43<00:18,  4.89it/s]2026-03-30 10:11:50,607 - grasp_gen.dataset.dataset - ERROR - 91: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:50,607][grasp_gen.dataset.dataset][ERROR] - 91: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:50,607 - grasp_gen.dataset.dataset - INFO - Saving key: 7c5e617e522441f8b3c60386d2d8c257 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:50,607][grasp_gen.dataset.dataset][INFO] - Saving key: 7c5e617e522441f8b3c60386d2d8c257 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 51%|█████     | 92/181 [00:43<00:20,  4.28it/s]2026-03-30 10:11:51,222 - grasp_gen.dataset.dataset - ERROR - 92: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:51,222][grasp_gen.dataset.dataset][ERROR] - 92: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:51,223 - grasp_gen.dataset.dataset - INFO - Saving key: 32c47e171fc54617aef4c5696f27a7a5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:51,223][grasp_gen.dataset.dataset][INFO] - Saving key: 32c47e171fc54617aef4c5696f27a7a5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 51%|█████▏    | 93/181 [00:44<00:30,  2.87it/s] 52%|█████▏    | 94/181 [00:44<00:27,  3.16it/s] 53%|█████▎    | 96/181 [00:44<00:19,  4.39it/s]2026-03-30 10:11:51,908 - grasp_gen.dataset.dataset - ERROR - 96: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:51,908][grasp_gen.dataset.dataset][ERROR] - 96: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:51,909 - grasp_gen.dataset.dataset - INFO - Saving key: b21647005ac64c9f8e9a79a5e75a7a0e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:51,909][grasp_gen.dataset.dataset][INFO] - Saving key: b21647005ac64c9f8e9a79a5e75a7a0e to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 54%|█████▎    | 97/181 [00:44<00:18,  4.55it/s] 54%|█████▍    | 98/181 [00:45<00:17,  4.62it/s] 55%|█████▌    | 100/181 [00:45<00:15,  5.06it/s] 56%|█████▌    | 101/181 [00:47<00:42,  1.88it/s] 56%|█████▋    | 102/181 [00:47<00:33,  2.34it/s] 57%|█████▋    | 103/181 [00:47<00:27,  2.85it/s] 57%|█████▋    | 104/181 [00:47<00:25,  3.07it/s] 58%|█████▊    | 105/181 [00:47<00:21,  3.53it/s] 59%|█████▊    | 106/181 [00:49<01:03,  1.19it/s] 59%|█████▉    | 107/181 [00:50<00:49,  1.50it/s] 60%|█████▉    | 108/181 [00:50<00:45,  1.59it/s] 60%|██████    | 109/181 [00:51<00:38,  1.87it/s]2026-03-30 10:11:58,289 - grasp_gen.dataset.dataset - ERROR - 109: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:11:58,289][grasp_gen.dataset.dataset][ERROR] - 109: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:11:58,289 - grasp_gen.dataset.dataset - INFO - Saving key: f19d6a3e6c6a4aa29c1d8ab2766a292d to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:11:58,289][grasp_gen.dataset.dataset][INFO] - Saving key: f19d6a3e6c6a4aa29c1d8ab2766a292d to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 61%|██████    | 110/181 [00:51<00:30,  2.30it/s] 61%|██████▏   | 111/181 [00:51<00:26,  2.61it/s] 62%|██████▏   | 112/181 [00:51<00:22,  3.01it/s] 62%|██████▏   | 113/181 [00:52<00:27,  2.46it/s] 63%|██████▎   | 114/181 [00:54<00:57,  1.17it/s]2026-03-30 10:12:01,357 - grasp_gen.dataset.dataset - ERROR - 114: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:01,357][grasp_gen.dataset.dataset][ERROR] - 114: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:01,358 - grasp_gen.dataset.dataset - INFO - Saving key: 0beaa1b3ce4e4e10b5a9923dbb6cc4e5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:01,358][grasp_gen.dataset.dataset][INFO] - Saving key: 0beaa1b3ce4e4e10b5a9923dbb6cc4e5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 64%|██████▎   | 115/181 [00:54<00:41,  1.59it/s] 64%|██████▍   | 116/181 [00:54<00:31,  2.03it/s] 65%|██████▍   | 117/181 [00:54<00:26,  2.41it/s] 65%|██████▌   | 118/181 [00:56<00:47,  1.33it/s]2026-03-30 10:12:03,391 - grasp_gen.dataset.dataset - ERROR - 118: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:03,391][grasp_gen.dataset.dataset][ERROR] - 118: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:03,391 - grasp_gen.dataset.dataset - INFO - Saving key: 04c91ce29a4d475882fb74b611fea099 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:03,391][grasp_gen.dataset.dataset][INFO] - Saving key: 04c91ce29a4d475882fb74b611fea099 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 66%|██████▋   | 120/181 [00:56<00:29,  2.04it/s] 67%|██████▋   | 121/181 [00:56<00:25,  2.32it/s]2026-03-30 10:12:03,996 - grasp_gen.dataset.dataset - ERROR - 121: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:03,996][grasp_gen.dataset.dataset][ERROR] - 121: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:03,997 - grasp_gen.dataset.dataset - INFO - Saving key: 033a61d66f7646ceaac357b502a5f5dc to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:03,997][grasp_gen.dataset.dataset][INFO] - Saving key: 033a61d66f7646ceaac357b502a5f5dc to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-2026-03-30 10:12:04,242 - grasp_gen.dataset.dataset - ERROR - 122: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:04,242][grasp_gen.dataset.dataset][ERROR] - 122: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:04,243 - grasp_gen.dataset.dataset - INFO - Saving key: 0da7a740994e47418e6bec9010fbca0a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:04,243][grasp_gen.dataset.dataset][INFO] - Saving key: 0da7a740994e47418e6bec9010fbca0a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 68%|██████▊   | 123/181 [00:57<00:18,  3.13it/s] 69%|██████▊   | 124/181 [00:57<00:17,  3.30it/s] 69%|██████▉   | 125/181 [00:57<00:17,  3.19it/s] 70%|██████▉   | 126/181 [00:57<00:15,  3.52it/s]2026-03-30 10:12:05,202 - grasp_gen.dataset.dataset - ERROR - 126: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:05,202][grasp_gen.dataset.dataset][ERROR] - 126: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:05,202 - grasp_gen.dataset.dataset - INFO - Saving key: 9d9557c5f3af4639bcacf468e4e5182a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:05,202][grasp_gen.dataset.dataset][INFO] - Saving key: 9d9557c5f3af4639bcacf468e4e5182a to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 70%|███████   | 127/181 [00:58<00:13,  3.97it/s] 71%|███████   | 128/181 [00:58<00:11,  4.60it/s] 71%|███████▏  | 129/181 [00:58<00:10,  4.74it/s] 72%|███████▏  | 131/181 [00:58<00:09,  5.47it/s]2026-03-30 10:12:05,955 - grasp_gen.dataset.dataset - ERROR - 131: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:05,955][grasp_gen.dataset.dataset][ERROR] - 131: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:05,955 - grasp_gen.dataset.dataset - INFO - Saving key: 2aa3256dfecf440a8bb26fdd17fa73c3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:05,955][grasp_gen.dataset.dataset][INFO] - Saving key: 2aa3256dfecf440a8bb26fdd17fa73c3 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 73%|███████▎  | 132/181 [00:58<00:08,  5.85it/s]2026-03-30 10:12:06,112 - grasp_gen.dataset.dataset - ERROR - 132: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:06,112][grasp_gen.dataset.dataset][ERROR] - 132: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:06,113 - grasp_gen.dataset.dataset - INFO - Saving key: 67e0432c7bea402f9fe6a8bd4073146f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:06,113][grasp_gen.dataset.dataset][INFO] - Saving key: 67e0432c7bea402f9fe6a8bd4073146f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 73%|███████▎  | 133/181 [00:59<00:08,  5.97it/s]2026-03-30 10:12:06,396 - grasp_gen.dataset.dataset - ERROR - 133: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:06,396][grasp_gen.dataset.dataset][ERROR] - 133: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:06,396 - grasp_gen.dataset.dataset - INFO - Saving key: e4961832b20c4959ad059fced0fbb529 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:06,396][grasp_gen.dataset.dataset][INFO] - Saving key: e4961832b20c4959ad059fced0fbb529 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 74%|███████▍  | 134/181 [00:59<00:09,  5.03it/s] 75%|███████▍  | 135/181 [00:59<00:14,  3.14it/s] 75%|███████▌  | 136/181 [01:00<00:17,  2.63it/s] 76%|███████▌  | 137/181 [01:00<00:14,  3.09it/s] 76%|███████▌  | 138/181 [01:04<01:02,  1.44s/it] 77%|███████▋  | 139/181 [01:04<00:44,  1.05s/it] 77%|███████▋  | 140/181 [01:05<00:42,  1.04s/it] 78%|███████▊  | 141/181 [01:06<00:37,  1.06it/s]2026-03-30 10:12:13,907 - grasp_gen.dataset.dataset - ERROR - 141: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:13,907][grasp_gen.dataset.dataset][ERROR] - 141: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:13,908 - grasp_gen.dataset.dataset - INFO - Saving key: 5e0f504bb5d144809390dac8c66a6dd5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:13,908][grasp_gen.dataset.dataset][INFO] - Saving key: 5e0f504bb5d144809390dac8c66a6dd5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 78%|███████▊  | 142/181 [01:06<00:27,  1.41it/s] 79%|███████▉  | 143/181 [01:07<00:21,  1.76it/s]2026-03-30 10:12:14,326 - grasp_gen.dataset.dataset - ERROR - 143: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:14,326][grasp_gen.dataset.dataset][ERROR] - 143: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:14,326 - grasp_gen.dataset.dataset - INFO - Saving key: cfbfff197509468b94534dbee3e4a287 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:14,326][grasp_gen.dataset.dataset][INFO] - Saving key: cfbfff197509468b94534dbee3e4a287 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 80%|███████▉  | 144/181 [01:07<00:16,  2.21it/s]2026-03-30 10:12:14,618 - grasp_gen.dataset.dataset - ERROR - 144: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:14,618][grasp_gen.dataset.dataset][ERROR] - 144: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:14,618 - grasp_gen.dataset.dataset - INFO - Saving key: a800eb049d5f4ccaa85649d23ccd117f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:14,618][grasp_gen.dataset.dataset][INFO] - Saving key: a800eb049d5f4ccaa85649d23ccd117f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 80%|████████  | 145/181 [01:07<00:14,  2.47it/s] 81%|████████  | 146/181 [01:09<00:33,  1.03it/s] 81%|████████  | 147/181 [01:09<00:24,  1.41it/s] 82%|████████▏ | 148/181 [01:10<00:18,  1.80it/s] 82%|████████▏ | 149/181 [01:11<00:21,  1.51it/s] 83%|████████▎ | 150/181 [01:11<00:16,  1.90it/s] 83%|████████▎ | 151/181 [01:15<00:52,  1.76s/it] 84%|████████▍ | 152/181 [01:15<00:36,  1.27s/it] 85%|████████▍ | 153/181 [01:16<00:27,  1.03it/s] 85%|████████▌ | 154/181 [01:20<00:54,  2.00s/it] 86%|████████▌ | 155/181 [01:22<00:46,  1.81s/it] 86%|████████▌ | 156/181 [01:22<00:36,  1.46s/it] 87%|████████▋ | 157/181 [01:23<00:27,  1.15s/it] 87%|████████▋ | 158/181 [01:23<00:21,  1.06it/s] 88%|████████▊ | 159/181 [01:23<00:15,  1.38it/s] 88%|████████▊ | 160/181 [01:24<00:12,  1.72it/s] 89%|████████▉ | 161/181 [01:24<00:09,  2.02it/s] 90%|████████▉ | 162/181 [01:24<00:08,  2.33it/s]2026-03-30 10:12:35,358 - grasp_gen.dataset.dataset - ERROR - 162: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:35,358][grasp_gen.dataset.dataset][ERROR] - 162: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:35,358 - grasp_gen.dataset.dataset - INFO - Saving key: 34fa7bb706af4ee19c0bdee1cad4c710 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:35,358][grasp_gen.dataset.dataset][INFO] - Saving key: 34fa7bb706af4ee19c0bdee1cad4c710 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 90%|█████████ | 163/181 [01:28<00:25,  1.40s/it]2026-03-30 10:12:35,448 - grasp_gen.dataset.dataset - ERROR - 163: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:35,448][grasp_gen.dataset.dataset][ERROR] - 163: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:35,448 - grasp_gen.dataset.dataset - INFO - Saving key: 1557fd3289104918ab475b8e1e6c7063 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:35,448][grasp_gen.dataset.dataset][INFO] - Saving key: 1557fd3289104918ab475b8e1e6c7063 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 91%|█████████ | 165/181 [01:29<00:16,  1.06s/it]2026-03-30 10:12:36,815 - grasp_gen.dataset.dataset - ERROR - 165: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:36,815][grasp_gen.dataset.dataset][ERROR] - 165: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:36,815 - grasp_gen.dataset.dataset - INFO - Saving key: 43b9952b39d14295bfcc357786092c51 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:36,815][grasp_gen.dataset.dataset][INFO] - Saving key: 43b9952b39d14295bfcc357786092c51 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 92%|█████████▏| 166/181 [01:29<00:12,  1.21it/s]2026-03-30 10:12:37,054 - grasp_gen.dataset.dataset - ERROR - 166: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:37,054][grasp_gen.dataset.dataset][ERROR] - 166: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:37,054 - grasp_gen.dataset.dataset - INFO - Saving key: 3878dbe176654c1f984805deee25aca5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:37,054][grasp_gen.dataset.dataset][INFO] - Saving key: 3878dbe176654c1f984805deee25aca5 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 92%|█████████▏| 167/181 [01:29<00:09,  1.48it/s] 93%|█████████▎| 168/181 [01:32<00:14,  1.11s/it] 93%|█████████▎| 169/181 [01:32<00:10,  1.16it/s] 94%|█████████▍| 170/181 [01:32<00:08,  1.36it/s] 94%|█████████▍| 171/181 [01:33<00:05,  1.78it/s] 95%|█████████▌| 172/181 [01:33<00:05,  1.77it/s] 96%|█████████▌| 173/181 [01:33<00:04,  1.96it/s]2026-03-30 10:12:41,218 - grasp_gen.dataset.dataset - ERROR - 173: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:41,218][grasp_gen.dataset.dataset][ERROR] - 173: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:41,218 - grasp_gen.dataset.dataset - INFO - Saving key: 294ab037e7004247ad775d657d3d4144 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:41,218][grasp_gen.dataset.dataset][INFO] - Saving key: 294ab037e7004247ad775d657d3d4144 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 96%|█████████▌| 174/181 [01:34<00:02,  2.46it/s] 97%|█████████▋| 175/181 [01:34<00:02,  2.26it/s] 97%|█████████▋| 176/181 [01:34<00:01,  2.74it/s] 98%|█████████▊| 177/181 [01:35<00:02,  1.86it/s] 98%|█████████▊| 178/181 [01:35<00:01,  2.28it/s]2026-03-30 10:12:43,553 - grasp_gen.dataset.dataset - ERROR - 178: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:43,553][grasp_gen.dataset.dataset][ERROR] - 178: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:43,553 - grasp_gen.dataset.dataset - INFO - Saving key: 2f8cf49400954961866ff97e4d74080c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:43,553][grasp_gen.dataset.dataset][INFO] - Saving key: 2f8cf49400954961866ff97e4d74080c to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 99%|█████████▉| 179/181 [01:36<00:00,  2.22it/s]2026-03-30 10:12:43,761 - grasp_gen.dataset.dataset - ERROR - 179: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:43,761][grasp_gen.dataset.dataset][ERROR] - 179: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:43,761 - grasp_gen.dataset.dataset - INFO - Saving key: dfda6e71d079425ea07a55ea47b94da2 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:43,761][grasp_gen.dataset.dataset][INFO] - Saving key: dfda6e71d079425ea07a55ea47b94da2 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 99%|█████████▉| 180/181 [01:36<00:00,  2.65it/s]2026-03-30 10:12:43,913 - grasp_gen.dataset.dataset - ERROR - 180: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:43,913][grasp_gen.dataset.dataset][ERROR] - 180: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:43,914 - grasp_gen.dataset.dataset - INFO - Saving key: 765572af5003423aa4e18230c4620dc1 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:43,914][grasp_gen.dataset.dataset][INFO] - Saving key: 765572af5003423aa4e18230c4620dc1 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-100%|██████████| 181/181 [01:36<00:00,  3.22it/s]100%|██████████| 181/181 [01:36<00:00,  1.87it/s]
-  0%|          | 0/181 [00:00<?, ?it/s]100%|██████████| 181/181 [00:00<00:00, 892090.51it/s]
-[2026-03-30 10:12:43,920][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5
-Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:   0%|          | 0/136 [00:00<?, ?it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  11%|█         | 15/136 [00:00<00:00, 143.50it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  22%|██▏       | 30/136 [00:00<00:00, 146.06it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  33%|███▎      | 45/136 [00:00<00:00, 146.94it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  44%|████▍     | 60/136 [00:00<00:00, 146.84it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  55%|█████▌    | 75/136 [00:00<00:00, 146.87it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  66%|██████▌   | 90/136 [00:00<00:00, 144.05it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  77%|███████▋  | 105/136 [00:00<00:00, 145.31it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  88%|████████▊ | 120/136 [00:00<00:00, 146.31it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  99%|█████████▉| 135/136 [00:00<00:00, 147.00it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5: 100%|██████████| 136/136 [00:00<00:00, 146.18it/s]
-[2026-03-30 10:12:44,871][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5 took 0.9507358074188232(s)
-[2026-03-30 10:12:44,871][grasp_gen.utils.train_utils][INFO] - Dataset for train has 181 datapoints
-2026-03-30 10:12:44,873 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-[2026-03-30 10:12:44,873][grasp_gen.dataset.dataset][INFO] - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-2026-03-30 10:12:44,874 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:44,874][grasp_gen.dataset.dataset][INFO] - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-2026-03-30 10:12:44,874 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/valid.txt
-[2026-03-30 10:12:44,874][grasp_gen.dataset.dataset][INFO] - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/valid.txt
-2026-03-30 10:12:44,874 - grasp_gen.dataset.dataset - INFO - 0 out of 46 scenes in denylist. Final number of datapoints 46
-[2026-03-30 10:12:44,874][grasp_gen.dataset.dataset][INFO] - 0 out of 46 scenes in denylist. Final number of datapoints 46
-2026-03-30 10:12:44,909 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
-[2026-03-30 10:12:44,909][grasp_gen.dataset.dataset][INFO] - Preloading dataset to memory
-2026-03-30 10:12:44,910 - grasp_gen.dataset.dataset - INFO - Unable to find cache file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5
-[2026-03-30 10:12:44,910][grasp_gen.dataset.dataset][INFO] - Unable to find cache file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5
-  0%|          | 0/46 [00:00<?, ?it/s]2026-03-30 10:12:45,090 - grasp_gen.dataset.dataset - ERROR - 0: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:45,090][grasp_gen.dataset.dataset][ERROR] - 0: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:45,090 - grasp_gen.dataset.dataset - INFO - Saving key: c6b4b6a6b83545f0bbe9fb5ec0b4144f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:45,090][grasp_gen.dataset.dataset][INFO] - Saving key: c6b4b6a6b83545f0bbe9fb5ec0b4144f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-  2%|▏         | 1/46 [00:00<00:08,  5.42it/s]  4%|▍         | 2/46 [00:00<00:10,  4.09it/s]2026-03-30 10:12:45,490 - grasp_gen.dataset.dataset - ERROR - 2: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:45,490][grasp_gen.dataset.dataset][ERROR] - 2: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:45,490 - grasp_gen.dataset.dataset - INFO - Saving key: 2aec8d7d14a648d998e8e49a4f73960f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:45,490][grasp_gen.dataset.dataset][INFO] - Saving key: 2aec8d7d14a648d998e8e49a4f73960f to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-  7%|▋         | 3/46 [00:00<00:07,  5.41it/s]  9%|▊         | 4/46 [00:00<00:06,  6.43it/s] 11%|█         | 5/46 [00:01<00:09,  4.25it/s] 13%|█▎        | 6/46 [00:01<00:10,  3.75it/s] 15%|█▌        | 7/46 [00:01<00:09,  4.16it/s] 17%|█▋        | 8/46 [00:02<00:13,  2.82it/s] 20%|█▉        | 9/46 [00:02<00:14,  2.55it/s] 22%|██▏       | 10/46 [00:03<00:14,  2.44it/s] 24%|██▍       | 11/46 [00:03<00:11,  3.15it/s] 26%|██▌       | 12/46 [00:03<00:09,  3.75it/s] 28%|██▊       | 13/46 [00:03<00:07,  4.47it/s] 30%|███       | 14/46 [00:05<00:21,  1.52it/s] 33%|███▎      | 15/46 [00:05<00:15,  2.02it/s] 35%|███▍      | 16/46 [00:05<00:11,  2.51it/s] 37%|███▋      | 17/46 [00:05<00:09,  2.92it/s]2026-03-30 10:12:53,455 - grasp_gen.dataset.dataset - ERROR - 17: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:53,455][grasp_gen.dataset.dataset][ERROR] - 17: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:53,455 - grasp_gen.dataset.dataset - INFO - Saving key: c6f83195a0fe4e6caaed345f4eac6b5b to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:53,455][grasp_gen.dataset.dataset][INFO] - Saving key: c6f83195a0fe4e6caaed345f4eac6b5b to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 39%|███▉      | 18/46 [00:08<00:31,  1.11s/it] 41%|████▏     | 19/46 [00:08<00:23,  1.15it/s] 43%|████▎     | 20/46 [00:09<00:24,  1.06it/s] 46%|████▌     | 21/46 [00:10<00:21,  1.17it/s]2026-03-30 10:12:55,900 - grasp_gen.dataset.dataset - ERROR - 21: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:55,900][grasp_gen.dataset.dataset][ERROR] - 21: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:55,901 - grasp_gen.dataset.dataset - INFO - Saving key: a25540fc03ba400faf012d4f68b7ba41 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:55,901][grasp_gen.dataset.dataset][INFO] - Saving key: a25540fc03ba400faf012d4f68b7ba41 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 48%|████▊     | 22/46 [00:10<00:16,  1.41it/s]2026-03-30 10:12:56,105 - grasp_gen.dataset.dataset - ERROR - 22: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:56,105][grasp_gen.dataset.dataset][ERROR] - 22: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:56,106 - grasp_gen.dataset.dataset - INFO - Saving key: f51306c13cd14d38bdcd7a31d8804bfb to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:56,106][grasp_gen.dataset.dataset][INFO] - Saving key: f51306c13cd14d38bdcd7a31d8804bfb to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 50%|█████     | 23/46 [00:11<00:12,  1.80it/s] 52%|█████▏    | 24/46 [00:11<00:09,  2.34it/s] 54%|█████▍    | 25/46 [00:11<00:07,  2.99it/s] 57%|█████▋    | 26/46 [00:11<00:06,  3.20it/s]2026-03-30 10:12:56,785 - grasp_gen.dataset.dataset - ERROR - 26: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:12:56,785][grasp_gen.dataset.dataset][ERROR] - 26: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:12:56,785 - grasp_gen.dataset.dataset - INFO - Saving key: 6b3afe782b204dfba87a03ddaf222958 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:12:56,785][grasp_gen.dataset.dataset][INFO] - Saving key: 6b3afe782b204dfba87a03ddaf222958 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 59%|█████▊    | 27/46 [00:11<00:05,  3.68it/s] 61%|██████    | 28/46 [00:12<00:04,  4.03it/s] 63%|██████▎   | 29/46 [00:13<00:09,  1.87it/s] 65%|██████▌   | 30/46 [00:15<00:16,  1.05s/it] 67%|██████▋   | 31/46 [00:15<00:11,  1.27it/s] 70%|██████▉   | 32/46 [00:15<00:08,  1.66it/s] 72%|███████▏  | 33/46 [00:16<00:06,  2.02it/s] 74%|███████▍  | 34/46 [00:16<00:05,  2.25it/s] 76%|███████▌  | 35/46 [00:16<00:04,  2.62it/s] 78%|███████▊  | 36/46 [00:16<00:03,  2.82it/s]2026-03-30 10:13:02,057 - grasp_gen.dataset.dataset - ERROR - 36: Unable to preload object even after sampling pc 1 times
-[2026-03-30 10:13:02,057][grasp_gen.dataset.dataset][ERROR] - 36: Unable to preload object even after sampling pc 1 times
-2026-03-30 10:13:02,058 - grasp_gen.dataset.dataset - INFO - Saving key: 58b83bbd84e14b6aaba941a00ac76413 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-[2026-03-30 10:13:02,058][grasp_gen.dataset.dataset][INFO] - Saving key: 58b83bbd84e14b6aaba941a00ac76413 to denylist at /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
- 80%|████████  | 37/46 [00:17<00:02,  3.32it/s] 83%|████████▎ | 38/46 [00:17<00:02,  3.57it/s] 85%|████████▍ | 39/46 [00:17<00:01,  4.05it/s] 87%|████████▋ | 40/46 [00:18<00:02,  2.95it/s] 89%|████████▉ | 41/46 [00:18<00:01,  3.50it/s] 91%|█████████▏| 42/46 [00:20<00:02,  1.35it/s] 93%|█████████▎| 43/46 [00:20<00:01,  1.82it/s] 96%|█████████▌| 44/46 [00:20<00:00,  2.33it/s] 98%|█████████▊| 45/46 [00:20<00:00,  2.77it/s]100%|██████████| 46/46 [00:22<00:00,  1.39it/s]100%|██████████| 46/46 [00:22<00:00,  2.08it/s]
-  0%|          | 0/46 [00:00<?, ?it/s]100%|██████████| 46/46 [00:00<00:00, 474049.10it/s]
-[2026-03-30 10:13:06,989][grasp_gen.dataset.dataset_utils][INFO] - Deleting old cache at /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5
-Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5:   0%|          | 0/39 [00:00<?, ?it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5:  38%|███▊      | 15/39 [00:00<00:00, 147.10it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5:  77%|███████▋  | 30/39 [00:00<00:00, 147.17it/s]Saving cache to H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5: 100%|██████████| 39/39 [00:00<00:00, 147.19it/s]
-[2026-03-30 10:13:07,262][grasp_gen.dataset.dataset_utils][INFO] - Saving cache to /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5 took 0.2730870246887207(s)
-[2026-03-30 10:13:07,263][grasp_gen.utils.train_utils][INFO] - Dataset for valid has 46 datapoints
-[2026-03-30 10:13:07,320][grasp_gen.models.discriminator][INFO] - Pose representation is mlp
-[2026-03-30 10:13:07,766][grasp_gen.utils.train_utils][INFO] - Using ADAM, LR 5e-05
-[2026-03-30 10:13:08,312][__main__][INFO] - Number of parameters in discriminator model: 3281857
-[2026-03-30 10:13:08,312][__main__][INFO] - Attempting to load checkpoint from None
-[2026-03-30 10:13:08,338][__main__][INFO] - Saved training configuration to /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_disc_v3/config.yaml
-[2026-03-30 10:13:08,338][__main__][INFO] - Training starting at epoch 1 and batch index 0
-[2026-03-30 10:15:12,587][__main__][INFO] - Prefiltering mode. Exiting Train script since we iterated one pass over the dataset
-[2026-03-30 10:15:12,588][__main__][INFO] - Total training time: 0:02:04.249092
-[2026-03-30 10:15:12,592][__main__][INFO] - Prefiltering mode done. Running with original number of 1 GPUs
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:15:21,305 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:15:22.031910619 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-2026-03-30 10:15:23,643 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-2026-03-30 10:15:23,643 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-2026-03-30 10:15:23,643 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-2026-03-30 10:15:23,643 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-2026-03-30 10:15:23,644 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/train.txt
-2026-03-30 10:15:23,644 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/train.txt
-2026-03-30 10:15:23,644 - grasp_gen.dataset.dataset - INFO - 45 out of 181 scenes in denylist. Final number of datapoints 136
-2026-03-30 10:15:23,644 - grasp_gen.dataset.dataset - INFO - 45 out of 181 scenes in denylist. Final number of datapoints 136
-2026-03-30 10:15:23,683 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
-2026-03-30 10:15:23,683 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
-Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:   0%|          | 0/136 [00:00<?, ?it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  12%|█▏        | 16/136 [00:00<00:00, 155.31it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  24%|██▍       | 33/136 [00:00<00:00, 160.38it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  37%|███▋      | 50/136 [00:00<00:00, 162.25it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  49%|████▉     | 67/136 [00:00<00:00, 162.82it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  62%|██████▏   | 84/136 [00:00<00:00, 163.48it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  74%|███████▍  | 101/136 [00:00<00:00, 164.32it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  87%|████████▋ | 118/136 [00:00<00:00, 164.44it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5:  99%|█████████▉| 135/136 [00:00<00:00, 164.38it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5: 100%|██████████| 136/136 [00:00<00:00, 163.27it/s]
-2026-03-30 10:15:24,521 - grasp_gen.dataset.dataset_utils - INFO - Loading cache from /tmp/graspgen_cache_v3/robotiq_3f/cache_train_mesh_dis.h5 took 0.8374872207641602(s)
-2026-03-30 10:15:24,531 - grasp_gen.dataset.dataset - INFO - Cache already has 136 objects
-2026-03-30 10:15:24,531 - grasp_gen.dataset.dataset - INFO - Cache already has 136 objects
-  0%|          | 0/136 [00:00<?, ?it/s]100%|██████████| 136/136 [00:00<00:00, 525737.64it/s]
-  0%|          | 0/136 [00:00<?, ?it/s]100%|██████████| 136/136 [00:00<00:00, 797797.68it/s]
-2026-03-30 10:15:24,534 - grasp_gen.utils.train_utils - INFO - Dataset for train has 136 datapoints
-2026-03-30 10:15:24,536 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-2026-03-30 10:15:24,536 - grasp_gen.dataset.dataset - INFO - cache_dir: /tmp/graspgen_cache_v3/robotiq_3f
-2026-03-30 10:15:24,536 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-2026-03-30 10:15:24,536 - grasp_gen.dataset.dataset - INFO - Denylist path: /tmp/graspgen_cache_v3/robotiq_3f/denylist_mesh_dis.json
-2026-03-30 10:15:24,537 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/valid.txt
-2026-03-30 10:15:24,537 - grasp_gen.dataset.dataset - INFO - Loading dataset from config: /home/ubuntu/GraspDataGen/graspgen_dataset_v3/splits/robotiq_3f/valid.txt
-2026-03-30 10:15:24,537 - grasp_gen.dataset.dataset - INFO - 7 out of 46 scenes in denylist. Final number of datapoints 39
-2026-03-30 10:15:24,537 - grasp_gen.dataset.dataset - INFO - 7 out of 46 scenes in denylist. Final number of datapoints 39
-2026-03-30 10:15:24,573 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
-2026-03-30 10:15:24,573 - grasp_gen.dataset.dataset - INFO - Preloading dataset to memory
-Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5:   0%|          | 0/39 [00:00<?, ?it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5:  41%|████      | 16/39 [00:00<00:00, 153.74it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5:  82%|████████▏ | 32/39 [00:00<00:00, 154.94it/s]Loading cache from H5 file: /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5: 100%|██████████| 39/39 [00:00<00:00, 154.72it/s]
-2026-03-30 10:15:24,827 - grasp_gen.dataset.dataset_utils - INFO - Loading cache from /tmp/graspgen_cache_v3/robotiq_3f/cache_valid_mesh_dis.h5 took 0.2539682388305664(s)
-2026-03-30 10:15:24,831 - grasp_gen.dataset.dataset - INFO - Cache already has 39 objects
-2026-03-30 10:15:24,831 - grasp_gen.dataset.dataset - INFO - Cache already has 39 objects
-  0%|          | 0/39 [00:00<?, ?it/s]100%|██████████| 39/39 [00:00<00:00, 285476.19it/s]
-  0%|          | 0/39 [00:00<?, ?it/s]100%|██████████| 39/39 [00:00<00:00, 470051.31it/s]
-2026-03-30 10:15:24,833 - grasp_gen.utils.train_utils - INFO - Dataset for valid has 39 datapoints
-2026-03-30 10:15:24,901 - grasp_gen.models.discriminator - INFO - Pose representation is mlp
-2026-03-30 10:15:25,041 - grasp_gen.utils.train_utils - INFO - Using ADAM, LR 5e-05
-2026-03-30 10:15:25,395 - __mp_main__ - INFO - Number of parameters in discriminator model: 3281857
-2026-03-30 10:15:25,396 - __mp_main__ - INFO - Attempting to load checkpoint from None
-2026-03-30 10:15:25,421 - __mp_main__ - INFO - Saved training configuration to /home/ubuntu/GraspDataGen/training_logs/robotiq_3f_disc_v3/config.yaml
-2026-03-30 10:15:25,421 - __mp_main__ - INFO - Training starting at epoch 1 and batch index 0
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:15:32,391 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:15:32.969326705 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:15:41,287 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:15:42.007885001 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:15:50,485 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:15:51.206082436 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:15:59,577 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:16:00.159640575 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:16:08,644 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:16:09.370405611 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:16:17,819 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:16:18.400081098 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:16:26,761 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:16:27.338907173 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:16:35,731 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:16:36.300991724 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:18:23,958 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:18:24.672069036 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:18:33,541 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:18:34.171546425 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:18:42,701 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:18:43.304279492 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:18:51,820 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:18:52.410321616 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:19:00,859 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:19:01.458223617 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:19:09,919 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:19:10.512997745 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:19:18,837 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:19:19.422559949 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-2026-03-30 10:19:27,688 - OpenGL.acceleratesupport - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
-[0;93m2026-03-30 10:19:28.286430636 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card1/device/vendor"[m
