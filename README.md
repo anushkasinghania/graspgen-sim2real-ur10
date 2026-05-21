@@ -31,8 +31,10 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 
 - **ROS2 Humble** + MoveIt2 + OMPL (RRTConnect)
 - **GraspGen** (NVIDIA) — Jetson-adapted fork in `research_ws/GraspGen/`
-- **SAM2** (Meta Segment Anything 2) — click-to-mask object segmentation
-- **GraspDataGen** — Training data generation scripts in `research_ws/GraspDataGen_src/`
+- **SAM2** (Meta) — installed as package: `pip install git+https://github.com/facebookresearch/segment-anything-2.git`
+  - Checkpoint: `sam2.1_hiera_small.pt` (176 MB, download separately)
+  - Custom integration: `ur10_pick_place/scripts/sam2_segmentation_node.py`
+- **GraspDataGen** — Training scripts in `research_ws/GraspDataGen_src/`
 - **Robotiq 3F** — Pure Python TCP/Modbus controller (no ROS driver needed)
 
 ---
@@ -55,20 +57,19 @@ Weights are stored locally (not in this repo — too large for GitHub):
 ```
 graspgen-sim2real-ur10/
 ├── README.md                            ← You are here
-├── CLAUDE.md                            ← Full technical reference (hardware, pipeline, bugs)
 ├── .gitignore
 │
 ├── docs/
 │   ├── AnushkaSinghania_Thesis_240614.pdf   ← Full thesis
 │   ├── IMAGE_GUIDE.md                       ← Where to add what images
-│   └── MEDIA_GUIDE.md                       ← Video/Drive links
+│   └── MEDIA_GUIDE.md                       ← Video/Drive links placeholder
 │
 ├── research_ws/
 │   ├── OPERATIONS.md                    ← Day-to-day run commands
 │   ├── WORKFLOW.md                      ← Step-by-step pipeline workflow
 │   ├── training_plots/                  ← Training loss/accuracy graphs
 │   │
-│   ├── GraspGen/                        ← GraspGen inference (Jetson fork of NVIDIA GraspGen)
+│   ├── GraspGen/                        ← GraspGen inference (Jetson-adapted fork)
 │   │   ├── grasp_gen/                   ← Core inference library
 │   │   ├── config/grippers/             ← Robotiq 3F gripper config (robotiq_3f.yaml)
 │   │   ├── scripts/                     ← Training + eval scripts
@@ -80,7 +81,7 @@ graspgen-sim2real-ur10/
 │   │   ├── docker/                      ← Isaac Sim Docker setup
 │   │   └── docs/                        ← GraspDataGen API docs
 │   │
-│   ├── segment-anything-2/sam2/         ← SAM2 source (Meta)
+│   │   (SAM2 is installed as a package — see Installation below)
 │   │
 │   └── ur10_pick_place_ws/src/
 │       ├── ur10_pick_place/             ← Main package: launch files, config, scripts
