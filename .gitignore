@@ -20,10 +20,13 @@ build/
 *.safetensors
 checkpoints/
 
-# ROS2 build artifacts
+# ROS2 build artifacts (workspace and nested)
 /research_ws/ur10_pick_place_ws/build/
 /research_ws/ur10_pick_place_ws/install/
 /research_ws/ur10_pick_place_ws/log/
+research_ws/ur10_pick_place_ws/src/**/build/
+research_ws/ur10_pick_place_ws/src/**/install/
+research_ws/ur10_pick_place_ws/src/**/log/
 *.colcon_build.sh.env
 colcon_command_prefix_*.sh
 

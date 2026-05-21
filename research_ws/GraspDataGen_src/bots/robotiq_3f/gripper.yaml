@@ -1,0 +1,56 @@
+name: robotiq_3f
+
+usd_path: isaac_assets/robotiq_3f/robotiq_3f_stage.usd
+
+# TRUE articulation root (verified via USD API)
+root_prim: /robotiq_3f_gripper/root_joint
+
+base_link: base_link
+
+joint_names:
+  - palm_finger_b_joint
+  - palm_finger_c_joint
+  - finger_a_joint_1
+  - finger_b_joint_1
+  - finger_c_joint_1
+  - finger_a_joint_2
+  - finger_b_joint_2
+  - finger_c_joint_2
+  - finger_a_joint_3
+  - finger_b_joint_3
+  - finger_c_joint_3
+
+finger_count: 3
+control_type: position
+
+open_configuration:
+  - 0.0
+  - 0.0
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.0
+  - 0.0
+  - 0.0
+  - -0.05
+  - -0.05
+  - -0.05
+
+close_configuration:
+  - 0.0
+  - 0.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.2
+  - 1.2
+  - 1.2
+  - -1.0
+  - -1.0
+  - -1.0
+
+contact_links:
+  - finger_a_link_3
+  - finger_b_link_3
+  - finger_c_link_3
+

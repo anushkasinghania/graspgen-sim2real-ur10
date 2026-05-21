@@ -1,0 +1,190 @@
+# Deep Learning-Based Grasp Pose Detection on Point Clouds
+### Sim-to-Real Manipulation with UR10 + Robotiq 3F + OAK-D
+
+**M.Tech Thesis — Anushka Singhania (Reg. No. 24-06-14)**  
+Department of Aerospace Engineering and Autonomous Systems  
+Defence Institute of Advanced Technology (DIAT-DU), Pune — May 2026  
+Supervisors: Prasad Naik (DIAT) · Atul Chavan (DRDO R&DE)
+
+---
+
+## Overview
+
+This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F gripper + OAK-D Pro Wide wrist camera** running on a **Jetson AGX Orin**. The system detects grasp poses on point clouds and executes pick-and-place in both simulation (RViz/MoveIt2) and real hardware.
+
+**Key contribution:** Adapting GraspGen (originally tested on 2-finger grippers and A100 GPUs) to a 3-finger gripper on edge compute, with sim-to-real validation on a cluttered pick scene (FetchBench-style, 6 objects).
+
+---
+
+## Hardware
+
+| Component | Model | Details |
+|-----------|-------|---------|
+| Robot Arm | UR10 | IP: 192.168.1.102 |
+| Gripper | Robotiq 3F | Ethernet Modbus TCP — IP: 192.168.1.105 |
+| Wrist Camera | OAK-D Pro Wide | USB-C to Jetson, MX ID: 14442C10715AD4D200 |
+| Compute | Jetson AGX Orin 64GB | IP: 192.168.1.10 |
+
+---
+
+## Software Stack
+
+- **ROS2 Humble** + MoveIt2 + OMPL (RRTConnect)
+- **GraspGen** (NVIDIA) — Jetson-adapted fork in `research_ws/GraspGen/`
+- **SAM2** (Meta Segment Anything 2) — click-to-mask object segmentation
+- **GraspDataGen** — Training data generation scripts in `research_ws/GraspDataGen_src/`
+- **Robotiq 3F** — Pure Python TCP/Modbus controller (no ROS driver needed)
+
+---
+
+## Trained Models (v3, 227 objects)
+
+Models are trained on GraspDataGen data for the Robotiq 3F gripper.
+Weights are stored locally (not in this repo — too large):
+
+| Model | Path | Size |
+|-------|------|------|
+| Generator v3 | `~/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth` | ~5 GB |
+| Discriminator v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_v3/epoch_500.pth` | ~5 GB |
+| Disc On-Policy v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy_v3/epoch_500.pth` | ~5 GB |
+
+---
+
+## Repository Structure
+
+```
+graspgen-sim2real-ur10/
+├── README.md                            ← You are here
+├── CLAUDE.md                            ← Full technical reference (hardware, pipeline, bugs)
+├── .gitignore
+│
+├── docs/
+│   ├── AnushkaSinghania_Thesis_240614.pdf   ← Full thesis
+│   ├── IMAGE_GUIDE.md                       ← Where to add what images
+│   └── MEDIA_GUIDE.md                       ← Video/Drive links
+│
+├── research_ws/
+│   ├── OPERATIONS.md                    ← Day-to-day run commands
+│   ├── WORKFLOW.md                      ← Step-by-step pipeline workflow
+│   ├── training_plots/                  ← Training loss/accuracy graphs
+│   │
+│   ├── GraspGen/                        ← GraspGen inference (Jetson fork of NVIDIA GraspGen)
+│   │   ├── grasp_gen/                   ← Core inference library
+│   │   ├── config/grippers/             ← Robotiq 3F gripper config (robotiq_3f.yaml)
+│   │   ├── scripts/                     ← Training + eval scripts
+│   │   └── docker/                      ← Docker build files
+│   │
+│   ├── GraspDataGen_src/                ← GraspDataGen training pipeline (source only)
+│   │   ├── scripts/                     ← Data generation + training scripts
+│   │   ├── bots/                        ← Robot USD models (Robotiq 3F, Franka, etc.)
+│   │   ├── docker/                      ← Isaac Sim Docker setup
+│   │   └── docs/                        ← GraspDataGen API docs
+│   │
+│   ├── segment-anything-2/sam2/         ← SAM2 source (Meta)
+│   │
+│   └── ur10_pick_place_ws/src/
+│       ├── ur10_pick_place/             ← Main package: launch files, config, scripts
+│       │   ├── launch/grasp_pipeline.launch.py   ← Master launch file
+│       │   ├── scripts/
+│       │   │   ├── sam2_segmentation_node.py     ← Click→SAM2 mask→point cloud
+│       │   │   ├── sim_object_pc_publisher.py    ← Sim point cloud publisher
+│       │   │   ├── planning_scene_setup.py       ← MoveIt collision scene
+│       │   │   └── pick.sh                       ← Real hardware camera launch
+│       │   ├── config/                           ← Controller + camera YAML configs
+│       │   └── urdf/                             ← UR10 + gripper + camera URDF
+│       │
+│       ├── grasp_executor/              ← Core pick-and-place execution
+│       │   ├── grasp_executor_node.py   ← 8-step pick-and-place state machine
+│       │   ├── graspgen_bridge_node.py  ← GraspGen inference → ROS2 pose
+│       │   └── robotiq_3f_gripper.py    ← Robotiq 3F TCP/Modbus controller
+│       │
+│       ├── ur10_camera_gripper_moveit_config/   ← MoveIt2 config (UR10 + camera + gripper)
+│       ├── linkattacher_msgs/           ← Sim object attach/detach messages
+│       ├── linkattacher_plugin/         ← Gazebo link attach plugin
+│       ├── ros2_robotiq_3f_gripper/     ← Robotiq 3F ROS2 description
+│       └── ros2_robotiq_gripper/        ← Robotiq gripper ROS2 interface
+│
+└── robotiq_clean/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
+    ├── robotiq_3f_isaac.urdf
+    ├── robotiq_3f_clean.usd
+    └── meshes/
+```
+
+---
+
+## Quick Start
+
+### Simulation (no hardware needed)
+
+```bash
+cd ~/research_ws/ur10_pick_place_ws
+source /opt/ros/humble/setup.bash && source install/setup.bash
+
+# Launch full pipeline
+ros2 launch ur10_pick_place grasp_pipeline.launch.py \
+  launch_graspgen_bridge:=true launch_sim_pc:=true sim_pc_object:=tin_can
+
+# Trigger grasp
+ros2 topic pub --once /graspgen/trigger std_msgs/msg/Empty "{}"
+```
+
+### Real Hardware
+
+```bash
+# Terminal 1 — UR10 driver (robot must be in Remote Control mode)
+ros2 launch ur_robot_driver ur_control.launch.py \
+  ur_type:=ur10 robot_ip:=192.168.1.102 use_fake_hardware:=false \
+  kinematics_params_file:=$HOME/robot_calibration.yaml
+
+# Terminal 2 — Main stack
+ros2 launch ur10_pick_place grasp_pipeline.launch.py \
+  launch_graspgen_bridge:=true launch_sim_pc:=false \
+  use_rviz:=true real_hardware:=true \
+  launch_env_cam:=false launch_wrist_cam:=false
+
+# Terminal 3 — Cameras + SAM2
+~/research_ws/ur10_pick_place_ws/src/ur10_pick_place/scripts/pick.sh
+
+# Per-pick: left-click object in SAM2 window, then trigger scan
+ros2 topic pub --once /pick/start std_msgs/msg/Empty "{}"
+```
+
+---
+
+## Pipeline
+
+```
+Wrist Camera (OAK-D Pro Wide)
+        ↓  RGB + Depth
+SAM2 Segmentation Node  ←── User left-click on object
+        ↓  Masked point cloud (3 views, wrist_2 ±15° tilt)
+GraspGen Bridge Node    ←── Generator v3 + Discriminator v3
+        ↓  /graspgen/grasp_pose  (PoseStamped, world frame)
+Grasp Executor Node
+        ↓  IK → MoveIt2/OMPL plan → UR10 joints
+Robotiq 3F Gripper      ←── TCP/Modbus to 192.168.1.105
+        ↓
+Pick → Lift → Place → Home
+```
+
+---
+
+## Results
+
+| Metric | Simulation | Real Hardware |
+|--------|-----------|---------------|
+| Trials | 20 | 20 (planned) |
+| Grasp success rate | TBD | TBD |
+| Pick-and-place success | 2× verified | In progress |
+
+---
+
+## Citation / Thesis
+
+```
+Singhania, A. (2026). Deep Learning-Based Grasp Pose Detection on Point Clouds
+and Manipulating the Object using Generated Grasp Pose. M.Tech Thesis,
+DIAT (DU), Pune.
+```
+
+Full thesis: [`docs/AnushkaSinghania_Thesis_240614.pdf`](docs/AnushkaSinghania_Thesis_240614.pdf)
