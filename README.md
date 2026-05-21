@@ -40,13 +40,13 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 ## Trained Models (v3, 227 objects)
 
 Models are trained on GraspDataGen data for the Robotiq 3F gripper.
-Weights are stored locally (not in this repo — too large):
+Weights are stored locally (not in this repo — too large for GitHub):
 
-| Model | Path | Size |
-|-------|------|------|
-| Generator v3 | `~/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth` | ~5 GB |
-| Discriminator v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_v3/epoch_500.pth` | ~5 GB |
-| Disc On-Policy v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy_v3/epoch_500.pth` | ~5 GB |
+| Model | Path | Epochs |
+|-------|------|--------|
+| Generator v3 | `~/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth` | 500 |
+| Discriminator GT v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_v3/epoch_500.pth` | 500 |
+| Disc On-Policy v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy_v3/epoch_500.pth` | 500 |
 
 ---
 
@@ -171,11 +171,64 @@ Pick → Lift → Place → Home
 
 ## Results
 
-| Metric | Simulation | Real Hardware |
-|--------|-----------|---------------|
-| Trials | 20 | 20 (planned) |
-| Grasp success rate | TBD | TBD |
-| Pick-and-place success | 2× verified | In progress |
+### Dataset & Training
+| Metric | Value |
+|--------|-------|
+| Training objects (Objaverse) | 227 |
+| Positive grasp annotations | 9,685 |
+| Training epochs (all models) | 500 |
+| Generator total loss reduction | ~75% |
+| GT Discriminator AP (train / valid) | 0.995 / 0.982 |
+| On-Policy Discriminator AP (train / valid) | 0.970 / 0.988 |
+
+### Inference on Jetson AGX Orin (Table 11)
+| Metric | GT Discriminator | On-Policy Discriminator |
+|--------|-----------------|------------------------|
+| Mean warm inference time (s) | 1.83 | 1.87 |
+| Grasps sampled per inference | 100 | 100 |
+| Mean top discriminator confidence | 0.994 | 0.997 |
+| Valid Average Precision | 0.982 | 0.988 |
+
+### Simulation Validation (Table 15)
+| Metric | Value |
+|--------|-------|
+| Sequential pick-and-place attempts | 20 |
+| Successes | 20 |
+| Success rate | **100%** |
+| IK failures | 0 |
+| Motion planning failures | 0 |
+
+### Real-Robot Grasp Success — 80 Trials (Table 13)
+| Condition | Attempts | Successes | Success Rate |
+|-----------|----------|-----------|--------------|
+| Isolated objects | 40 | 29 | **72.5%** |
+| Cluttered scene | 40 | 24 | **60.0%** |
+| **Overall** | **80** | **53** | **66.3%** |
+
+**Failure mode breakdown:** IK failure 5.0% · Motion planning failure 3.75% · Drop during lift 16.25% · Drop during transport 8.75%
+
+### Comparison with Existing Methods (Table 16)
+| System | Gripper | Grasp Success |
+|--------|---------|---------------|
+| GraspGen best reported | Robotiq 2F-140 | 81.3% |
+| GraspGen (FetchBench task) | Robotiq 2F-140 | 65.3% |
+| AnyGrasp | Two-Finger | 63.7% |
+| M2T2 | Two-Finger | 52.6% |
+| DexDiffuser (real robot) | Allegro Hand | 68.9% |
+| **Proposed — isolated (N=40)** | **Robotiq 3F** | **72.5%** |
+| **Proposed — cluttered (N=40)** | **Robotiq 3F** | **60.0%** |
+| **Proposed — overall (N=80)** | **Robotiq 3F** | **66.3%** |
+
+The proposed system (72.5% isolated) exceeds the GraspGen FetchBench task result (65.3%) and outperforms AnyGrasp (63.7%) and M2T2 (52.6%), despite using a smaller training set (227 vs 8,515 objects), FCL-free labelling, and an edge GPU platform.
+
+---
+
+## Publication
+
+A research paper based on this work was presented at the **1st International Conference on Systems Approach in Control Architecture and Design (SACAD-2025)**, IIT Hyderabad, December 21–23, 2025.
+
+> *"Generative Deep Learning Models for Grasp Pose Detection under Occluded and Partial Point Clouds: A Comprehensive Review"*  
+> Anushka Singhania — SACAD-2025, IIT Hyderabad
 
 ---
 
