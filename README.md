@@ -30,7 +30,9 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 ## Software Stack
 
 - **ROS2 Humble** + MoveIt2 + OMPL (RRTConnect)
-- **GraspGen** (NVIDIA) — Jetson-adapted fork in `research_ws/GraspGen/`
+- **GraspGen** (NVIDIA, Apache 2.0) — Jetson-adapted fork in `research_ws/GraspGen/`
+  - Original: [NVIDIA/GraspGen](https://github.com/NVlabs/GraspGen) · Adapted for Robotiq 3F + Jetson AGX Orin
+  - See `research_ws/GraspGen/LICENSE_ASSETS.md` for asset licensing
 - **SAM2** (Meta) — installed as package: `pip install git+https://github.com/facebookresearch/segment-anything-2.git`
   - Checkpoint: `sam2.1_hiera_small.pt` (176 MB, download separately)
   - Custom integration: `ur10_pick_place/scripts/sam2_segmentation_node.py`
