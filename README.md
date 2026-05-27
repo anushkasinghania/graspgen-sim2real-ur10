@@ -1,10 +1,5 @@
 # Deep Learning-Based Grasp Pose Detection on Point Clouds and Manipulating the Object using Generated Grasp Pose
-### Sim-to-Real Manipulation with UR10 + Robotiq 3F + OAK-D
-
-**M.Tech Thesis — Anushka Singhania (Reg. No. 24-06-14)**  
-Department of Aerospace Engineering and Autonomous Systems  
-Defence Institute of Advanced Technology (DIAT-DU), Pune — May 2026  
-Supervisors: Prasad Naik (DIAT) · Atul Chavan (DRDO R&DE)
+### Sim-to-Real Manipulation with UR10 + Robotiq 3F + OAK-D Pro Wide
 
 ---
 
