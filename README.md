@@ -21,6 +21,8 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 | Compute | Jetson AGX Orin 64GB | IP: 192.168.1.10 |
 
 ---
+<img width="1280" height="963" alt="teach pendent" src="https://github.com/user-attachments/assets/a1ab2013-f412-4806-88f1-ec1bf5963c35" />
+
 
 ## Software Stack
 
@@ -58,8 +60,6 @@ graspgen-sim2real-ur10/
 │
 ├── docs/
 │   ├── AnushkaSinghania_Thesis_240614.pdf   ← Full thesis
-│   ├── IMAGE_GUIDE.md                       ← Where to add what images
-│   └── MEDIA_GUIDE.md                       ← Video/Drive links placeholder
 │
 ├── research_ws/
 │   ├── OPERATIONS.md                    ← Day-to-day run commands
@@ -112,7 +112,7 @@ graspgen-sim2real-ur10/
 
 ## Quick Start
 
-### Simulation (no hardware needed)
+### Simulation
 
 ```bash
 cd ~/research_ws/ur10_pick_place_ws
