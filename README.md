@@ -21,7 +21,7 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 | Compute | Jetson AGX Orin 64GB | IP: 192.168.1.10 |
 
 ---
-<img width="100" height="100" alt="teach pendent" src="https://github.com/user-attachments/assets/a1ab2013-f412-4806-88f1-ec1bf5963c35" />
+
 
 
 ## Software Stack
