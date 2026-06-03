@@ -241,30 +241,52 @@ Full thesis: [`docs/AnushkaSinghania_Thesis_240614.pdf`](docs/AnushkaSinghania_T
 
 ---
 
-## Attribution & Licensing
+## Acknowledgements
 
-### GraspGen (`research_ws/GraspGen/`)
-
-This folder is a **hardware-adapted fork** of NVIDIA's [GraspGen](https://github.com/NVlabs/GraspGen), originally developed by NVIDIA Research.
-
-> Murali, A., Sundaralingam, B., Chao, Y.-W., Yamada, J., Yuan, W., Carlson, M., Ramos, F., Birchfield, S., Fox, D., & Eppner, C. (2024). *GraspGen: A Generative Model for 6-DoF Grasping*. NVIDIA Research.
-
-**Modifications made in this fork:**
-- Added Robotiq 3F gripper configuration (`config/grippers/robotiq_3f.yaml`)
-- Adapted inference pipeline for Jetson AGX Orin (ARM64, JetPack 6, CUDA 12.2)
-- Integrated ROS2 Humble bridge node for real-time grasp pose publishing
-
-The original code is licensed under **Apache 2.0**. All original license headers and copyright notices are retained. See [`research_ws/GraspGen/LICENSE`](research_ws/GraspGen/LICENSE) and [`research_ws/GraspGen/LICENSE_ASSETS.md`](research_ws/GraspGen/LICENSE_ASSETS.md).
+This project builds upon the following open-source and research repositories. All credit for the original implementations goes to their respective authors.
 
 ---
 
-### GraspDataGen (`research_ws/GraspDataGen_src/`)
+### GraspGen — NVIDIA Research
 
-This folder is a **hardware-adapted fork** of NVIDIA's [GraspDataGen](https://github.com/NVlabs/GraspDataGen), the data generation and training pipeline companion to GraspGen.
+> **Original repository:** [NVlabs/GraspGen](https://github.com/NVlabs/GraspGen)
+>
+> Murali, A., Sundaralingam, B., Chao, Y.-W., Yamada, J., Yuan, W., Carlson, M., Ramos, F., Birchfield, S., Fox, D., & Eppner, C. (2025). *GraspGen: A Diffusion-based Framework for 6-DOF Grasping with On-Generator Training.* arXiv:2507.13097.
 
-**Modifications made in this fork:**
-- Added Robotiq 3F gripper USD model and robot configuration (`bots/robotiq_3f/`)
+**License:** Copyright © 2025, NVIDIA Corporation & affiliates. All rights reserved.
+This code is used strictly for academic/research purposes. For commercial use, contact [NVIDIA Research Licensing](https://www.nvidia.com/en-us/research/inquiries/).
+All original NVIDIA copyright notices and license headers are retained inside `research_ws/GraspGen/`.
+
+**Modifications made for this project:**
+- Added Robotiq 3F gripper configuration (`config/grippers/robotiq_3f.yaml`)
+- Adapted inference pipeline for Jetson AGX Orin (ARM64, JetPack 6, CUDA 12.2)
+- Integrated ROS2 Humble bridge node (`grasp_executor/graspgen_bridge_node.py`) for real-time grasp pose publishing
+
+---
+
+### GraspDataGen — NVIDIA Research
+
+> **Original repository:** [NVlabs/GraspDataGen](https://github.com/NVlabs/GraspDataGen)
+
+**License:** Copyright © 2025, NVIDIA Corporation & affiliates. All rights reserved.
+This code is used strictly for academic/research purposes. Contributions to the original repository are not accepted per NVIDIA policy.
+All original NVIDIA copyright notices and license headers are retained inside `research_ws/GraspDataGen_src/`.
+
+**Modifications made for this project:**
+- Added Robotiq 3F gripper USD model and robot configuration under `bots/robotiq_3f/`
 - Adapted training scripts for a custom 227-object Objaverse subset
-- Modified grasp labelling pipeline to work without FCL collision checking
+- Modified grasp labelling pipeline to operate without FCL collision checking (replaced with Trimesh)
 
-The original code is licensed under **NVIDIA Source Code License**. All original license headers and copyright notices are retained. See [`research_ws/GraspDataGen_src/LICENSE`](research_ws/GraspDataGen_src/LICENSE).
+---
+
+### Segment Anything Model 2 (SAM2) — Meta AI Research
+
+> **Original repository:** [facebookresearch/segment-anything-2](https://github.com/facebookresearch/segment-anything-2)
+>
+> Ravi, N., Gabeur, V., Hu, Y.-T., et al. (2024). *SAM 2: Segment Anything in Images and Videos.* arXiv:2408.00714.
+
+**License:** Apache 2.0. SAM2 is installed as a package (`pip install git+https://github.com/facebookresearch/segment-anything-2.git`). The `research_ws/sam2_source/` folder contains source files used for local development; no modifications were made to the core SAM2 library.
+
+**Integration in this project:**
+- Custom ROS2 node (`ur10_pick_place/scripts/sam2_segmentation_node.py`) wraps SAM2's predictor for click-based object segmentation
+- Checkpoint used: `sam2.1_hiera_small.pt` (download separately from Meta)
