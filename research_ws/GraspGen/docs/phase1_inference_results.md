@@ -279,5 +279,5 @@ OAK-D Pro → /oak_pro/stereo/points (ROS2 topic, continuous)
 
 1. ~~Phase 1.5~~ ✅ Done
 2. ~~Test 1b~~ ✅ Done
-3. **Phase 2** — UR10 arm bringup with `ros-humble-ur` + MoveIt2 (see `CLAUDE.md`)
+3. **Phase 2** — UR10 arm bringup with `ros-humble-ur` + MoveIt2
 4. **Future** — retrain with partial PCs → Test 1c
