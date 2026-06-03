@@ -62,7 +62,6 @@ graspgen-sim2real-ur10/
 │   ├── AnushkaSinghania_Thesis_240614.pdf   ← Full thesis
 │
 ├── research_ws/
-│   ├── OPERATIONS.md                    ← Day-to-day run commands
 │   ├── WORKFLOW.md                      ← Step-by-step pipeline workflow
 │   ├── training_plots/                  ← Training loss/accuracy graphs
 │   │
@@ -239,3 +238,33 @@ DIAT (DU), Pune.
 ```
 
 Full thesis: [`docs/AnushkaSinghania_Thesis_240614.pdf`](docs/AnushkaSinghania_Thesis_240614.pdf)
+
+---
+
+## Attribution & Licensing
+
+### GraspGen (`research_ws/GraspGen/`)
+
+This folder is a **hardware-adapted fork** of NVIDIA's [GraspGen](https://github.com/NVlabs/GraspGen), originally developed by NVIDIA Research.
+
+> Murali, A., Sundaralingam, B., Chao, Y.-W., Yamada, J., Yuan, W., Carlson, M., Ramos, F., Birchfield, S., Fox, D., & Eppner, C. (2024). *GraspGen: A Generative Model for 6-DoF Grasping*. NVIDIA Research.
+
+**Modifications made in this fork:**
+- Added Robotiq 3F gripper configuration (`config/grippers/robotiq_3f.yaml`)
+- Adapted inference pipeline for Jetson AGX Orin (ARM64, JetPack 6, CUDA 12.2)
+- Integrated ROS2 Humble bridge node for real-time grasp pose publishing
+
+The original code is licensed under **Apache 2.0**. All original license headers and copyright notices are retained. See [`research_ws/GraspGen/LICENSE`](research_ws/GraspGen/LICENSE) and [`research_ws/GraspGen/LICENSE_ASSETS.md`](research_ws/GraspGen/LICENSE_ASSETS.md).
+
+---
+
+### GraspDataGen (`research_ws/GraspDataGen_src/`)
+
+This folder is a **hardware-adapted fork** of NVIDIA's [GraspDataGen](https://github.com/NVlabs/GraspDataGen), the data generation and training pipeline companion to GraspGen.
+
+**Modifications made in this fork:**
+- Added Robotiq 3F gripper USD model and robot configuration (`bots/robotiq_3f/`)
+- Adapted training scripts for a custom 227-object Objaverse subset
+- Modified grasp labelling pipeline to work without FCL collision checking
+
+The original code is licensed under **NVIDIA Source Code License**. All original license headers and copyright notices are retained. See [`research_ws/GraspDataGen_src/LICENSE`](research_ws/GraspDataGen_src/LICENSE).
