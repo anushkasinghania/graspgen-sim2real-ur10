@@ -65,7 +65,6 @@ graspgen-sim2real-ur10/
 │   ├── AnushkaSinghania_Thesis_240614.pdf   ← Full thesis
 │
 ├── research_ws/
-│   ├── WORKFLOW.md                      ← Step-by-step pipeline workflow
 │   ├── training_plots/                  ← Training loss/accuracy graphs
 │   │
 │   ├── GraspGen/                        ← GraspGen inference (Jetson-adapted fork)
