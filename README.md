@@ -11,6 +11,16 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 
 ---
 
+## Demo
+
+### Simulation — Full Pick-and-Place Pipeline (20/20 successes)
+
+[![Watch Simulation Demo](https://img.shields.io/badge/▶%20Watch%20Demo-Simulation%20Pick%20%26%20Place-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1Y5B6_jmqJH0mvmKwhHS4eQ_vdKnj6lqx/view?usp=drive_link)
+
+> Click the badge above to watch the full simulation pipeline: SAM2 segmentation → GraspGen inference → MoveIt2 planning → Robotiq 3F grasp execution in Ignition Gazebo.
+
+---
+
 ## Hardware
 
 | Component | Model |
