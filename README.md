@@ -16,7 +16,7 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 | Component | Model | Details |
 |-----------|-------|---------|
 | Robot Arm | UR10 | IP: 192.168.1.102 |
-| Gripper | Robotiq 3F | Ethernet Modbus TCP — IP: 192.168.1.105 |
+| Gripper | Robotiq 3F | Ethernet Modbus TCP IP: 192.168.1.105 |
 | Wrist Camera | OAK-D Pro Wide | USB-C to Jetson, MX ID: 14442C10715AD4D200 |
 | Compute | Jetson AGX Orin 64GB | IP: 192.168.1.10 |
 
