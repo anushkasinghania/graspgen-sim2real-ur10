@@ -103,7 +103,7 @@ graspgen-sim2real-ur10/
 │       ├── ros2_robotiq_3f_gripper/     ← Robotiq 3F ROS2 description
 │       └── ros2_robotiq_gripper/        ← Robotiq gripper ROS2 interface
 │
-└── robotiq_isaacsim files/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
+└── robotiq_Isaacsim files/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
     ├── robotiq_3f_isaac.urdf
     ├── robotiq_3f_clean.usd
     └── meshes/
