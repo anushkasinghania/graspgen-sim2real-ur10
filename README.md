@@ -13,12 +13,12 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 
 ## Hardware
 
-| Component | Model | Details |
-|-----------|-------|---------|
-| Robot Arm | UR10 | IP: 192.168.1.102 |
-| Gripper | Robotiq 3F | Ethernet Modbus TCP IP: 192.168.1.105 |
-| Wrist Camera | OAK-D Pro Wide | USB-C to Jetson, MX ID: 14442C10715AD4D200 |
-| Compute | Jetson AGX Orin 64GB | IP: 192.168.1.10 |
+| Component | Model |
+|-----------|-------|
+| Robot Arm | UR10 | 
+| Gripper | Robotiq 3F |
+| Wrist Camera | OAK-D Pro Wide | 
+| Compute | Jetson AGX Orin 64GB | 
 
 ---
 
@@ -65,7 +65,7 @@ graspgen-sim2real-ur10/
 │   ├── AnushkaSinghania_Thesis_240614.pdf   ← M. Tech Thesis
 │
 ├── research_ws/
-│   ├── training_plots/                  ← Training loss/accuracy graphs
+│   ├── Training Plots/                  ← Training loss/accuracy graphs
 │   │
 │   ├── GraspGen/                        ← GraspGen inference (Jetson-adapted fork)
 │   │   ├── grasp_gen/                   ← Core inference library
@@ -103,7 +103,7 @@ graspgen-sim2real-ur10/
 │       ├── ros2_robotiq_3f_gripper/     ← Robotiq 3F ROS2 description
 │       └── ros2_robotiq_gripper/        ← Robotiq gripper ROS2 interface
 │
-└── robotiq_Isaacsim files/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
+└── robotiq_IsaacSim files/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
     ├── robotiq_3f_isaac.urdf
     ├── robotiq_3f_clean.usd
     └── meshes/
