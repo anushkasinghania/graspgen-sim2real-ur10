@@ -62,28 +62,27 @@ graspgen-sim2real-ur10/
 ├── .gitignore
 │
 ├── docs/
-│   ├── AnushkaSinghania_Thesis_240614.pdf   ← Full thesis
+│   └── AnushkaSinghania_Thesis_240614.pdf   ← M.Tech Thesis
 │
 ├── research_ws/
-│   ├── WORKFLOW.md                      ← Step-by-step pipeline workflow
-│   ├── training_plots/                  ← Training loss/accuracy graphs
+│   ├── Training Plots/                  ← Training loss/accuracy graphs (Generator, Discriminator)
 │   │
-│   ├── GraspGen/                        ← GraspGen inference (Jetson-adapted fork)
+│   ├── GraspGen/                        ← GraspGen inference (Jetson-adapted fork of NVlabs/GraspGen)
 │   │   ├── grasp_gen/                   ← Core inference library
-│   │   ├── config/grippers/             ← Robotiq 3F gripper config (robotiq_3f.yaml)
+│   │   ├── config/grippers/             ← Robotiq 3F gripper config (robotiq_3f.yaml) ← ADDED
 │   │   ├── scripts/                     ← Training + eval scripts
 │   │   └── docker/                      ← Docker build files
 │   │
-│   ├── GraspDataGen_src/                ← GraspDataGen training pipeline (source only)
+│   ├── GraspDataGen_src/                ← GraspDataGen training pipeline (fork of NVlabs/GraspDataGen)
 │   │   ├── scripts/                     ← Data generation + training scripts
-│   │   ├── bots/                        ← Robot USD models (Robotiq 3F, Franka, etc.)
+│   │   ├── bots/                        ← Robot USD models (Robotiq 3F added) ← ADDED
 │   │   ├── docker/                      ← Isaac Sim Docker setup
 │   │   └── docs/                        ← GraspDataGen API docs
 │   │
-│   │   (SAM2 is installed as a package — see Installation below)
+│   ├── sam2_source/                     ← SAM2 source reference (unmodified, Meta Apache 2.0)
 │   │
 │   └── ur10_pick_place_ws/src/
-│       ├── ur10_pick_place/             ← Main package: launch files, config, scripts
+│       ├── ur10_pick_place/             ← Main package: launch files, config, scripts ← ORIGINAL
 │       │   ├── launch/grasp_pipeline.launch.py   ← Master launch file
 │       │   ├── scripts/
 │       │   │   ├── sam2_segmentation_node.py     ← Click→SAM2 mask→point cloud
@@ -93,7 +92,7 @@ graspgen-sim2real-ur10/
 │       │   ├── config/                           ← Controller + camera YAML configs
 │       │   └── urdf/                             ← UR10 + gripper + camera URDF
 │       │
-│       ├── grasp_executor/              ← Core pick-and-place execution
+│       ├── grasp_executor/              ← Core pick-and-place execution ← ORIGINAL
 │       │   ├── grasp_executor_node.py   ← 8-step pick-and-place state machine
 │       │   ├── graspgen_bridge_node.py  ← GraspGen inference → ROS2 pose
 │       │   └── robotiq_3f_gripper.py    ← Robotiq 3F TCP/Modbus controller
@@ -104,10 +103,84 @@ graspgen-sim2real-ur10/
 │       ├── ros2_robotiq_3f_gripper/     ← Robotiq 3F ROS2 description
 │       └── ros2_robotiq_gripper/        ← Robotiq gripper ROS2 interface
 │
-└── robotiq_clean/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
+└── Robotiq_IsaacSim files/              ← Robotiq 3F URDF + meshes + Isaac Sim USD ← ORIGINAL
     ├── robotiq_3f_isaac.urdf
     ├── robotiq_3f_clean.usd
     └── meshes/
+```
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Ubuntu 22.04 (tested on Jetson AGX Orin with JetPack 6)
+- ROS2 Humble ([install guide](https://docs.ros.org/en/humble/Installation.html))
+- Python 3.10+
+- CUDA 12.2+ (Jetson) or any CUDA-capable GPU for training
+
+### 1. Clone this repository
+
+```bash
+git clone https://github.com/anushkasinghania/graspgen-sim2real-ur10.git
+cd graspgen-sim2real-ur10
+```
+
+### 2. Install ROS2 dependencies
+
+```bash
+sudo apt install -y \
+  ros-humble-moveit \
+  ros-humble-ur \
+  ros-humble-ros-gz-sim \
+  ros-humble-ros-gz-bridge \
+  ros-humble-controller-manager \
+  ros-humble-joint-state-broadcaster \
+  ros-humble-joint-trajectory-controller \
+  ros-humble-rviz2
+```
+
+### 3. Install Python dependencies
+
+```bash
+# GraspGen inference
+pip install -r research_ws/GraspGen/requirements.txt
+
+# SAM2
+pip install git+https://github.com/facebookresearch/segment-anything-2.git
+
+# Robotiq TCP controller
+pip install pymodbus
+```
+
+### 4. Download model weights (not included — too large for GitHub)
+
+```bash
+# Create weights directory
+mkdir -p ~/GraspDataGen/training_logs
+
+# Download from your local storage or re-train using GraspDataGen_src/
+# Required weights:
+#   robotiq_3f_gen_v3/epoch_500.pth       ← Generator
+#   robotiq_3f_disc_v3/epoch_500.pth      ← GT Discriminator
+#   robotiq_3f_disc_onpolicy_v3/epoch_500.pth  ← On-Policy Discriminator
+```
+
+### 5. Download SAM2 checkpoint
+
+```bash
+wget -P ~/checkpoints/ \
+  https://dl.fbaipublicfiles.com/segment_anything_2/092824/sam2.1_hiera_small.pt
+```
+
+### 6. Build the ROS2 workspace
+
+```bash
+cd research_ws/ur10_pick_place_ws
+rosdep install --from-paths src --ignore-src -r -y
+colcon build --symlink-install
+source install/setup.bash
 ```
 
 ---
