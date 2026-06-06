@@ -41,16 +41,16 @@ This project implements NVIDIA's **GraspGen** on a **UR10 robot arm + Robotiq 3F
 
 ---
 
-## Trained Models (v3, 227 objects)
+## Trained Models (Objaverse-227 objects)
 
 Models are trained on GraspDataGen data for the Robotiq 3F gripper.
 Weights are stored locally (not in this repo — too large for GitHub):
 
 | Model | Path | Epochs |
 |-------|------|--------|
-| Generator v3 | `~/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth` | 500 |
-| Discriminator GT v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_v3/epoch_500.pth` | 500 |
-| Disc On-Policy v3 | `~/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy_v3/epoch_500.pth` | 500 |
+| Generator| `~/GraspDataGen/training_logs/robotiq_3f_gen_v3/epoch_500.pth` | 500 |
+| Discriminator GT | `~/GraspDataGen/training_logs/robotiq_3f_disc_v3/epoch_500.pth` | 500 |
+| Disc On-Policy | `~/GraspDataGen/training_logs/robotiq_3f_disc_onpolicy_v3/epoch_500.pth` | 500 |
 
 ---
 
@@ -62,7 +62,7 @@ graspgen-sim2real-ur10/
 ├── .gitignore
 │
 ├── docs/
-│   ├── AnushkaSinghania_Thesis_240614.pdf   ← Full thesis
+│   ├── AnushkaSinghania_Thesis_240614.pdf   ← M. Tech Thesis
 │
 ├── research_ws/
 │   ├── training_plots/                  ← Training loss/accuracy graphs
@@ -103,7 +103,7 @@ graspgen-sim2real-ur10/
 │       ├── ros2_robotiq_3f_gripper/     ← Robotiq 3F ROS2 description
 │       └── ros2_robotiq_gripper/        ← Robotiq gripper ROS2 interface
 │
-└── robotiq_clean/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
+└── robotiq_isaacsim files/                       ← Robotiq 3F URDF + meshes + Isaac Sim USD
     ├── robotiq_3f_isaac.urdf
     ├── robotiq_3f_clean.usd
     └── meshes/
